@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Unity\\Project-OrangeJuice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\level design\\code\\stairs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\level design\\code\\stairs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\code\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\code\\scripts\\player\\playerdepthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\player\\playerdepthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\code\\scripts\\player\\testplayeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\player\\testplayeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\code\\scripts\\tiles\\tilemapdepth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\tiles\\tilemapdepth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\vfx\\scripts\\particleboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\vfx\\scripts\\particleboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stairs.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Level Design\\Code\\Stairs.cs",
+              "RelativeDocumentMoniker": "Assets\\Level Design\\Code\\Stairs.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Level Design\\Code\\Stairs.cs",
+              "RelativeToolTip": "Assets\\Level Design\\Code\\Stairs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T11:19:23.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerDepthController.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerDepthController.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\Player\\PlayerDepthController.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerDepthController.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\Player\\PlayerDepthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T13:21:26.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestPlayerAnimations.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T08:06:10.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:23:43.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TileMapDepth.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Tiles\\TileMapDepth.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\Tiles\\TileMapDepth.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Tiles\\TileMapDepth.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\Tiles\\TileMapDepth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T09:47:23.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ParticleBoundary.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\VFX\\Scripts\\ParticleBoundary.cs",
+              "RelativeDocumentMoniker": "Assets\\VFX\\Scripts\\ParticleBoundary.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\VFX\\Scripts\\ParticleBoundary.cs",
+              "RelativeToolTip": "Assets\\VFX\\Scripts\\ParticleBoundary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T10:48:04.448Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
