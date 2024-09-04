@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Stairs
+  - Gold
+  - Item
+  - Interact
   layers:
   - Default
   - TransparentFX
@@ -14,7 +17,7 @@ TagManager:
   - UI
   - 
   - Ground
-  - 
+  - Interact
   - Effects
   - 
   - 

@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 1327627a52db7de479176b5cbc279606
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: idle_magic_Frame_0
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.2758621}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 4
+      width: 40
+      height: 58
+    spriteID: 72a8836704e1c8a41b8c77a4445a6512
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 4}
+  - name: idle_magic_Frame_1
+    originalName: 
+    pivot: {x: 0.4878049, y: -0.2962963}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 4
+      width: 41
+      height: 54
+    spriteID: 15c7bfa23f4a6d54cacac79d33d730f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 4}
+  - name: idle_magic_Frame_2
+    originalName: 
+    pivot: {x: 0.4878049, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 128
+      width: 41
+      height: 52
+    spriteID: df802e8e2c300cc46ac375362711e289
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 128}
+  - name: idle_magic_Frame_3
+    originalName: 
+    pivot: {x: 0.4878049, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 188
+      width: 41
+      height: 52
+    spriteID: 6a2ba2112ab645a4cb7a5edfdc64f84d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 188}
+  - name: idle_magic_Frame_4
+    originalName: 
+    pivot: {x: 0.4878049, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 4
+      width: 41
+      height: 52
+    spriteID: 2f414d574079f074e8ef14edf051ef41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 4}
+  - name: idle_magic_Frame_5
+    originalName: 
+    pivot: {x: 0.4878049, y: -0.2962963}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 66
+      width: 41
+      height: 54
+    spriteID: f00e1f2affda39d4786bd6a5d100f74b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 66}
+  - name: idle_magic_Frame_6
+    originalName: 
+    pivot: {x: 0.51282054, y: -0.2758621}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 70
+      width: 39
+      height: 58
+    spriteID: c1e27230d284c0f4cbfbc3079f67c923
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 70}
+  - name: idle_magic_Frame_7
+    originalName: 
+    pivot: {x: 0.51282054, y: -0.26666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 39
+      height: 60
+    spriteID: 0f7118b339ac9084299406ee0397bf31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: idle_magic_Frame_8
+    originalName: 
+    pivot: {x: 0.51282054, y: -0.26666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 72
+      width: 39
+      height: 60
+    spriteID: c645062944faeea40af923198a52150d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 72}
+  - name: idle_magic_Frame_9
+    originalName: 
+    pivot: {x: 0.51282054, y: -0.26666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 39
+      height: 60
+    spriteID: 4021a5e5f9feb1b4abf3abc8bd99ec42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -993786600
+    name: idle_magic
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: idle_magic_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 28
+        y: 16
+        width: 40
+        height: 58
+      spriteId: 72a8836704e1c8a41b8c77a4445a6512
+    - name: idle_magic_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 28
+        y: 16
+        width: 41
+        height: 54
+      spriteId: 15c7bfa23f4a6d54cacac79d33d730f6
+    - name: idle_magic_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 28
+        y: 16
+        width: 41
+        height: 52
+      spriteId: df802e8e2c300cc46ac375362711e289
+    - name: idle_magic_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 28
+        y: 16
+        width: 41
+        height: 52
+      spriteId: 6a2ba2112ab645a4cb7a5edfdc64f84d
+    - name: idle_magic_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 28
+        y: 16
+        width: 41
+        height: 52
+      spriteId: 2f414d574079f074e8ef14edf051ef41
+    - name: idle_magic_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 28
+        y: 16
+        width: 41
+        height: 54
+      spriteId: f00e1f2affda39d4786bd6a5d100f74b
+    - name: idle_magic_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 28
+        y: 16
+        width: 39
+        height: 58
+      spriteId: c1e27230d284c0f4cbfbc3079f67c923
+    - name: idle_magic_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 28
+        y: 16
+        width: 39
+        height: 60
+      spriteId: 0f7118b339ac9084299406ee0397bf31
+    - name: idle_magic_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 28
+        y: 16
+        width: 39
+        height: 60
+      spriteId: c645062944faeea40af923198a52150d
+    - name: idle_magic_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 28
+        y: 16
+        width: 39
+        height: 60
+      spriteId: 4021a5e5f9feb1b4abf3abc8bd99ec42
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}

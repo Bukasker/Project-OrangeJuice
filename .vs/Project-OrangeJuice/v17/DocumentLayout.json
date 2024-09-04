@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Unity\\Project-OrangeJuice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\level design\\code\\stairs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\level design\\code\\stairs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\ui\\scripts\\hotbar\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\hotbar\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\code\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\ui\\scripts\\inventory\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\code\\scripts\\player\\playerdepthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\player\\playerdepthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\code\\scripts\\player\\testplayeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\player\\testplayeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\code\\scripts\\tiles\\tilemapdepth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\tiles\\tilemapdepth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\InteractObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\Scripts\\Inventory\\InteractObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\vfx\\scripts\\particleboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\vfx\\scripts\\particleboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\InventoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\Scripts\\Inventory\\InventoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\InventoryCategoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\Scripts\\Inventory\\InventoryCategoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\CursorManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\Scripts\\Inventory\\CursorManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\PlayerInteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\Scripts\\Inventory\\PlayerInteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Project-OrangeJuice\\Assets\\Level Design\\Code\\StairsEntrence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Level Design\\Code\\StairsEntrence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Code\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,80 +59,155 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Stairs.cs",
-              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Level Design\\Code\\Stairs.cs",
-              "RelativeDocumentMoniker": "Assets\\Level Design\\Code\\Stairs.cs",
-              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Level Design\\Code\\Stairs.cs",
-              "RelativeToolTip": "Assets\\Level Design\\Code\\Stairs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "Title": "Slot.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\HotBar\\Slot.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\HotBar\\Slot.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\HotBar\\Slot.cs",
+              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\HotBar\\Slot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T11:19:23.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerDepthController.cs",
-              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerDepthController.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\Player\\PlayerDepthController.cs",
-              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerDepthController.cs",
-              "RelativeToolTip": "Assets\\Code\\Scripts\\Player\\PlayerDepthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T13:21:26.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestPlayerAnimations.cs",
-              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
-              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
-              "RelativeToolTip": "Assets\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T08:06:10.289Z",
+              "WhenOpened": "2024-09-04T11:06:28.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Code\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\Items\\Item.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Items\\Item.cs",
+              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Inventory\\Items\\Item.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T16:23:43.907Z",
+              "WhenOpened": "2024-09-04T10:37:50.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwCUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T10:11:26.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryUI.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
+              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T09:53:41.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TileMapDepth.cs",
-              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Tiles\\TileMapDepth.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\Tiles\\TileMapDepth.cs",
-              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Tiles\\TileMapDepth.cs",
-              "RelativeToolTip": "Assets\\Code\\Scripts\\Tiles\\TileMapDepth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAwAAAA",
+              "Title": "InteractObject.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\InteractObject.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Scripts\\Inventory\\InteractObject.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\InteractObject.cs",
+              "RelativeToolTip": "Assets\\UI\\Scripts\\Inventory\\InteractObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T09:47:23.982Z",
+              "WhenOpened": "2024-09-03T14:10:34.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ParticleBoundary.cs",
-              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\VFX\\Scripts\\ParticleBoundary.cs",
-              "RelativeDocumentMoniker": "Assets\\VFX\\Scripts\\ParticleBoundary.cs",
-              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\VFX\\Scripts\\ParticleBoundary.cs",
-              "RelativeToolTip": "Assets\\VFX\\Scripts\\ParticleBoundary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAADAAAA",
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Scripts\\Inventory\\InventoryController.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\InventoryController.cs",
+              "RelativeToolTip": "Assets\\UI\\Scripts\\Inventory\\InventoryController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowEYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T10:48:04.448Z",
+              "WhenOpened": "2024-08-31T07:51:18.242Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryCategoryManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\InventoryCategoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Scripts\\Inventory\\InventoryCategoryManager.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\InventoryCategoryManager.cs",
+              "RelativeToolTip": "Assets\\UI\\Scripts\\Inventory\\InventoryCategoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T09:41:51.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CursorManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\CursorManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Scripts\\Inventory\\CursorManager.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\CursorManager.cs",
+              "RelativeToolTip": "Assets\\UI\\Scripts\\Inventory\\CursorManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:46:53.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerInteract.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\PlayerInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Scripts\\Inventory\\PlayerInteract.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\UI\\Scripts\\Inventory\\PlayerInteract.cs",
+              "RelativeToolTip": "Assets\\UI\\Scripts\\Inventory\\PlayerInteract.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAwJAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:15:34.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StairsEntrence.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Level Design\\Code\\StairsEntrence.cs",
+              "RelativeDocumentMoniker": "Assets\\Level Design\\Code\\StairsEntrence.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Level Design\\Code\\StairsEntrence.cs",
+              "RelativeToolTip": "Assets\\Level Design\\Code\\StairsEntrence.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T19:00:25.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Code\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:23:43.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1166,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
