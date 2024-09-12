@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 	[Header("Player Settings")]
-	[SerializeField] private Rigidbody2D rigidbody;
+	[SerializeField] private Rigidbody2D playerRigidbody2D;
 	[SerializeField] private float runSpeed = 5f;
 	private float moveInputX;
 	private float moveInputY;
@@ -34,11 +34,11 @@ public class PlayerController : MonoBehaviour
 		Jump();
 		if (Mathf.Abs(moveInputX) < 0.1f && Mathf.Abs(moveInputY) < 0.1f)
 		{
-			rigidbody.velocity = Vector2.zero;
+			playerRigidbody2D.velocity = Vector2.zero;
 		}
 		else
 		{
-			rigidbody.velocity = movement;
+			playerRigidbody2D.velocity = movement;
 		}
 	}
 

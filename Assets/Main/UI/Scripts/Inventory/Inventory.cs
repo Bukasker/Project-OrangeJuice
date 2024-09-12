@@ -3,14 +3,22 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-	public List<Item> weaponItems = new List<Item>();
-	public List<Item> apperanceItems = new List<Item>();
-	public List<Item> potionItems = new List<Item>();
-	public List<Item> foodItems = new List<Item>();
-	public List<Item> ingridiensItems = new List<Item>();
-	public List<Item> keyItems = new List<Item>();
+	// S³owniki zamiast list
+	public Dictionary<int, Item> weaponItems = new Dictionary<int, Item>();
+	public Dictionary<int, Item> apparelItems = new Dictionary<int, Item>();
+	public Dictionary<int, Item> potionItems = new Dictionary<int, Item>();
+	public Dictionary<int, Item> foodItems = new Dictionary<int, Item>();
+	public Dictionary<int, Item> ingredientsItems = new Dictionary<int, Item>();
+	public Dictionary<int, Item> keyItems = new Dictionary<int, Item>();
 
-	public delegate void OnItemChange(int slotIndex);
+	public Dictionary<int, Item> DictionaryOfItems = new Dictionary<int, Item>();
+	public Dictionary<int, Item> listOfHotBarItems = new Dictionary<int, Item>();
+
+	public Item MouseItem;
+	public Item currentItemType;
+
+	// Modyfikujemy callback tak, aby przekazywa³ dodatkowy parametr `isAdding`
+	public delegate void OnItemChange(int slotIndex, bool isAdding);
 	public OnItemChange onItemChangedCallback;
 
 	public delegate void OnMouseItemChange();
@@ -18,17 +26,12 @@ public class Inventory : MonoBehaviour
 
 	public static Inventory Instance;
 
-	public List<Item> listOfItems = new List<Item>();
-	public List<Item> listOfHotBarItems = new List<Item>();
-	public Item MouseItem;
-	public Item currentItemType;
-
 	#region Singleton
 	void Awake()
 	{
 		if (Instance != null)
 		{
-			Debug.LogWarning("Error : More than one instance of Inventory found");
+			Debug.LogWarning("Error: More than one instance of Inventory found");
 			return;
 		}
 		Instance = this;
@@ -39,8 +42,6 @@ public class Inventory : MonoBehaviour
 	{
 		MouseItem = item;
 		onMouseItemChangedCallback?.Invoke();
-		RemoveItemFromSlot(item, slotIndex);
-		onItemChangedCallback?.Invoke(slotIndex);
 	}
 
 	public void RemoveItemFromMouse()
@@ -51,80 +52,247 @@ public class Inventory : MonoBehaviour
 
 	public void AddItemToHotBar(Item item, int slotIndex)
 	{
-		if (slotIndex >= 0 && slotIndex < listOfHotBarItems.Count)
-		{
-			listOfHotBarItems[slotIndex] = item;
-		}
-		else
-		{
-			listOfHotBarItems.Add(item);
-		}
-		onItemChangedCallback?.Invoke(slotIndex);
+		listOfHotBarItems[slotIndex] = item;
+		onItemChangedCallback?.Invoke(slotIndex, true);  // Dodajemy przedmiot
 	}
 
-	public void RemoveItemFromHotBar(Item item, int slotIndex)
+	public void RemoveItemFromHotBar(int slotIndex)
 	{
-		listOfHotBarItems.RemoveAt(slotIndex);
-		onItemChangedCallback?.Invoke(slotIndex);
+		if (listOfHotBarItems.ContainsKey(slotIndex))
+		{
+			listOfHotBarItems.Remove(slotIndex);
+			onItemChangedCallback?.Invoke(slotIndex, false);  // Usuwamy przedmiot
+		}
 	}
 
 	public void AddItemToClosestSlot(Item item)
 	{
 		currentItemType = item;
 		ChooseItemList(item);
+
 		bool itemAlreadyInInventory = false;
-		foreach (Item inventoryItem in listOfItems)
+		foreach (var entry in DictionaryOfItems)
 		{
-			var allItemAmount = inventoryItem.itemAmount + item.itemAmount;
-			if (inventoryItem.ItemName == item.ItemName && (allItemAmount) <= inventoryItem.maxStack)
+			Item inventoryItem = entry.Value;
+
+			if (inventoryItem != null && inventoryItem.ItemName == item.ItemName)
 			{
-				inventoryItem.itemAmount += item.itemAmount;
-				itemAlreadyInInventory = true;
+				int potentialNewAmount = inventoryItem.itemAmount + item.itemAmount;
+				if (potentialNewAmount <= inventoryItem.maxStack)
+				{
+					inventoryItem.itemAmount += item.itemAmount;
+					itemAlreadyInInventory = true;
+					onItemChangedCallback?.Invoke(entry.Key, true);  // Dodajemy przedmiot
+					break;
+				}
 			}
 		}
+
 		if (!itemAlreadyInInventory)
 		{
-			if (item != null)
+			int slotIndex = -1;
+			for (int i = 0; i < 21; i++)
 			{
-				Item copyItem = Instantiate(item);
-				listOfItems.Add(copyItem);
+				if (!DictionaryOfItems.ContainsKey(i) || DictionaryOfItems[i] == null)
+				{
+					slotIndex = i;
+					break;
+				}
+			}
+
+			if (slotIndex != -1)
+			{
+				Item newItem = Instantiate(item);
+				DictionaryOfItems[slotIndex] = newItem;
+				onItemChangedCallback?.Invoke(slotIndex, true);  // Dodajemy przedmiot
+			}
+			else
+			{
+				Debug.LogWarning("Brak wolnych slotów w ekwipunku!");
 			}
 		}
-		var slotIndex = -1;
-		onItemChangedCallback?.Invoke(slotIndex);
 	}
 
 	public void AddItemToSlot(Item item, int slotIndex)
 	{
 		currentItemType = item;
 		ChooseItemList(item);
-		bool itemAlreadyInInventory = false;
-		foreach (Item inventoryItem in listOfItems)
+
+		if (DictionaryOfItems.ContainsKey(slotIndex) && DictionaryOfItems[slotIndex] != null)
 		{
-			var allItemAmount = inventoryItem.itemAmount + item.itemAmount;
-			if (inventoryItem.ItemName == item.ItemName && (allItemAmount) <= inventoryItem.maxStack)
+			Item existingItem = DictionaryOfItems[slotIndex];
+
+			if (existingItem.ItemName == item.ItemName)
 			{
-				inventoryItem.itemAmount += item.itemAmount;
-				itemAlreadyInInventory = true;
+				int potentialNewAmount = existingItem.itemAmount + item.itemAmount;
+				if (potentialNewAmount <= existingItem.maxStack)
+				{
+					existingItem.itemAmount += item.itemAmount;
+					onItemChangedCallback?.Invoke(slotIndex, true);  // Dodajemy przedmiot
+					return;
+				}
 			}
+
+			Debug.LogWarning("Slot zajêty przez inny przedmiot. Zastêpowanie przedmiotu.");
 		}
-		if (!itemAlreadyInInventory)
+
+		if (item != null)
 		{
-			if (item != null)
-			{
-				Item copyItem = Instantiate(item);
-				listOfItems.Add(copyItem);
-			}
+			Item newItem = Instantiate(item);
+			DictionaryOfItems[slotIndex] = newItem;
 		}
-		onItemChangedCallback?.Invoke(slotIndex);
+
+		onItemChangedCallback?.Invoke(slotIndex, true);  // Dodajemy przedmiot
 	}
 
-	public void RemoveItemFromSlot(Item item, int slotIndex)
+	public void RemoveItemFromSlot(int slotIndex)
 	{
-		currentItemType = item;
-		ChooseItemList(item);
-		listOfItems.Remove(item);
-		onItemChangedCallback?.Invoke(slotIndex);
+		if (DictionaryOfItems.ContainsKey(slotIndex))
+		{
+			DictionaryOfItems.Remove(slotIndex);
+			onItemChangedCallback?.Invoke(slotIndex, false);  // Usuwamy przedmiot
+		}
+	}
+	public void HandleSlotRightClicked(Item item, int slotIndex)
+	{
+		if (MouseItem != null)
+		{
+			// Je¿eli klikniêto prawym przyciskiem myszy, a gracz ma przedmiot na myszy, zdejmij jedn¹ sztukê i przenieœ j¹ do slotu
+			if (item != null)
+			{
+				if (MouseItem.ItemName == item.ItemName && MouseItem.itemAmount >= 1)
+				{
+					MouseItem.itemAmount--;
+					item.itemAmount++;
+
+					if (MouseItem.itemAmount <= 0)
+					{
+						RemoveItemFromMouse();
+						onItemChangedCallback?.Invoke(slotIndex, true);
+						onMouseItemChangedCallback?.Invoke();
+						return;
+					}
+
+					onItemChangedCallback?.Invoke(slotIndex, true);
+
+					onMouseItemChangedCallback?.Invoke();
+					return;
+				}
+			}
+			else if (MouseItem != null && item == null && MouseItem.itemAmount >= 1)
+			{
+				// Jeœli gracz klikn¹³ prawym przyciskiem myszy na pusty slot, przenieœ pojedyncz¹ sztukê z przedmiotu na myszy do tego slotu
+				MouseItem.itemAmount--;
+				var copyItem = Instantiate(MouseItem);
+				copyItem.itemAmount = 1;
+				AddItemToSlot(copyItem, slotIndex);
+				onItemChangedCallback?.Invoke(slotIndex, true);
+
+				if (MouseItem.itemAmount <= 0)
+				{
+					RemoveItemFromMouse();
+					onItemChangedCallback?.Invoke(slotIndex, true);
+					onMouseItemChangedCallback?.Invoke();
+					return;
+				}
+				onItemChangedCallback?.Invoke(slotIndex, true);
+
+				onMouseItemChangedCallback?.Invoke();
+				return;
+			}
+		}
+		else if (item != null)
+		{
+			// Je¿eli gracz nie ma przedmiotu na myszy, zdejmij jedn¹ sztukê z wybranego slotu i przenieœ j¹ na mysz
+			MouseItem = Instantiate(item);
+			MouseItem.itemAmount = 1;
+			item.itemAmount--;
+
+			if (item.itemAmount <= 0)
+			{
+				RemoveItemFromSlot(slotIndex);
+				onItemChangedCallback?.Invoke(slotIndex, false);
+				onMouseItemChangedCallback?.Invoke();
+				return;
+			}
+
+
+			onItemChangedCallback?.Invoke(slotIndex, true);
+			onMouseItemChangedCallback?.Invoke();
+
+			return;
+
+		}
+	}
+
+	public void HandleSlotLeftClicked(Item item, int slotIndex)
+	{
+		if (MouseItem != null)
+		{
+			// Je¿eli gracz ma przedmiot na myszy i klika na slot z tym samym przedmiotem, dodaj do stosu
+			if (MouseItem.ItemName == item?.ItemName && item.itemAmount < item.maxStack)
+			{
+				item.itemAmount = item.itemAmount + MouseItem.itemAmount;
+				RemoveItemFromMouse();
+				onItemChangedCallback?.Invoke(slotIndex, true);
+				onMouseItemChangedCallback?.Invoke();
+				return;
+
+			}
+			else if (MouseItem != null && item == null)
+			{
+				// Je¿eli gracz ma przedmiot w myszce i klika na pusty slot
+				AddItemToSlot(MouseItem, slotIndex);
+				RemoveItemFromMouse();
+				onItemChangedCallback?.Invoke(slotIndex, true);
+				onMouseItemChangedCallback?.Invoke();
+				return;
+			}
+			else
+			{
+				// Je¿eli gracz klika na inny przedmiot, zamieñ przedmioty
+				var tempItem = item;
+				AddItemToMouse(tempItem, slotIndex);
+				onItemChangedCallback?.Invoke(slotIndex, true);
+				onMouseItemChangedCallback?.Invoke();
+				return;
+			}
+		}
+		else
+		{
+			// Je¿eli gracz nie ma przedmiotu na myszy, przenieœ przedmiot do myszy
+			RemoveItemFromSlot(slotIndex);
+			AddItemToMouse(item, slotIndex);
+			onItemChangedCallback?.Invoke(slotIndex, false);
+			onMouseItemChangedCallback?.Invoke();
+			return;
+		}
+
+	}
+
+	public void HandleSlotLeftClickedWithShift(Item item, int slotIndex)
+	{
+		// Natychmiastowe przeniesienie przedmiotu do najbli¿szego wolnego slotu
+		if (item != null)
+		{
+			AddItemToClosestSlot(item);
+			RemoveItemFromSlot(slotIndex);
+		}
+
+		onItemChangedCallback?.Invoke(slotIndex, true);
+	}
+
+	public void HandleSlotRightClickedWithShift(Item item, int slotIndex)
+	{
+		// Obs³uga prawokliku + Shift (mo¿na dodaæ dodatkowe funkcjonalnoœci w zale¿noœci od potrzeb)
+		// W tym przyk³adzie zak³adam, ¿e mo¿e przenieœæ wszystkie sztuki przedmiotu do najbli¿szego wolnego slotu.
+		if (item != null && MouseItem == null)
+		{
+			AddItemToClosestSlot(item);
+			RemoveItemFromSlot(slotIndex);
+		}
+
+		onItemChangedCallback?.Invoke(slotIndex, true);
 	}
 
 	public void ChooseItemList(Item item)
@@ -134,38 +302,24 @@ public class Inventory : MonoBehaviour
 			switch (item.ItemType)
 			{
 				case ItemTypes.Weapon:
-					listOfItems = weaponItems;
+					DictionaryOfItems = weaponItems;
 					break;
 				case ItemTypes.Apperance:
-					listOfItems = apperanceItems;
+					DictionaryOfItems = apparelItems;
 					break;
 				case ItemTypes.Potion:
-					listOfItems = potionItems;
+					DictionaryOfItems = potionItems;
 					break;
 				case ItemTypes.Food:
-					listOfItems = foodItems;
+					DictionaryOfItems = foodItems;
 					break;
 				case ItemTypes.Ingridiens:
-					listOfItems = ingridiensItems;
+					DictionaryOfItems = ingredientsItems;
 					break;
 				case ItemTypes.Key:
-					listOfItems = keyItems;
+					DictionaryOfItems = keyItems;
 					break;
 			}
-		}
-	}
-
-	public void HandleSlotClick(Item item, int slotIndex)
-	{
-		MouseItem = item;
-		if (MouseItem != null)
-		{
-			AddItemToSlot(MouseItem, slotIndex);
-			RemoveItemFromMouse(); 
-		}
-		else
-		{
-			AddItemToMouse(item, slotIndex);
 		}
 	}
 }

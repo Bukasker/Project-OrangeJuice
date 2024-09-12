@@ -28,9 +28,20 @@ public class InventorySlot : MonoBehaviour
 		itemAmoutText.enabled = false;
 	}
 
-	public void OnSlotClicked()
+	public void OnSlotLeftClicked()
 	{
-		if (item == null) return;
-		Inventory.Instance.HandleSlotClick(item, SlotIndex);
+		Inventory.Instance.HandleSlotLeftClicked(item, SlotIndex);
+	}
+	public void OnSlotRightClicked()
+	{
+		Inventory.Instance.HandleSlotRightClicked(item, SlotIndex);
+	}
+	public void OnSlotLeftClickedWithShift()
+	{
+		Inventory.Instance.HandleSlotLeftClickedWithShift(item, SlotIndex);
+	}
+	public void OnSlotRightClickedWithShift()
+	{
+		Inventory.Instance.HandleSlotRightClickedWithShift(item, SlotIndex);
 	}
 }

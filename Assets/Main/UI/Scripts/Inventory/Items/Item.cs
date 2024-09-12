@@ -12,7 +12,7 @@ public class Item : ScriptableObject
 	public int Value = 0;
 	public float Weight = 0f;
 	public int maxStack = 999;
-	public new int itemAmount = 1;
+	public int itemAmount = 1;
 	public bool isToThrowAway = true;
 	public GameObject itemPrefab;
 

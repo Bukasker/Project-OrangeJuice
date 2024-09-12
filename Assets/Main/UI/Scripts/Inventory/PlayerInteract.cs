@@ -7,9 +7,8 @@ using UnityEngine.Events;
 public class PlayerInteract : MonoBehaviour
 {
 	[Header("Interact Settings")]
-	[SerializeField] private float radius = 2.3f;
 	[SerializeField] private Camera playerCamera;
-	private List<GameObject> itemObjects;
+	[SerializeField] private List<GameObject> itemObjects;
 	[SerializeField] private GameObject interactObject;
 
 	private ItemPickUp itemPickUp;
@@ -54,10 +53,6 @@ public class PlayerInteract : MonoBehaviour
 			}
 		}
 	}
-	private void FixedUpdate()
-	{
-		
-	}
 	public void RemoveFirstItemOnList()
 	{
 		if (itemObjects.Count != 0)
@@ -81,7 +76,7 @@ public class PlayerInteract : MonoBehaviour
 	}
 	private void OnTriggerEnter2D(Collider2D col)
 	{
-		if(col.gameObject != null)
+		if(col != null)
 		{
 			if (col.CompareTag("Item"))
 			{
@@ -97,9 +92,15 @@ public class PlayerInteract : MonoBehaviour
 	}
 	private void OnTriggerExit2D(Collider2D col)
 	{
-		if (col.CompareTag("Item"))
+		if (col != null)
 		{
-			itemObjects.Remove(col.gameObject);
+			if (col.gameObject != null)
+			{
+				if (col.CompareTag("Item"))
+				{
+					itemObjects.Remove(col.gameObject);
+				}
+			}
 		}
 	}
 	private IEnumerator MoveToPosition(Transform objectToMove, GameObject objectToDestroy)

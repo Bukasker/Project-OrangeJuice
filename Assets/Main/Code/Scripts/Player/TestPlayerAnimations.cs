@@ -5,7 +5,7 @@ using UnityEngine;
 public class TestPlayerAnimations : MonoBehaviour
 {
 	[SerializeField] private Animator animator; 
-	[SerializeField] private Rigidbody2D rigidbody;
+	//[SerializeField] private Rigidbody2D playerRigidbody2D;
 
 	private float moveX;
 	private float moveY;
