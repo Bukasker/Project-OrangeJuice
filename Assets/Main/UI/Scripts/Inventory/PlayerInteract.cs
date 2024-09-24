@@ -59,7 +59,7 @@ public class PlayerInteract : MonoBehaviour
 		{
 			focusedItem = itemObjects[0];
 			itemPickUp = focusedItem.GetComponent<ItemPickUp>();
-			Inventory.Instance.AddItemToClosestSlot(itemPickUp.Item);
+			Inventory.Instance.AddItemToClosestSlot(itemPickUp.Item , false);
 
 			Destroy(focusedItem);
 			itemObjects.Remove(focusedItem);

@@ -151,6 +151,7 @@ MonoBehaviour:
   icon: {fileID: 2953436706958259110}
   item: {fileID: 0}
   SlotIndex: 0
+  isHotBarSlot: 0
   itemAmoutText: {fileID: 2953436706545523559}
 --- !u!114 &4671101708692718506
 MonoBehaviour:
@@ -422,7 +423,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []

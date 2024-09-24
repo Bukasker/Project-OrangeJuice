@@ -3,16 +3,8 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-	// S³owniki zamiast list
-	public Dictionary<int, Item> weaponItems = new Dictionary<int, Item>();
-	public Dictionary<int, Item> apparelItems = new Dictionary<int, Item>();
-	public Dictionary<int, Item> potionItems = new Dictionary<int, Item>();
-	public Dictionary<int, Item> foodItems = new Dictionary<int, Item>();
-	public Dictionary<int, Item> ingredientsItems = new Dictionary<int, Item>();
-	public Dictionary<int, Item> keyItems = new Dictionary<int, Item>();
-
 	public Dictionary<int, Item> DictionaryOfItems = new Dictionary<int, Item>();
-	public Dictionary<int, Item> listOfHotBarItems = new Dictionary<int, Item>();
+	public Dictionary<int, Item> DictionaryOfHotBarItems = new Dictionary<int, Item>();
 
 	public Item MouseItem;
 	public Item currentItemType;
@@ -52,23 +44,22 @@ public class Inventory : MonoBehaviour
 
 	public void AddItemToHotBar(Item item, int slotIndex)
 	{
-		listOfHotBarItems[slotIndex] = item;
-		onItemChangedCallback?.Invoke(slotIndex, true);  // Dodajemy przedmiot
+		DictionaryOfHotBarItems[slotIndex] = item;
+		onItemChangedCallback?.Invoke(slotIndex, true);  
 	}
 
 	public void RemoveItemFromHotBar(int slotIndex)
 	{
-		if (listOfHotBarItems.ContainsKey(slotIndex))
+		if (DictionaryOfHotBarItems.ContainsKey(slotIndex))
 		{
-			listOfHotBarItems.Remove(slotIndex);
-			onItemChangedCallback?.Invoke(slotIndex, false);  // Usuwamy przedmiot
+			DictionaryOfHotBarItems.Remove(slotIndex);
+			onItemChangedCallback?.Invoke(slotIndex, false); 
 		}
 	}
 
-	public void AddItemToClosestSlot(Item item)
+	public void AddItemToClosestSlot(Item item, bool isHotBarSlot)
 	{
 		currentItemType = item;
-		ChooseItemList(item);
 
 		bool itemAlreadyInInventory = false;
 		foreach (var entry in DictionaryOfItems)
@@ -113,37 +104,39 @@ public class Inventory : MonoBehaviour
 		}
 	}
 
-	public void AddItemToSlot(Item item, int slotIndex)
+
+	public void AddItemToSlot(Item item, int slotIndex, bool isHotBarSlot)
 	{
-		currentItemType = item;
-		ChooseItemList(item);
-
-		if (DictionaryOfItems.ContainsKey(slotIndex) && DictionaryOfItems[slotIndex] != null)
+		if (isHotBarSlot)
 		{
-			Item existingItem = DictionaryOfItems[slotIndex];
-
-			if (existingItem.ItemName == item.ItemName)
+			DictionaryOfHotBarItems[slotIndex] = item;
+		}
+		else
+		{
+			if (DictionaryOfItems.ContainsKey(slotIndex) && DictionaryOfItems[slotIndex] != null)
 			{
-				int potentialNewAmount = existingItem.itemAmount + item.itemAmount;
-				if (potentialNewAmount <= existingItem.maxStack)
+				Item existingItem = DictionaryOfItems[slotIndex];
+
+				if (existingItem.ItemName == item.ItemName)
 				{
-					existingItem.itemAmount += item.itemAmount;
-					onItemChangedCallback?.Invoke(slotIndex, true);  // Dodajemy przedmiot
-					return;
+					int potentialNewAmount = existingItem.itemAmount + item.itemAmount;
+					if (potentialNewAmount <= existingItem.maxStack)
+					{
+						existingItem.itemAmount += item.itemAmount;
+						onItemChangedCallback?.Invoke(slotIndex, true);  // Informujemy o zmianie
+						return;
+					}
 				}
+
+				Debug.LogWarning("Slot zajêty przez inny przedmiot. Zastêpowanie przedmiotu.");
 			}
 
-			Debug.LogWarning("Slot zajêty przez inny przedmiot. Zastêpowanie przedmiotu.");
+			DictionaryOfItems[slotIndex] = Instantiate(item);
 		}
 
-		if (item != null)
-		{
-			Item newItem = Instantiate(item);
-			DictionaryOfItems[slotIndex] = newItem;
-		}
-
-		onItemChangedCallback?.Invoke(slotIndex, true);  // Dodajemy przedmiot
+		onItemChangedCallback?.Invoke(slotIndex, true);  // Informujemy o zmianie
 	}
+
 
 	public void RemoveItemFromSlot(int slotIndex)
 	{
@@ -153,7 +146,7 @@ public class Inventory : MonoBehaviour
 			onItemChangedCallback?.Invoke(slotIndex, false);  // Usuwamy przedmiot
 		}
 	}
-	public void HandleSlotRightClicked(Item item, int slotIndex)
+	public void HandleSlotRightClicked(Item item, int slotIndex, bool isHotBarSlot)
 	{
 		if (MouseItem != null)
 		{
@@ -185,7 +178,7 @@ public class Inventory : MonoBehaviour
 				MouseItem.itemAmount--;
 				var copyItem = Instantiate(MouseItem);
 				copyItem.itemAmount = 1;
-				AddItemToSlot(copyItem, slotIndex);
+				AddItemToSlot(copyItem, slotIndex, isHotBarSlot);
 				onItemChangedCallback?.Invoke(slotIndex, true);
 
 				if (MouseItem.itemAmount <= 0)
@@ -225,7 +218,7 @@ public class Inventory : MonoBehaviour
 		}
 	}
 
-	public void HandleSlotLeftClicked(Item item, int slotIndex)
+	public void HandleSlotLeftClicked(Item item, int slotIndex, bool isHotBarSlot)
 	{
 		if (MouseItem != null)
 		{
@@ -242,7 +235,7 @@ public class Inventory : MonoBehaviour
 			else if (MouseItem != null && item == null)
 			{
 				// Je¿eli gracz ma przedmiot w myszce i klika na pusty slot
-				AddItemToSlot(MouseItem, slotIndex);
+				AddItemToSlot(MouseItem, slotIndex, isHotBarSlot);
 				RemoveItemFromMouse();
 				onItemChangedCallback?.Invoke(slotIndex, true);
 				onMouseItemChangedCallback?.Invoke();
@@ -270,56 +263,30 @@ public class Inventory : MonoBehaviour
 
 	}
 
-	public void HandleSlotLeftClickedWithShift(Item item, int slotIndex)
+	public void HandleSlotLeftClickedWithShift(Item item, int slotIndex, bool isHotBarSlot)
 	{
 		// Natychmiastowe przeniesienie przedmiotu do najbli¿szego wolnego slotu
 		if (item != null)
 		{
-			AddItemToClosestSlot(item);
+			//AddItemToClosestSlot(item);
 			RemoveItemFromSlot(slotIndex);
 		}
 
 		onItemChangedCallback?.Invoke(slotIndex, true);
 	}
 
-	public void HandleSlotRightClickedWithShift(Item item, int slotIndex)
+	public void HandleSlotRightClickedWithShift(Item item, int slotIndex, bool isHotBarSlot)
 	{
 		// Obs³uga prawokliku + Shift (mo¿na dodaæ dodatkowe funkcjonalnoœci w zale¿noœci od potrzeb)
 		// W tym przyk³adzie zak³adam, ¿e mo¿e przenieœæ wszystkie sztuki przedmiotu do najbli¿szego wolnego slotu.
 		if (item != null && MouseItem == null)
 		{
-			AddItemToClosestSlot(item);
+			//AddItemToClosestSlot(item);
 			RemoveItemFromSlot(slotIndex);
 		}
 
 		onItemChangedCallback?.Invoke(slotIndex, true);
 	}
 
-	public void ChooseItemList(Item item)
-	{
-		if (item != null)
-		{
-			switch (item.ItemType)
-			{
-				case ItemTypes.Weapon:
-					DictionaryOfItems = weaponItems;
-					break;
-				case ItemTypes.Apperance:
-					DictionaryOfItems = apparelItems;
-					break;
-				case ItemTypes.Potion:
-					DictionaryOfItems = potionItems;
-					break;
-				case ItemTypes.Food:
-					DictionaryOfItems = foodItems;
-					break;
-				case ItemTypes.Ingridiens:
-					DictionaryOfItems = ingredientsItems;
-					break;
-				case ItemTypes.Key:
-					DictionaryOfItems = keyItems;
-					break;
-			}
-		}
-	}
+
 }
