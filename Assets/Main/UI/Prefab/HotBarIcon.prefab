@@ -187,6 +187,7 @@ MonoBehaviour:
   icon: {fileID: 7548800305611091115}
   item: {fileID: 0}
   SlotIndex: 0
+  isHotBarSlot: 0
   itemAmoutText: {fileID: 1545755320382164428}
 --- !u!114 &7598108778514564783
 MonoBehaviour:

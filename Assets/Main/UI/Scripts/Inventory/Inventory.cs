@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEditor.VersionControl;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
@@ -9,14 +10,19 @@ public class Inventory : MonoBehaviour
 	public Item MouseItem;
 	public Item currentItemType;
 
-	// Modyfikujemy callback tak, aby przekazywa³ dodatkowy parametr `isAdding`
 	public delegate void OnItemChange(int slotIndex, bool isAdding);
 	public OnItemChange onItemChangedCallback;
+
+	public delegate void OnHotBarItemChange(int slotIndex, bool isAdding);
+	public OnHotBarItemChange onHotBarItemChangedCallback;
 
 	public delegate void OnMouseItemChange();
 	public OnMouseItemChange onMouseItemChangedCallback;
 
 	public static Inventory Instance;
+
+	public bool lastSlotWasHotBar;
+	public int lastSlotIndex;
 
 	#region Singleton
 	void Awake()
@@ -30,9 +36,11 @@ public class Inventory : MonoBehaviour
 	}
 	#endregion
 
-	public void AddItemToMouse(Item item, int slotIndex)
+	public void AddItemToMouse(Item item, int slotIndex,bool isHotBarSlot)
 	{
 		MouseItem = item;
+		lastSlotIndex = slotIndex;  
+		lastSlotWasHotBar = isHotBarSlot;  
 		onMouseItemChangedCallback?.Invoke();
 	}
 
@@ -42,27 +50,14 @@ public class Inventory : MonoBehaviour
 		onMouseItemChangedCallback?.Invoke();
 	}
 
-	public void AddItemToHotBar(Item item, int slotIndex)
-	{
-		DictionaryOfHotBarItems[slotIndex] = item;
-		onItemChangedCallback?.Invoke(slotIndex, true);  
-	}
-
-	public void RemoveItemFromHotBar(int slotIndex)
-	{
-		if (DictionaryOfHotBarItems.ContainsKey(slotIndex))
-		{
-			DictionaryOfHotBarItems.Remove(slotIndex);
-			onItemChangedCallback?.Invoke(slotIndex, false); 
-		}
-	}
-
 	public void AddItemToClosestSlot(Item item, bool isHotBarSlot)
 	{
 		currentItemType = item;
-
 		bool itemAlreadyInInventory = false;
-		foreach (var entry in DictionaryOfItems)
+
+		var dictionaryToUse = isHotBarSlot ? DictionaryOfHotBarItems : DictionaryOfItems;
+
+		foreach (var entry in dictionaryToUse)
 		{
 			Item inventoryItem = entry.Value;
 
@@ -73,7 +68,15 @@ public class Inventory : MonoBehaviour
 				{
 					inventoryItem.itemAmount += item.itemAmount;
 					itemAlreadyInInventory = true;
-					onItemChangedCallback?.Invoke(entry.Key, true);  // Dodajemy przedmiot
+
+					if (isHotBarSlot)
+					{
+						onHotBarItemChangedCallback?.Invoke(entry.Key, true);
+					}
+					else
+					{
+						onItemChangedCallback?.Invoke(entry.Key, true);
+					}
 					break;
 				}
 			}
@@ -84,7 +87,7 @@ public class Inventory : MonoBehaviour
 			int slotIndex = -1;
 			for (int i = 0; i < 21; i++)
 			{
-				if (!DictionaryOfItems.ContainsKey(i) || DictionaryOfItems[i] == null)
+				if (!dictionaryToUse.ContainsKey(i) || dictionaryToUse[i] == null)
 				{
 					slotIndex = i;
 					break;
@@ -94,8 +97,16 @@ public class Inventory : MonoBehaviour
 			if (slotIndex != -1)
 			{
 				Item newItem = Instantiate(item);
-				DictionaryOfItems[slotIndex] = newItem;
-				onItemChangedCallback?.Invoke(slotIndex, true);  // Dodajemy przedmiot
+				dictionaryToUse[slotIndex] = newItem;
+
+				if (isHotBarSlot)
+				{
+					onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+				}
+				else
+				{
+					onItemChangedCallback?.Invoke(slotIndex, true);
+				}
 			}
 			else
 			{
@@ -104,50 +115,81 @@ public class Inventory : MonoBehaviour
 		}
 	}
 
-
 	public void AddItemToSlot(Item item, int slotIndex, bool isHotBarSlot)
 	{
+		var dictionaryToUse = isHotBarSlot ? DictionaryOfHotBarItems : DictionaryOfItems;
+
+		if (dictionaryToUse.ContainsKey(slotIndex) && dictionaryToUse[slotIndex] != null)
+		{
+			Item existingItem = dictionaryToUse[slotIndex];
+
+			if (existingItem.ItemName == item.ItemName)
+			{
+				int potentialNewAmount = existingItem.itemAmount + item.itemAmount;
+				if (potentialNewAmount <= existingItem.maxStack)
+				{
+					existingItem.itemAmount += item.itemAmount;
+
+					if (isHotBarSlot)
+					{
+						onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+					}
+					else
+					{
+						onItemChangedCallback?.Invoke(slotIndex, true);
+					}
+					return;
+				}
+			}
+		}
+
+		dictionaryToUse[slotIndex] = Instantiate(item);
+
 		if (isHotBarSlot)
 		{
-			DictionaryOfHotBarItems[slotIndex] = item;
+			onHotBarItemChangedCallback?.Invoke(slotIndex, true);
 		}
 		else
 		{
-			if (DictionaryOfItems.ContainsKey(slotIndex) && DictionaryOfItems[slotIndex] != null)
-			{
-				Item existingItem = DictionaryOfItems[slotIndex];
-
-				if (existingItem.ItemName == item.ItemName)
-				{
-					int potentialNewAmount = existingItem.itemAmount + item.itemAmount;
-					if (potentialNewAmount <= existingItem.maxStack)
-					{
-						existingItem.itemAmount += item.itemAmount;
-						onItemChangedCallback?.Invoke(slotIndex, true);  // Informujemy o zmianie
-						return;
-					}
-				}
-
-				Debug.LogWarning("Slot zajêty przez inny przedmiot. Zastêpowanie przedmiotu.");
-			}
-
-			DictionaryOfItems[slotIndex] = Instantiate(item);
+			onItemChangedCallback?.Invoke(slotIndex, true);
 		}
-
-		onItemChangedCallback?.Invoke(slotIndex, true);  // Informujemy o zmianie
 	}
 
-
-	public void RemoveItemFromSlot(int slotIndex)
+	public void RemoveItemFromSlot(int slotIndex, bool isHotBarSlot)
 	{
-		if (DictionaryOfItems.ContainsKey(slotIndex))
+		var dictionaryToUse = isHotBarSlot ? DictionaryOfHotBarItems : DictionaryOfItems;
+
+		if (dictionaryToUse.ContainsKey(slotIndex))
 		{
-			DictionaryOfItems.Remove(slotIndex);
-			onItemChangedCallback?.Invoke(slotIndex, false);  // Usuwamy przedmiot
+			dictionaryToUse.Remove(slotIndex);
+
+			if (isHotBarSlot)
+			{
+				onHotBarItemChangedCallback?.Invoke(slotIndex, false);
+			}
+			else
+			{
+				onItemChangedCallback?.Invoke(slotIndex, false);
+			}
 		}
 	}
+
+	public void ReturnItemFromMouseToLastPosition()
+	{
+		if (MouseItem != null)
+		{
+			var copyItem = Instantiate(MouseItem);
+			AddItemToSlot(copyItem, lastSlotIndex, lastSlotWasHotBar);
+			RemoveItemFromMouse();
+			onMouseItemChangedCallback?.Invoke();
+		}
+	}
+
 	public void HandleSlotRightClicked(Item item, int slotIndex, bool isHotBarSlot)
 	{
+
+		var dictionaryToUse = isHotBarSlot ? DictionaryOfHotBarItems : DictionaryOfItems;
+
 		if (MouseItem != null)
 		{
 			// Je¿eli klikniêto prawym przyciskiem myszy, a gracz ma przedmiot na myszy, zdejmij jedn¹ sztukê i przenieœ j¹ do slotu
@@ -158,16 +200,36 @@ public class Inventory : MonoBehaviour
 					MouseItem.itemAmount--;
 					item.itemAmount++;
 
-					if (MouseItem.itemAmount <= 0)
+					if (MouseItem.itemAmount < 1)
 					{
 						RemoveItemFromMouse();
-						onItemChangedCallback?.Invoke(slotIndex, true);
-						onMouseItemChangedCallback?.Invoke();
-						return;
 					}
 
-					onItemChangedCallback?.Invoke(slotIndex, true);
+					if (isHotBarSlot)
+					{
+						onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+					}
+					else
+					{
+						onItemChangedCallback?.Invoke(slotIndex, true);
+					}
 
+					onMouseItemChangedCallback?.Invoke();
+					return;
+				}
+				else
+				{
+					var tempItem = item;
+					AddItemToSlot(MouseItem, slotIndex, isHotBarSlot);
+					AddItemToMouse(tempItem, slotIndex, isHotBarSlot);
+					if (isHotBarSlot)
+					{
+						onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+					}
+					else
+					{
+						onItemChangedCallback?.Invoke(slotIndex, true);
+					}
 					onMouseItemChangedCallback?.Invoke();
 					return;
 				}
@@ -179,20 +241,24 @@ public class Inventory : MonoBehaviour
 				var copyItem = Instantiate(MouseItem);
 				copyItem.itemAmount = 1;
 				AddItemToSlot(copyItem, slotIndex, isHotBarSlot);
-				onItemChangedCallback?.Invoke(slotIndex, true);
 
 				if (MouseItem.itemAmount <= 0)
 				{
 					RemoveItemFromMouse();
-					onItemChangedCallback?.Invoke(slotIndex, true);
-					onMouseItemChangedCallback?.Invoke();
-					return;
 				}
-				onItemChangedCallback?.Invoke(slotIndex, true);
+				if (isHotBarSlot)
+				{
+					onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+				}
+				else
+				{
+					onItemChangedCallback?.Invoke(slotIndex, true);
+				}
 
 				onMouseItemChangedCallback?.Invoke();
 				return;
 			}
+
 		}
 		else if (item != null)
 		{
@@ -203,89 +269,148 @@ public class Inventory : MonoBehaviour
 
 			if (item.itemAmount <= 0)
 			{
-				RemoveItemFromSlot(slotIndex);
-				onItemChangedCallback?.Invoke(slotIndex, false);
-				onMouseItemChangedCallback?.Invoke();
-				return;
+				RemoveItemFromSlot(slotIndex, isHotBarSlot);
+				if (isHotBarSlot)
+				{
+					onHotBarItemChangedCallback?.Invoke(slotIndex, false);
+				}
+				else
+				{
+					onItemChangedCallback?.Invoke(slotIndex, false);
+				}
 			}
-
-
-			onItemChangedCallback?.Invoke(slotIndex, true);
+			if (isHotBarSlot)
+			{
+				onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+			}
+			else
+			{
+				onItemChangedCallback?.Invoke(slotIndex, true);
+			}
 			onMouseItemChangedCallback?.Invoke();
-
 			return;
-
 		}
 	}
 
 	public void HandleSlotLeftClicked(Item item, int slotIndex, bool isHotBarSlot)
 	{
+		var dictionaryToUse = isHotBarSlot ? DictionaryOfHotBarItems : DictionaryOfItems;
+
 		if (MouseItem != null)
 		{
-			// Je¿eli gracz ma przedmiot na myszy i klika na slot z tym samym przedmiotem, dodaj do stosu
 			if (MouseItem.ItemName == item?.ItemName && item.itemAmount < item.maxStack)
 			{
-				item.itemAmount = item.itemAmount + MouseItem.itemAmount;
+				item.itemAmount += MouseItem.itemAmount;
 				RemoveItemFromMouse();
-				onItemChangedCallback?.Invoke(slotIndex, true);
+
+				if (isHotBarSlot)
+				{
+					onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+				}
+				else
+				{
+					onItemChangedCallback?.Invoke(slotIndex, true);
+				}
+
 				onMouseItemChangedCallback?.Invoke();
 				return;
-
 			}
 			else if (MouseItem != null && item == null)
 			{
-				// Je¿eli gracz ma przedmiot w myszce i klika na pusty slot
 				AddItemToSlot(MouseItem, slotIndex, isHotBarSlot);
 				RemoveItemFromMouse();
-				onItemChangedCallback?.Invoke(slotIndex, true);
+
 				onMouseItemChangedCallback?.Invoke();
 				return;
 			}
 			else
 			{
-				// Je¿eli gracz klika na inny przedmiot, zamieñ przedmioty
 				var tempItem = item;
-				AddItemToMouse(tempItem, slotIndex);
-				onItemChangedCallback?.Invoke(slotIndex, true);
+				AddItemToSlot(MouseItem, slotIndex, isHotBarSlot);
+				 AddItemToMouse(tempItem, slotIndex, isHotBarSlot);
+				if (isHotBarSlot)
+				{
+					onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+				}
+				else
+				{
+					onItemChangedCallback?.Invoke(slotIndex, true);
+				}
 				onMouseItemChangedCallback?.Invoke();
 				return;
 			}
 		}
 		else
 		{
-			// Je¿eli gracz nie ma przedmiotu na myszy, przenieœ przedmiot do myszy
-			RemoveItemFromSlot(slotIndex);
-			AddItemToMouse(item, slotIndex);
-			onItemChangedCallback?.Invoke(slotIndex, false);
+			RemoveItemFromSlot(slotIndex, isHotBarSlot);
+			AddItemToMouse(item, slotIndex, isHotBarSlot);
+			if (isHotBarSlot)
+			{
+				onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+			}
+			else
+			{
+				onItemChangedCallback?.Invoke(slotIndex, true);
+			}
 			onMouseItemChangedCallback?.Invoke();
 			return;
 		}
-
 	}
 
 	public void HandleSlotLeftClickedWithShift(Item item, int slotIndex, bool isHotBarSlot)
-	{
-		// Natychmiastowe przeniesienie przedmiotu do najbli¿szego wolnego slotu
+	{	
+		var dictionaryToUse = isHotBarSlot ? DictionaryOfHotBarItems : DictionaryOfItems;
+		var copyItem = Instantiate(item);
 		if (item != null)
 		{
-			//AddItemToClosestSlot(item);
-			RemoveItemFromSlot(slotIndex);
+			if (isHotBarSlot)
+			{
+				AddItemToClosestSlot(copyItem, false);
+				onItemChangedCallback?.Invoke(slotIndex, true);
+				RemoveItemFromSlot(slotIndex, true);
+				onHotBarItemChangedCallback?.Invoke(slotIndex, false);
+			}
+			else
+			{
+				AddItemToClosestSlot(copyItem, true);
+				onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+				RemoveItemFromSlot(slotIndex, false);
+				onItemChangedCallback?.Invoke(slotIndex, false);
+			}
 		}
-
-		onItemChangedCallback?.Invoke(slotIndex, true);
 	}
 
 	public void HandleSlotRightClickedWithShift(Item item, int slotIndex, bool isHotBarSlot)
 	{
-		// Obs³uga prawokliku + Shift (mo¿na dodaæ dodatkowe funkcjonalnoœci w zale¿noœci od potrzeb)
-		// W tym przyk³adzie zak³adam, ¿e mo¿e przenieœæ wszystkie sztuki przedmiotu do najbli¿szego wolnego slotu.
-		if (item != null && MouseItem == null)
-		{
-			//AddItemToClosestSlot(item);
-			RemoveItemFromSlot(slotIndex);
-		}
+		var dictionaryToUse = isHotBarSlot ? DictionaryOfHotBarItems : DictionaryOfItems;
 
-		onItemChangedCallback?.Invoke(slotIndex, true);
+		if (item != null)
+		{
+			var copyItem = Instantiate(item);
+			copyItem.itemAmount = 1;
+			item.itemAmount--;
+
+			if (isHotBarSlot)
+			{
+				AddItemToSlot(copyItem, slotIndex, false);
+				onItemChangedCallback?.Invoke(slotIndex, true);
+				if (item.itemAmount <= 0)
+				{
+					RemoveItemFromSlot(slotIndex, true);
+				}
+				onHotBarItemChangedCallback?.Invoke(slotIndex, false);
+			}
+			else
+			{
+				AddItemToSlot(copyItem, slotIndex, true);
+				onHotBarItemChangedCallback?.Invoke(slotIndex, true);
+				if (item.itemAmount <= 0)
+				{
+					RemoveItemFromSlot(slotIndex, false);
+				}
+				onItemChangedCallback?.Invoke(slotIndex, false);
+			}
+		}
 	}
 
 

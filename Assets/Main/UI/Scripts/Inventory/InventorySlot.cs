@@ -11,6 +11,11 @@ public class InventorySlot : MonoBehaviour
 	public bool isHotBarSlot;
 	public TextMeshProUGUI itemAmoutText;
 
+	void Awake()
+	{
+		// Ustawianie SlotIndex na podstawie pozycji w hierarchii
+		SlotIndex = transform.GetSiblingIndex();
+	}
 	public void AddItem(Item newItem)
 	{
 		item = newItem;

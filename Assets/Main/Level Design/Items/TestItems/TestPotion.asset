@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3540b165e8c9cff49b1c4fd1ac4a10b6, type: 3}
-  m_Name: TestItem
+  m_Name: TestPotion
   m_EditorClassIdentifier: 
-  ItemName: TestItem
-  ItemType: 1
-  Icon: {fileID: 21300000, guid: 2672dbae6b36f3a4b82e441ef529dd14, type: 3}
-  Value: 0
-  Weight: 0
+  ItemName: TestPotion
+  ItemType: 3
+  Icon: {fileID: 21300000, guid: 8943fc193bd17fd4ebe4f3e9b2903742, type: 3}
+  Value: 10
+  Weight: 0.5
   maxStack: 999
   itemAmount: 1
   isToThrowAway: 1
-  itemPrefab: {fileID: 0}
+  itemPrefab: {fileID: 6942418638793084470, guid: 5bb2bed44ce29ec46b15600bfebd4d67, type: 3}
   Description: Description placeholder
   armorType: 0
-  weaponType: 1
+  weaponType: 0
   toolType: 0
   toolLvl: 0
   armorModifier: 0
-  attackDamageModifier: 5
+  attackDamageModifier: 0
   arrowDamageModifier: 0
   magicDamageModifier: 0

@@ -23,7 +23,9 @@ public class InventoryUI : MonoBehaviour
 
 	[Header("Cursor Settings")]
 	public RectTransform CursorUI;
+	public GameObject CursorItem;
 	public InventorySlot CursorSlot;
+	public TextMeshProUGUI CursorAmountTexts;
 
 	void Start()
 	{
@@ -36,6 +38,7 @@ public class InventoryUI : MonoBehaviour
 
 		inventory = Inventory.Instance;
 		inventory.onItemChangedCallback += UpdateInventoryUI;
+		inventory.onHotBarItemChangedCallback += UpdateHotbarUI;
 		inventory.onMouseItemChangedCallback += UpdateMouseIcon;
 
 		// Pobieramy sloty z jednego g³ównego rodzica
@@ -78,24 +81,32 @@ public class InventoryUI : MonoBehaviour
 				}
 			}
 		}
-
-		// Aktualizacja UI Hotbara
-		UpdateHotbarUI();
 	}
 
-	private void UpdateHotbarUI()
+	private void UpdateHotbarUI(int slotIndex, bool isAdding)
 	{
-		for (int i = 0; i < HotbarSlots.Length; i++)
+		if (slotIndex >= 0 && slotIndex < HotbarSlots.Length)
 		{
-			if (i < inventory.DictionaryOfHotBarItems.Count)
+			if (slotIndex < inventory.DictionaryOfHotBarItems.Count || isAdding)
 			{
-				HotbarSlots[i].AddItem(inventory.DictionaryOfHotBarItems[i]);
-				HotbarAmountTexts[i].enabled = inventory.DictionaryOfHotBarItems[i].itemAmount > 1;
+				if (inventory.DictionaryOfHotBarItems.ContainsKey(slotIndex))
+				{
+					HotbarSlots[slotIndex].AddItem(inventory.DictionaryOfHotBarItems[slotIndex]);
+					HotbarAmountTexts[slotIndex].enabled = inventory.DictionaryOfHotBarItems[slotIndex].itemAmount > 1;
+				}
+				else
+				{
+					HotbarSlots[slotIndex].ClearSlot();
+					HotbarAmountTexts[slotIndex].enabled = false;
+				}
 			}
 			else
 			{
-				HotbarSlots[i].ClearSlot();
-				HotbarAmountTexts[i].enabled = false;
+				HotbarSlots[slotIndex].ClearSlot();
+				if (slotIndex < HotbarAmountTexts.Length)
+				{
+					HotbarAmountTexts[slotIndex].enabled = false;
+				}
 			}
 		}
 	}
@@ -105,6 +116,14 @@ public class InventoryUI : MonoBehaviour
 		if (inventory.MouseItem != null)
 		{
 			CursorSlot.AddItem(inventory.MouseItem);
+			if (CursorSlot.item.itemAmount > 1)
+			{
+				CursorAmountTexts.enabled = true;
+			}
+			else
+			{
+				CursorAmountTexts.enabled = false;
+			}
 		}
 		else
 		{
@@ -114,10 +133,15 @@ public class InventoryUI : MonoBehaviour
 
 	private void ControllMouse()
 	{
-		// Pobierz pozycjê myszy w ekranie
-		Vector3 mousePosition = Input.mousePosition;
-
-		// Ustawienie pozycji UI na podstawie pozycji myszy
-		CursorUI.position = mousePosition;
+		if (CursorSlot.item != null)
+		{
+			CursorItem.SetActive(true);
+			Vector3 mousePosition = Input.mousePosition;
+			CursorUI.position = mousePosition;
+		}
+		else
+		{
+			CursorItem.SetActive(false);
+		}
 	}
 }

@@ -121,15 +121,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: house
     originalName: 
-    pivot: {x: 0.5714286, y: -0.2}
+    pivot: {x: 0.6666667, y: -0.16494845}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 112
-      height: 80
+      width: 144
+      height: 97
     spriteID: 594f7f10c8bdd8d4face9e4b596ce511
     spriteBone: []
     spriteOutline: []
@@ -151,10 +151,10 @@ ScriptedImporter:
     - name: house
       frameIndex: 0
       cellRect:
-        x: 64
+        x: 32
         y: 16
-        width: 112
-        height: 80
+        width: 144
+        height: 97
       spriteId: 594f7f10c8bdd8d4face9e4b596ce511
     linkedCells: []
     parentIndex: -1

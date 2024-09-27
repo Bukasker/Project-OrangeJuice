@@ -1,13 +1,15 @@
 using UnityEngine;
 using DG.Tweening;
 using System.Collections;
+using UnityEngine.Events;
 
 public class InventoryController : MonoBehaviour
 {
 	[Header("Inventory Settings")]
 	[SerializeField] private GameObject inventory;
-	[SerializeField] KeyCode invetoryKey = KeyCode.I;
-	[SerializeField] KeyCode invetoryAlternativeKey = KeyCode.Tab;
+	[SerializeField] private KeyCode invetoryKey = KeyCode.I;
+	[SerializeField] private KeyCode invetoryAlternativeKey = KeyCode.Tab;
+	[SerializeField] private UnityEvent removeItemFromMouse;
 
 	[Header("Category Settings")]
 	[SerializeField] private GameObject[] categorySlots;
@@ -35,6 +37,7 @@ public class InventoryController : MonoBehaviour
 			}
 			else
 			{
+				removeItemFromMouse.Invoke();
 				Close();
 			}
 		}
