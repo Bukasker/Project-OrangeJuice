@@ -1,0 +1,17 @@
+a=imread('nazwaPliku.jpg');
+a
+figure;
+imshow(a);
+r=a(:,:,1);
+g=a(:,:,2);
+b=a(:,:,3);
+figure; imshow(r);
+
+imwrite(r,'nazwaPliku.png');
+kolorowy=imread('obraz.png'
+grey=rgb2gray(kolorowy);
+
+help rgb2gray
+
+bw=gray>125
+figure, imshow(bw)
