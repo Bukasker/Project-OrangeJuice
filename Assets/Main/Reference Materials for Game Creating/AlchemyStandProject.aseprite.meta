@@ -75,7 +75,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -88,7 +87,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -121,15 +119,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: AlchemyStandProject
     originalName: 
-    pivot: {x: 0.47089952, y: -0.7910448}
+    pivot: {x: 0.54307115, y: -0.13385826}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 189
-      height: 67
+      width: 267
+      height: 127
     spriteID: d023825ff23dfb04f8f0decae4623ddb
     spriteBone: []
     spriteOutline: []
@@ -151,15 +149,14 @@ ScriptedImporter:
     - name: AlchemyStandProject
       frameIndex: 0
       cellRect:
-        x: 84
-        y: 53
-        width: 189
-        height: 67
+        x: 28
+        y: 17
+        width: 267
+        height: 127
       spriteId: d023825ff23dfb04f8f0decae4623ddb
     linkedCells: []
     parentIndex: -1
   platformSettings: []
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 346, y: 176}
