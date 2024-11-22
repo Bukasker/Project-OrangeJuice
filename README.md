@@ -6,4 +6,4 @@ The game is supposed to be similar to the Stardew-Valley game where you grow pla
 I am currently at the stage of creating animation textures for the character who will be presented as a sprite with textures applied that match the animations.
 
 
-![alt text]([http://url/to/img.png](https://i.postimg.cc/VJfxJqdg/Start.png))
+[![alt text]([http://url/to/img.png](https://i.postimg.cc/VJfxJqdg/Start.png))](https://github.com/Bukasker/Project-OrangeJuice/blob/master/Assets/Main/Reference%20Materials%20for%20Game%20Creating/Githubreference/Start.png)
