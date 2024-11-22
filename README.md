@@ -6,4 +6,4 @@ The game is supposed to be similar to the Stardew-Valley game where you grow pla
 I am currently at the stage of creating animation textures for the character who will be presented as a sprite with textures applied that match the animations.
 
 
-[![Start.png]([https://i.postimg.cc/w38TS1Z1/Profile-Banner.png])](https://i.postimg.cc/VJfxJqdg/Start.png)
+![alt text]([http://url/to/img.png](https://i.postimg.cc/VJfxJqdg/Start.png))
