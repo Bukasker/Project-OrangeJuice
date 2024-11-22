@@ -1,62 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\Project-OrangeJuice\\",
+  "WorkspaceRootPath": "C:\\Unity\\Project-OrangeJuice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\projects\\project-orangejuice\\assets\\main\\code\\scripts\\player\\testplayeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\code\\scripts\\player\\clothinganimationsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\code\\scripts\\player\\clothinganimationsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\ui\\scripts\\crafting\\craftingsummarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\crafting\\craftingsummarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\main\\code\\scripts\\player\\testplayeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\code\\scripts\\player\\testplayeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\animation\\onactivemovetoside.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\animation\\onactivemovetoside.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\animation\\changebuttononhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\animation\\changebuttononhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\animation\\changebuttononhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\animation\\onactivechangebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\animation\\onactivechangebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\animation\\onclickchangepanelcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\animation\\onclickchangepanelcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\inventorycategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\inventorycategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\cursormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\cursormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\customuibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\customuibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\hotbar\\hotbarmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\hotbar\\hotbarmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Projects\\Project-OrangeJuice\\assets\\main\\code\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\code\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,15 +34,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "InventoryUI.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
               "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
               "ViewState": "AQIAAIEAAAAAAAAAAAAowJMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
               "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
               "ViewState": "AQIAAIQBAAAAAAAAAAAcwK0AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,147 +65,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ChangeButtonOnHover.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\ChangeButtonOnHover.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\ChangeButtonOnHover.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\ChangeButtonOnHover.cs",
-              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Animation\\ChangeButtonOnHover.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAswDQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T12:59:20.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OnActiveMoveToSide.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\OnActiveMoveToSide.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\OnActiveMoveToSide.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\OnActiveMoveToSide.cs",
-              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Animation\\OnActiveMoveToSide.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAwwEMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T12:06:37.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OnActiveChangeButton.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\OnActiveChangeButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\OnActiveChangeButton.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\OnActiveChangeButton.cs",
-              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Animation\\OnActiveChangeButton.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T11:25:00.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OnClickChangePanelContent.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\OnClickChangePanelContent.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\OnClickChangePanelContent.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\OnClickChangePanelContent.cs",
-              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Animation\\OnClickChangePanelContent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T10:58:28.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InventoryCategoryManager.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\InventoryCategoryManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\InventoryCategoryManager.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\InventoryCategoryManager.cs",
-              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Inventory\\InventoryCategoryManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T10:46:27.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CursorManager.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\CursorManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\CursorManager.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\CursorManager.cs",
-              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Inventory\\CursorManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T08:41:27.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "TestPlayerAnimations.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
               "RelativeToolTip": "Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T08:15:01.353Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClothingAnimationSync.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\ClothingAnimationSync.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Player\\ClothingAnimationSync.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\ClothingAnimationSync.cs",
+              "RelativeToolTip": "Assets\\Main\\Code\\Scripts\\Player\\ClothingAnimationSync.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwEAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:39:53.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Main\\Code\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAADwvyQAAAAtAAAA",
+              "DocumentIndex": 1,
+              "Title": "CraftingSummaryManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Crafting\\CraftingSummaryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Crafting\\CraftingSummaryManager.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Crafting\\CraftingSummaryManager.cs",
+              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Crafting\\CraftingSummaryManager.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T14:38:57.844Z"
+              "WhenOpened": "2024-10-18T11:29:42.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CustomUIButton.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\CustomUIButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\CustomUIButton.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\CustomUIButton.cs",
-              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Inventory\\CustomUIButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "DocumentIndex": 3,
+              "Title": "ChangeButtonOnHover.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\ChangeButtonOnHover.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\ChangeButtonOnHover.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\ChangeButtonOnHover.cs",
+              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Animation\\ChangeButtonOnHover.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T14:37:01.69Z"
+              "WhenOpened": "2024-09-28T12:59:20.571Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1166,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PlayerInteract.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\PlayerInteract.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\PlayerInteract.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\PlayerInteract.cs",
-              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Inventory\\PlayerInteract.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAkwD0AAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T11:28:43.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HotBarManager.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\HotBar\\HotBarManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\HotBar\\HotBarManager.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\HotBar\\HotBarManager.cs",
-              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\HotBar\\HotBarManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T11:06:57.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Items\\Item.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\Items\\Item.cs",
-              "ToolTip": "C:\\Projects\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Items\\Item.cs",
-              "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Inventory\\Items\\Item.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T10:37:50.872Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
