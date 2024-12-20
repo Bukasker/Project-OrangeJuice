@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fb65de1bce1c850438d7ef0591efcee5
+guid: a0f23cdb70b05c44f98e4e6054e4f775
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,18 +117,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: miasto
+  - name: hair2 project
     originalName: 
-    pivot: {x: 0.487081, y: -0.0017999485}
+    pivot: {x: 0.675, y: -0.07692308}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 5728
-      height: 3889
-    spriteID: 9150203bfdb86574a8e0178a691949fc
+      width: 20
+      height: 13
+    spriteID: 74df4038ec2a1fe44b7f354319adb477
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,23 +140,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 261216649
-    name: miasto
+    guid: -716566971
+    name: hair2 project
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: miasto
+    - name: hair2 project
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 7
-        width: 5728
-        height: 3889
-      spriteId: 9150203bfdb86574a8e0178a691949fc
+        x: 6
+        y: 1
+        width: 20
+        height: 13
+      spriteId: 74df4038ec2a1fe44b7f354319adb477
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 5580, y: 3912}
+  canvasSize: {x: 39, y: 21}

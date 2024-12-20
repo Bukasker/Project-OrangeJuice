@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Unity\\Project-OrangeJuice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\code\\scripts\\player\\clothinganimationsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\code\\scripts\\player\\clothinganimationsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\code\\scripts\\player\\playerlayersyncmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\code\\scripts\\player\\playerlayersyncmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\ui\\scripts\\crafting\\craftingsummarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\crafting\\craftingsummarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\crafting\\craftingsummarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\main\\ui\\scripts\\inventory\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\ui\\scripts\\inventory\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Project-OrangeJuice\\assets\\main\\code\\scripts\\player\\clothinganimationsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\main\\code\\scripts\\player\\clothinganimationsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "InventoryUI.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\InventoryUI.cs",
@@ -51,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
@@ -64,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TestPlayerAnimations.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
@@ -78,6 +82,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerLayerSyncManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\PlayerLayerSyncManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Player\\PlayerLayerSyncManager.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\PlayerLayerSyncManager.cs",
+              "RelativeToolTip": "Assets\\Main\\Code\\Scripts\\Player\\PlayerLayerSyncManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:36:40.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ClothingAnimationSync.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\ClothingAnimationSync.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Player\\ClothingAnimationSync.cs",
@@ -85,12 +102,11 @@
               "RelativeToolTip": "Assets\\Main\\Code\\Scripts\\Player\\ClothingAnimationSync.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAAgwEAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T12:39:53.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T12:39:53.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CraftingSummaryManager.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Crafting\\CraftingSummaryManager.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Crafting\\CraftingSummaryManager.cs",
@@ -98,12 +114,11 @@
               "RelativeToolTip": "Assets\\Main\\UI\\Scripts\\Crafting\\CraftingSummaryManager.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwBYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T11:29:42.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T11:29:42.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ChangeButtonOnHover.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\ChangeButtonOnHover.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\ChangeButtonOnHover.cs",
@@ -122,6 +137,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
