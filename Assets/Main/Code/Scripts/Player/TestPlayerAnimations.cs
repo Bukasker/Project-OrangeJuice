@@ -5,14 +5,11 @@ using UnityEngine;
 public class TestPlayerAnimations : MonoBehaviour
 {
 	[SerializeField] private Animator animator; 
-	//[SerializeField] private Rigidbody2D playerRigidbody2D;
 
 	private float moveX;
 	private float moveY;
 	[SerializeField] private float lastMoveX;
 	[SerializeField] private float lastMoveY;
-
-	public float jumpForce = 5f;
 
 	public bool swordEquiped = false;
 	public bool isDead = false;
@@ -103,8 +100,6 @@ public class TestPlayerAnimations : MonoBehaviour
 
 	IEnumerator ResetAttackCounterAfterTime()
 	{
-		//yield return new WaitForSeconds(0.21f);
-
 		yield return new WaitForSeconds(resetTime);
 		currentAttacks = 0;
 		animator.SetBool("IsAttacking", false);
