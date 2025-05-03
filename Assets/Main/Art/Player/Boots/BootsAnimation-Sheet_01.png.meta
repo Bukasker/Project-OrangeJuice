@@ -1869,8 +1869,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_81
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 384
+        x: 0
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1890,8 +1890,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_82
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 384
+        x: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1911,8 +1911,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_83
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 384
+        x: 256
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1932,8 +1932,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_84
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 384
+        x: 384
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1953,8 +1953,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_85
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 384
+        x: 512
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1974,7 +1974,7 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_86
       rect:
         serializedVersion: 2
-        x: 0
+        x: 640
         y: 256
         width: 128
         height: 128
@@ -1995,7 +1995,7 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_87
       rect:
         serializedVersion: 2
-        x: 128
+        x: 768
         y: 256
         width: 128
         height: 128
@@ -2016,7 +2016,7 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_88
       rect:
         serializedVersion: 2
-        x: 256
+        x: 896
         y: 256
         width: 128
         height: 128
@@ -2037,7 +2037,7 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_89
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1024
         y: 256
         width: 128
         height: 128
@@ -2058,8 +2058,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_90
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
+        x: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2079,8 +2079,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_91
       rect:
         serializedVersion: 2
-        x: 640
-        y: 256
+        x: 128
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2100,8 +2100,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_92
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
+        x: 256
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2121,8 +2121,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_93
       rect:
         serializedVersion: 2
-        x: 896
-        y: 256
+        x: 384
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2142,8 +2142,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_94
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
+        x: 512
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2163,8 +2163,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_95
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 256
+        x: 640
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2184,8 +2184,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_96
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 256
+        x: 768
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2205,8 +2205,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_97
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 256
+        x: 896
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2226,8 +2226,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_98
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 256
+        x: 1024
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2247,8 +2247,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_99
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 256
+        x: 0
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2268,8 +2268,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_100
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 128
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2289,8 +2289,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_101
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 256
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2310,8 +2310,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_102
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 384
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2331,8 +2331,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_103
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
+        x: 512
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2352,8 +2352,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_104
       rect:
         serializedVersion: 2
-        x: 512
-        y: 128
+        x: 640
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2373,8 +2373,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_105
       rect:
         serializedVersion: 2
-        x: 640
-        y: 128
+        x: 768
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2394,8 +2394,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_106
       rect:
         serializedVersion: 2
-        x: 768
-        y: 128
+        x: 896
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2415,8 +2415,8 @@ TextureImporter:
       name: BootsAnimation-Sheet_01_107
       rect:
         serializedVersion: 2
-        x: 896
-        y: 128
+        x: 1024
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2428,426 +2428,6 @@ TextureImporter:
       bones: []
       spriteID: a0d945eba3cb75f46b2604c5a5214dce
       internalID: -1343280564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_108
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 782b6fbf905df5343816c091c707c432
-      internalID: 1209416297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_109
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1fa0d04a3b8f8248a829df6251a95f9
-      internalID: 728355206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_110
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce9e91810f929dc499268b6a3ecfc332
-      internalID: -810094046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_111
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28d2a10d1969670479fd3cf14c76a9be
-      internalID: -1822893444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_112
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01adcbec5228e2d41924cc31a199cb35
-      internalID: 145488122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_113
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f484e3b1de2d344e85b8c66310defe2
-      internalID: 129989780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_114
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 766ec47b6392ee042a382c6e9bd7831b
-      internalID: -779262026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_115
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3c9a5575ffa625418c7829f691ccba2
-      internalID: 1952015784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_116
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 039c8fadd3eab69439a1f2f87eb03be2
-      internalID: 901984853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_117
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f555d4668ce1aa1438d9ec4fc3b4d0b2
-      internalID: -1982217456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_118
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f745caf374dd91947817f7f554910be0
-      internalID: -1442457470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_119
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86f5fc1ef056d3e4d998e8ea3d588f8e
-      internalID: -2100614115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_120
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d100520ff171254bbfb00dcb5a50ce5
-      internalID: -1456621522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_121
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f3a6dae8812b46488537b37675248a2
-      internalID: 1409742271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_122
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22ee1501215e4c04a909846a79bb03c7
-      internalID: -1260282499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_123
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f393bd5fa150ee648bee101151918efb
-      internalID: 861219420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_124
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a201b647906c9c43b5b7ad3a3dd1287
-      internalID: 1619269410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_125
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 594fede6360ece3479ba09c5f24eb3b2
-      internalID: 104173590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_126
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 721d12f51bbaa2c47827c342a2dc228c
-      internalID: 1736909739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BootsAnimation-Sheet_01_127
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e291b8e6c550234e98b095cc976c7cc
-      internalID: -1279802302
       vertices: []
       indices: 
       edges: []
@@ -2874,28 +2454,8 @@ TextureImporter:
       BootsAnimation-Sheet_01_105: -1921475970
       BootsAnimation-Sheet_01_106: -1576470572
       BootsAnimation-Sheet_01_107: -1343280564
-      BootsAnimation-Sheet_01_108: 1209416297
-      BootsAnimation-Sheet_01_109: 728355206
       BootsAnimation-Sheet_01_11: 1942948606
-      BootsAnimation-Sheet_01_110: -810094046
-      BootsAnimation-Sheet_01_111: -1822893444
-      BootsAnimation-Sheet_01_112: 145488122
-      BootsAnimation-Sheet_01_113: 129989780
-      BootsAnimation-Sheet_01_114: -779262026
-      BootsAnimation-Sheet_01_115: 1952015784
-      BootsAnimation-Sheet_01_116: 901984853
-      BootsAnimation-Sheet_01_117: -1982217456
-      BootsAnimation-Sheet_01_118: -1442457470
-      BootsAnimation-Sheet_01_119: -2100614115
       BootsAnimation-Sheet_01_12: -1121023501
-      BootsAnimation-Sheet_01_120: -1456621522
-      BootsAnimation-Sheet_01_121: 1409742271
-      BootsAnimation-Sheet_01_122: -1260282499
-      BootsAnimation-Sheet_01_123: 861219420
-      BootsAnimation-Sheet_01_124: 1619269410
-      BootsAnimation-Sheet_01_125: 104173590
-      BootsAnimation-Sheet_01_126: 1736909739
-      BootsAnimation-Sheet_01_127: -1279802302
       BootsAnimation-Sheet_01_13: -1149344469
       BootsAnimation-Sheet_01_14: -1556324070
       BootsAnimation-Sheet_01_15: -805760758

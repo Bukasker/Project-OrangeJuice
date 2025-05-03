@@ -1869,8 +1869,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_81
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 384
+        x: 0
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1890,8 +1890,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_82
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 384
+        x: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1911,8 +1911,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_83
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 384
+        x: 256
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1932,8 +1932,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_84
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 384
+        x: 384
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1953,8 +1953,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_85
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 384
+        x: 512
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1974,7 +1974,7 @@ TextureImporter:
       name: BodyAnimation-Sheet_86
       rect:
         serializedVersion: 2
-        x: 0
+        x: 640
         y: 256
         width: 128
         height: 128
@@ -1995,7 +1995,7 @@ TextureImporter:
       name: BodyAnimation-Sheet_87
       rect:
         serializedVersion: 2
-        x: 128
+        x: 768
         y: 256
         width: 128
         height: 128
@@ -2016,7 +2016,7 @@ TextureImporter:
       name: BodyAnimation-Sheet_88
       rect:
         serializedVersion: 2
-        x: 256
+        x: 896
         y: 256
         width: 128
         height: 128
@@ -2037,7 +2037,7 @@ TextureImporter:
       name: BodyAnimation-Sheet_89
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1024
         y: 256
         width: 128
         height: 128
@@ -2058,8 +2058,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_90
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
+        x: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2079,8 +2079,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_91
       rect:
         serializedVersion: 2
-        x: 640
-        y: 256
+        x: 128
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2100,8 +2100,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_92
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
+        x: 256
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2121,8 +2121,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_93
       rect:
         serializedVersion: 2
-        x: 896
-        y: 256
+        x: 384
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2142,8 +2142,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_94
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
+        x: 512
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2163,8 +2163,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_95
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 256
+        x: 640
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2184,8 +2184,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_96
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 256
+        x: 768
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2205,8 +2205,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_97
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 256
+        x: 896
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2226,8 +2226,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_98
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 256
+        x: 1024
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2247,8 +2247,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_99
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 256
+        x: 0
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2268,8 +2268,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_100
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 128
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2289,8 +2289,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_101
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 256
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2310,8 +2310,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_102
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 384
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2331,8 +2331,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_103
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
+        x: 512
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2352,8 +2352,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_104
       rect:
         serializedVersion: 2
-        x: 512
-        y: 128
+        x: 640
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2373,8 +2373,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_105
       rect:
         serializedVersion: 2
-        x: 640
-        y: 128
+        x: 768
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2394,8 +2394,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_106
       rect:
         serializedVersion: 2
-        x: 768
-        y: 128
+        x: 896
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2415,8 +2415,8 @@ TextureImporter:
       name: BodyAnimation-Sheet_107
       rect:
         serializedVersion: 2
-        x: 896
-        y: 128
+        x: 1024
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2428,426 +2428,6 @@ TextureImporter:
       bones: []
       spriteID: 084ea3d34bafcfa44ada56d770e76c65
       internalID: 347195143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_108
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4501f1c324ab8fe4cb039d48888cb8be
-      internalID: 589540546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_109
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dffa1ffe05f551749a8e0f6aedeef29e
-      internalID: -1779696270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_110
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6059c0bb95869964ab43d09154467d96
-      internalID: -1790641384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_111
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e0b2aeffe603b64baf8e5b308ab0ee4
-      internalID: -134571278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_112
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a1015b09716d2442b91f0daadd369b1
-      internalID: 906574508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_113
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 341a32b1f1a54a145af7990885bb6a99
-      internalID: -527505215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_114
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22f02c0bcf5fe874cad7661085ef74dd
-      internalID: -1474687518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_115
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8e2a40845f29054e81c9d870a3459c0
-      internalID: 171053892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_116
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28222c0e87878b24c98b3354ecabeaae
-      internalID: -744849568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_117
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcf8c56de4551fc47b4c91bcdf2a226a
-      internalID: -1700429279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_118
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42a90274f93526e4c8b8d6cd3e8c115a
-      internalID: 753016708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_119
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d08ece72bb362b4a90c760f11deaad6
-      internalID: -1149114107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_120
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e200c15a45280d4b8d4fc09c7da97a9
-      internalID: 142182177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_121
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 071560de2310fce42a83df715e15e2f6
-      internalID: 607168317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_122
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 346a3886806b3a842baa35fa8f1e5d68
-      internalID: -362336091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_123
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 235068193ecd21640a80b5e80304d15c
-      internalID: -892704447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_124
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4581fdcb16a1f104ea095b990e91d59b
-      internalID: 1465642979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_125
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66f15e380277adf4198ede339158a3a1
-      internalID: -1239118238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_126
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d8fb1c4a4225fd4b8f5f3688e423d2c
-      internalID: 1018402789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BodyAnimation-Sheet_127
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cab52a69a677d942a37aa4afea25261
-      internalID: -1205642722
       vertices: []
       indices: 
       edges: []
@@ -2874,28 +2454,8 @@ TextureImporter:
       BodyAnimation-Sheet_105: -1240453794
       BodyAnimation-Sheet_106: 163407187
       BodyAnimation-Sheet_107: 347195143
-      BodyAnimation-Sheet_108: 589540546
-      BodyAnimation-Sheet_109: -1779696270
       BodyAnimation-Sheet_11: 211586166
-      BodyAnimation-Sheet_110: -1790641384
-      BodyAnimation-Sheet_111: -134571278
-      BodyAnimation-Sheet_112: 906574508
-      BodyAnimation-Sheet_113: -527505215
-      BodyAnimation-Sheet_114: -1474687518
-      BodyAnimation-Sheet_115: 171053892
-      BodyAnimation-Sheet_116: -744849568
-      BodyAnimation-Sheet_117: -1700429279
-      BodyAnimation-Sheet_118: 753016708
-      BodyAnimation-Sheet_119: -1149114107
       BodyAnimation-Sheet_12: -978034297
-      BodyAnimation-Sheet_120: 142182177
-      BodyAnimation-Sheet_121: 607168317
-      BodyAnimation-Sheet_122: -362336091
-      BodyAnimation-Sheet_123: -892704447
-      BodyAnimation-Sheet_124: 1465642979
-      BodyAnimation-Sheet_125: -1239118238
-      BodyAnimation-Sheet_126: 1018402789
-      BodyAnimation-Sheet_127: -1205642722
       BodyAnimation-Sheet_13: 1032410301
       BodyAnimation-Sheet_14: -1964990404
       BodyAnimation-Sheet_15: -624760807

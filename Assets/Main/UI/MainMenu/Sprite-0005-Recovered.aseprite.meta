@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fe4696684b1293541be38a900a61bf87
+guid: 4bc6650721ceadd4ca81c10084deda23
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,18 +117,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Turn
+  - name: Sprite-0005-Recovered
     originalName: 
-    pivot: {x: 0.5135135, y: -0.53333336}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 111
-      height: 15
-    spriteID: 4681d6bccd862db439612ccc632a6c6c
+      width: 640
+      height: 360
+    spriteID: cdad4470055e0264786cb9c6540473d0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,23 +140,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1340232187
-    name: Turn
+    guid: 1751604563
+    name: Sprite-0005-Recovered
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Turn
+    - name: Sprite-0005-Recovered
       frameIndex: 0
       cellRect:
-        x: 7
-        y: 8
-        width: 111
-        height: 15
-      spriteId: 4681d6bccd862db439612ccc632a6c6c
+        x: 0
+        y: 0
+        width: 640
+        height: 360
+      spriteId: cdad4470055e0264786cb9c6540473d0
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 128, y: 32}
+  canvasSize: {x: 640, y: 360}

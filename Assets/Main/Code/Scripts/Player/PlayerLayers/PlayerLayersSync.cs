@@ -85,37 +85,37 @@ public class PlayerLayersSync : MonoBehaviour
         LayerRun.Down = SliceRow(layerSheet, 7, 8);
 
         // Attack (wiersze 8-11)
-        BodyAttack1.Right = SliceRow(bodySheet, 8, 4, 0);
-        BodyAttack2.Right = SliceRow(bodySheet, 8, 4, 4);
-        BodyAttack3.Right = SliceRow(bodySheet, 8, 6, 8);
+        BodyAttack1.Right = SliceRow(bodySheet, 8, 3, 0);
+        BodyAttack2.Right = SliceRow(bodySheet, 8, 3, 2);
+        BodyAttack3.Right = SliceRow(bodySheet, 8, 5, 4);
 
-        BodyAttack1.Left = SliceRow(bodySheet, 9, 4, 0);
-        BodyAttack2.Left = SliceRow(bodySheet, 9, 4, 4);
-        BodyAttack3.Left = SliceRow(bodySheet, 9, 6, 8);
+        BodyAttack1.Left = SliceRow(bodySheet, 9, 3, 0);
+        BodyAttack2.Left = SliceRow(bodySheet, 9, 3, 2);
+        BodyAttack3.Left = SliceRow(bodySheet, 9, 5, 4);
 
-        BodyAttack1.Up = SliceRow(bodySheet, 10, 4, 0);
-        BodyAttack2.Up = SliceRow(bodySheet, 10, 4, 4);
-        BodyAttack3.Up = SliceRow(bodySheet, 10, 6, 8);
+        BodyAttack1.Up = SliceRow(bodySheet, 10, 3, 0);
+        BodyAttack2.Up = SliceRow(bodySheet, 10, 3, 2);
+        BodyAttack3.Up = SliceRow(bodySheet, 10, 5, 4);
 
-        BodyAttack1.Down = SliceRow(bodySheet, 11, 4, 0);
-        BodyAttack2.Down = SliceRow(bodySheet, 11, 4, 4);
-        BodyAttack3.Down = SliceRow(bodySheet, 11, 6, 8);
+        BodyAttack1.Down = SliceRow(bodySheet, 11, 3, 0);
+        BodyAttack2.Down = SliceRow(bodySheet, 11, 3, 2);
+        BodyAttack3.Down = SliceRow(bodySheet, 11, 5, 4);
 
-        LayerAttack1.Right = SliceRow(layerSheet, 8, 4, 0);
-        LayerAttack2.Right = SliceRow(layerSheet, 8, 4, 4);
-        LayerAttack3.Right = SliceRow(layerSheet, 8, 6, 8);
+        LayerAttack1.Right = SliceRow(layerSheet, 8, 3, 0);
+        LayerAttack2.Right = SliceRow(layerSheet, 8, 3, 2);
+        LayerAttack3.Right = SliceRow(layerSheet, 8, 5, 4);
 
-        LayerAttack1.Left = SliceRow(layerSheet, 9, 4, 0);
-        LayerAttack2.Left = SliceRow(layerSheet, 9, 4, 4);
-        LayerAttack3.Left = SliceRow(layerSheet, 9, 6, 8);
+        LayerAttack1.Left = SliceRow(layerSheet, 9, 3, 0);
+        LayerAttack2.Left = SliceRow(layerSheet, 9, 3, 2);
+        LayerAttack3.Left = SliceRow(layerSheet, 9, 5, 4);
 
-        LayerAttack1.Up = SliceRow(layerSheet, 10, 4, 0);
-        LayerAttack2.Up = SliceRow(layerSheet, 10, 4, 4);
-        LayerAttack3.Up = SliceRow(layerSheet, 10, 6, 8);
+        LayerAttack1.Up = SliceRow(layerSheet, 10, 3, 0);
+        LayerAttack2.Up = SliceRow(layerSheet, 10, 3, 2);
+        LayerAttack3.Up = SliceRow(layerSheet, 10, 5, 4);
 
-        LayerAttack1.Down = SliceRow(layerSheet, 11, 4, 0);
-        LayerAttack2.Down = SliceRow(layerSheet, 11, 4, 4);
-        LayerAttack3.Down = SliceRow(layerSheet, 11, 6, 8);
+        LayerAttack1.Down = SliceRow(layerSheet, 11, 3, 0);
+        LayerAttack2.Down = SliceRow(layerSheet, 11, 3, 2);
+        LayerAttack3.Down = SliceRow(layerSheet, 11, 5, 4);
     }
 
     Sprite[] SliceRow(Texture2D sheet, int rowIndex, int count, int startCol = 0)

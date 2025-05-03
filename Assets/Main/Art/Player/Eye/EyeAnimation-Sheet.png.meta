@@ -1491,8 +1491,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_63
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 384
+        x: 0
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1512,8 +1512,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_64
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 384
+        x: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1533,8 +1533,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_65
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 384
+        x: 256
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1554,8 +1554,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_66
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 384
+        x: 384
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1575,8 +1575,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_67
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 384
+        x: 512
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1596,7 +1596,7 @@ TextureImporter:
       name: EyeAnimation-Sheet_68
       rect:
         serializedVersion: 2
-        x: 0
+        x: 640
         y: 256
         width: 128
         height: 128
@@ -1617,7 +1617,7 @@ TextureImporter:
       name: EyeAnimation-Sheet_69
       rect:
         serializedVersion: 2
-        x: 128
+        x: 768
         y: 256
         width: 128
         height: 128
@@ -1638,7 +1638,7 @@ TextureImporter:
       name: EyeAnimation-Sheet_70
       rect:
         serializedVersion: 2
-        x: 256
+        x: 896
         y: 256
         width: 128
         height: 128
@@ -1659,7 +1659,7 @@ TextureImporter:
       name: EyeAnimation-Sheet_71
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1024
         y: 256
         width: 128
         height: 128
@@ -1680,8 +1680,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_72
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
+        x: 0
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -1701,8 +1701,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_73
       rect:
         serializedVersion: 2
-        x: 640
-        y: 256
+        x: 128
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -1722,8 +1722,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_74
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
+        x: 256
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -1743,8 +1743,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_75
       rect:
         serializedVersion: 2
-        x: 896
-        y: 256
+        x: 384
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -1764,8 +1764,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_76
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
+        x: 512
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -1785,8 +1785,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_77
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 256
+        x: 640
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -1806,8 +1806,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_78
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 256
+        x: 768
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -1827,8 +1827,8 @@ TextureImporter:
       name: EyeAnimation-Sheet_79
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 256
+        x: 896
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -1848,216 +1848,6 @@ TextureImporter:
       name: EyeAnimation-Sheet_80
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbb9291015db4bc46a26cc223791df1b
-      internalID: -1281865019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_81
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc67d4e059f5a27468a8fe51b368269d
-      internalID: -1831339773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_82
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c463da6a76d048747825f6d088957170
-      internalID: 1564545680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_83
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30c3368514b0da54eae183798b72ab4c
-      internalID: -2018369864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_84
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46d5e6e60a3573f4190b52d533ccb038
-      internalID: -1348190590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_85
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cff9915e75288e4f81e9670bfc4f764
-      internalID: -605735635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_86
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce52330217c67f141adf5774e2c01b82
-      internalID: -322081466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_87
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 945aebc075f1f05409b48a6fe739922e
-      internalID: 301752348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_88
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64cd6adbb5d38f44d8dd4e0661eb6292
-      internalID: -1229689542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_89
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12ee8c7248825d546963040c2c9834c2
-      internalID: 817972709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_90
-      rect:
-        serializedVersion: 2
         x: 1024
         y: 0
         width: 128
@@ -2069,113 +1859,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f65d0256b0b38f641805ebb104795afb
-      internalID: -1839802571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_91
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6efcd90b61dd4b04db5daa427e9e58bf
-      internalID: 327621830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_92
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c54fad941b370ee4ea6dc851c4c429e5
-      internalID: -1609996889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_93
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d84616f9d456c3043825f6af76b9a63c
-      internalID: -1877424436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_94
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aff24a0557338ed47a0ebd364700614a
-      internalID: 1187872376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EyeAnimation-Sheet_95
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73d65e9e0751dcc42821136b8cf37428
-      internalID: -876355695
+      spriteID: dbb9291015db4bc46a26cc223791df1b
+      internalID: -1281865019
       vertices: []
       indices: 
       edges: []
@@ -2271,22 +1956,7 @@ TextureImporter:
       EyeAnimation-Sheet_79: 683898786
       EyeAnimation-Sheet_8: -1339712088
       EyeAnimation-Sheet_80: -1281865019
-      EyeAnimation-Sheet_81: -1831339773
-      EyeAnimation-Sheet_82: 1564545680
-      EyeAnimation-Sheet_83: -2018369864
-      EyeAnimation-Sheet_84: -1348190590
-      EyeAnimation-Sheet_85: -605735635
-      EyeAnimation-Sheet_86: -322081466
-      EyeAnimation-Sheet_87: 301752348
-      EyeAnimation-Sheet_88: -1229689542
-      EyeAnimation-Sheet_89: 817972709
       EyeAnimation-Sheet_9: -1466838135
-      EyeAnimation-Sheet_90: -1839802571
-      EyeAnimation-Sheet_91: 327621830
-      EyeAnimation-Sheet_92: -1609996889
-      EyeAnimation-Sheet_93: -1877424436
-      EyeAnimation-Sheet_94: 1187872376
-      EyeAnimation-Sheet_95: -876355695
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

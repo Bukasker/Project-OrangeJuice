@@ -1869,8 +1869,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_81
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 384
+        x: 0
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1890,8 +1890,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_82
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 384
+        x: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1911,8 +1911,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_83
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 384
+        x: 256
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1932,8 +1932,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_84
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 384
+        x: 384
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1953,8 +1953,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_85
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 384
+        x: 512
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1974,7 +1974,7 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_86
       rect:
         serializedVersion: 2
-        x: 0
+        x: 640
         y: 256
         width: 128
         height: 128
@@ -1995,7 +1995,7 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_87
       rect:
         serializedVersion: 2
-        x: 128
+        x: 768
         y: 256
         width: 128
         height: 128
@@ -2016,7 +2016,7 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_88
       rect:
         serializedVersion: 2
-        x: 256
+        x: 896
         y: 256
         width: 128
         height: 128
@@ -2037,7 +2037,7 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_89
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1024
         y: 256
         width: 128
         height: 128
@@ -2058,8 +2058,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_90
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
+        x: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2079,8 +2079,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_91
       rect:
         serializedVersion: 2
-        x: 640
-        y: 256
+        x: 128
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2100,8 +2100,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_92
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
+        x: 256
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2121,8 +2121,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_93
       rect:
         serializedVersion: 2
-        x: 896
-        y: 256
+        x: 384
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2142,8 +2142,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_94
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
+        x: 512
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2163,8 +2163,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_95
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 256
+        x: 640
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2184,8 +2184,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_96
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 256
+        x: 768
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2205,8 +2205,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_97
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 256
+        x: 896
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2226,8 +2226,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_98
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 256
+        x: 1024
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2247,8 +2247,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_99
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 256
+        x: 0
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2268,8 +2268,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_100
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 128
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2289,8 +2289,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_101
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 256
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2310,8 +2310,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_102
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 384
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2331,8 +2331,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_103
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
+        x: 512
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2352,8 +2352,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_104
       rect:
         serializedVersion: 2
-        x: 512
-        y: 128
+        x: 640
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2373,8 +2373,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_105
       rect:
         serializedVersion: 2
-        x: 640
-        y: 128
+        x: 768
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2394,8 +2394,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_106
       rect:
         serializedVersion: 2
-        x: 768
-        y: 128
+        x: 896
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2415,8 +2415,8 @@ TextureImporter:
       name: GreavesAnimation-Sheet_01_107
       rect:
         serializedVersion: 2
-        x: 896
-        y: 128
+        x: 1024
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2428,426 +2428,6 @@ TextureImporter:
       bones: []
       spriteID: 4b4d65b289cb08145ad78c41da427623
       internalID: 1263739448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_108
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e6e309922a27d149a15722e9ee2dd2d
-      internalID: -1183421890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_109
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2c047b1f717d754dbb8b85c0d6514b2
-      internalID: 2143410242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_110
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2413f2391685d0e4d9b0dff58ef815bb
-      internalID: 912061586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_111
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c222920c84a7a5e43bd6ec210da24573
-      internalID: 1371939387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_112
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b35151c7dd076945b65036fbdcfb7b3
-      internalID: -1439777875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_113
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5dcf8fc55024e2b4b91b08120d6f83fa
-      internalID: 321458691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_114
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9c883cf53238e343b57f3983bcac477
-      internalID: -832644178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_115
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f872e9dd471e256458ffe10abafce7af
-      internalID: 2020353117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_116
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9ab08b97d6b1344f8fda90e492451dc
-      internalID: 991931281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_117
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c69c074c98f7010409b8512c5e7446fc
-      internalID: -437810040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_118
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e2f4085486b32a4aa5c5a04351aa0ee
-      internalID: -2077194758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_119
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae03ce8d9d26f4345bce422237e4a8e5
-      internalID: -1999912399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_120
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43d383a9cc959fa4ebc5798cb0730193
-      internalID: 1618366837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_121
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a970b85252ec1843bfc47f176ce29bb
-      internalID: -1452653996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_122
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d356e95db5a7ab747a4c5abb6c2cb8b2
-      internalID: 1338709023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_123
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1667c08ea1db86748985765bf5d01ffc
-      internalID: 1458152232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_124
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 602105a6307879d4d9fa34a9659b1444
-      internalID: 1466132274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_125
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 727749fe65640eb47b7a5647b1afa9ba
-      internalID: -1430040963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_126
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1301f21cb7bfeae4388fb67947206a2c
-      internalID: -1703878627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreavesAnimation-Sheet_01_127
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f19e9b71527f4b4da419356abf4e24c
-      internalID: 1208132438
       vertices: []
       indices: 
       edges: []
@@ -2874,28 +2454,8 @@ TextureImporter:
       GreavesAnimation-Sheet_01_105: 98626067
       GreavesAnimation-Sheet_01_106: -1590803976
       GreavesAnimation-Sheet_01_107: 1263739448
-      GreavesAnimation-Sheet_01_108: -1183421890
-      GreavesAnimation-Sheet_01_109: 2143410242
       GreavesAnimation-Sheet_01_11: 1396689799
-      GreavesAnimation-Sheet_01_110: 912061586
-      GreavesAnimation-Sheet_01_111: 1371939387
-      GreavesAnimation-Sheet_01_112: -1439777875
-      GreavesAnimation-Sheet_01_113: 321458691
-      GreavesAnimation-Sheet_01_114: -832644178
-      GreavesAnimation-Sheet_01_115: 2020353117
-      GreavesAnimation-Sheet_01_116: 991931281
-      GreavesAnimation-Sheet_01_117: -437810040
-      GreavesAnimation-Sheet_01_118: -2077194758
-      GreavesAnimation-Sheet_01_119: -1999912399
       GreavesAnimation-Sheet_01_12: 1242947611
-      GreavesAnimation-Sheet_01_120: 1618366837
-      GreavesAnimation-Sheet_01_121: -1452653996
-      GreavesAnimation-Sheet_01_122: 1338709023
-      GreavesAnimation-Sheet_01_123: 1458152232
-      GreavesAnimation-Sheet_01_124: 1466132274
-      GreavesAnimation-Sheet_01_125: -1430040963
-      GreavesAnimation-Sheet_01_126: -1703878627
-      GreavesAnimation-Sheet_01_127: 1208132438
       GreavesAnimation-Sheet_01_13: -749569628
       GreavesAnimation-Sheet_01_14: 999861208
       GreavesAnimation-Sheet_01_15: -1779287825

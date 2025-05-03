@@ -1701,7 +1701,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_73
       rect:
         serializedVersion: 2
-        x: 128
+        x: 256
         y: 384
         width: 128
         height: 128
@@ -1722,7 +1722,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_74
       rect:
         serializedVersion: 2
-        x: 256
+        x: 512
         y: 384
         width: 128
         height: 128
@@ -1743,7 +1743,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_75
       rect:
         serializedVersion: 2
-        x: 384
+        x: 640
         y: 384
         width: 128
         height: 128
@@ -1764,7 +1764,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_76
       rect:
         serializedVersion: 2
-        x: 512
+        x: 896
         y: 384
         width: 128
         height: 128
@@ -1785,7 +1785,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_77
       rect:
         serializedVersion: 2
-        x: 640
+        x: 1024
         y: 384
         width: 128
         height: 128
@@ -1806,8 +1806,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_78
       rect:
         serializedVersion: 2
-        x: 768
-        y: 384
+        x: 0
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1827,8 +1827,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_79
       rect:
         serializedVersion: 2
-        x: 896
-        y: 384
+        x: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1848,8 +1848,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_80
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 384
+        x: 256
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1869,8 +1869,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_81
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 384
+        x: 384
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1890,8 +1890,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_82
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 384
+        x: 512
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1911,8 +1911,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_83
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 384
+        x: 640
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1932,7 +1932,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_84
       rect:
         serializedVersion: 2
-        x: 0
+        x: 896
         y: 256
         width: 128
         height: 128
@@ -1953,7 +1953,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_85
       rect:
         serializedVersion: 2
-        x: 128
+        x: 1024
         y: 256
         width: 128
         height: 128
@@ -1974,8 +1974,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_86
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
+        x: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1995,8 +1995,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_87
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
+        x: 128
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2016,8 +2016,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_88
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
+        x: 256
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2037,8 +2037,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_89
       rect:
         serializedVersion: 2
-        x: 640
-        y: 256
+        x: 384
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2058,8 +2058,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_90
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
+        x: 512
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2079,8 +2079,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_91
       rect:
         serializedVersion: 2
-        x: 896
-        y: 256
+        x: 640
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2100,8 +2100,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_92
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
+        x: 768
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2121,8 +2121,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_93
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 256
+        x: 896
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2142,8 +2142,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_94
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 256
+        x: 1024
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2163,8 +2163,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_95
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 256
+        x: 0
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2184,8 +2184,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_96
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 128
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2205,8 +2205,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_97
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 256
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2226,8 +2226,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_98
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 384
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2247,8 +2247,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_99
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
+        x: 512
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2268,8 +2268,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_100
       rect:
         serializedVersion: 2
-        x: 512
-        y: 128
+        x: 640
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2289,8 +2289,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_101
       rect:
         serializedVersion: 2
-        x: 640
-        y: 128
+        x: 768
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2310,8 +2310,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_102
       rect:
         serializedVersion: 2
-        x: 768
-        y: 128
+        x: 896
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2331,8 +2331,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_103
       rect:
         serializedVersion: 2
-        x: 896
-        y: 128
+        x: 1024
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2344,426 +2344,6 @@ TextureImporter:
       bones: []
       spriteID: d15a759fcb01a6d4e95762945514a832
       internalID: -737340730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_104
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6be0e039f5633494fb18bfc7022abb39
-      internalID: -1479383926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_105
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 646d3dc61c69e6f498c446f88ea1df4f
-      internalID: 622979946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_106
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14822c9e5dbccfb4bb3842611c1a83e1
-      internalID: -1112787994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_107
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03bf2e0a621193c44a4a9b425485986b
-      internalID: 1214025975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_108
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95f1610087c235f4a980cd5f5c3b8f42
-      internalID: 941397538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_109
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d69ad07501bb044280495d838039614
-      internalID: 1629138816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_110
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 840bd9cf85b7ea443bf0b5ee11e96c64
-      internalID: -653625290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_111
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be80c13414391474481c89239b2ff762
-      internalID: -1925448173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_112
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcb7d1c2a8d7a164284067ddd7fe1bc4
-      internalID: -2106675524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_113
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e3b30abbe2f6164e8b97dc75971fa22
-      internalID: -1851602408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_114
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7050162f201515c4da16dd66da76f148
-      internalID: -1382333787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_115
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3625936c868e03e4e9365f0e1c247071
-      internalID: 314112600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_116
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 197c92d84b269e8478526dbeb1a3d063
-      internalID: -1280056527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_117
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acd4d622a9165504d8a848669591598f
-      internalID: -830967512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_118
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a69e5cf785512b46b45898c57dbb1df
-      internalID: 195276060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_119
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 317886cc5f75e0648860058f7f834c85
-      internalID: 2124383517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_120
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd1d3761bc57fcd40b89a584c23ba0bb
-      internalID: -1971673660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_121
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b931545b5c76b694f8260c57585e2caa
-      internalID: 1601128892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_122
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a084916f4defa884e83379ac957f17a7
-      internalID: -2094776119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeltAnimation-Sheet_01_123
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51ff7d6fb69ccd4468ad79ea12bd3dca
-      internalID: 533366917
       vertices: []
       indices: 
       edges: []
@@ -2786,28 +2366,8 @@ TextureImporter:
       BeltAnimation-Sheet_01_101: -855260547
       BeltAnimation-Sheet_01_102: 102105765
       BeltAnimation-Sheet_01_103: -737340730
-      BeltAnimation-Sheet_01_104: -1479383926
-      BeltAnimation-Sheet_01_105: 622979946
-      BeltAnimation-Sheet_01_106: -1112787994
-      BeltAnimation-Sheet_01_107: 1214025975
-      BeltAnimation-Sheet_01_108: 941397538
-      BeltAnimation-Sheet_01_109: 1629138816
       BeltAnimation-Sheet_01_11: -566696733
-      BeltAnimation-Sheet_01_110: -653625290
-      BeltAnimation-Sheet_01_111: -1925448173
-      BeltAnimation-Sheet_01_112: -2106675524
-      BeltAnimation-Sheet_01_113: -1851602408
-      BeltAnimation-Sheet_01_114: -1382333787
-      BeltAnimation-Sheet_01_115: 314112600
-      BeltAnimation-Sheet_01_116: -1280056527
-      BeltAnimation-Sheet_01_117: -830967512
-      BeltAnimation-Sheet_01_118: 195276060
-      BeltAnimation-Sheet_01_119: 2124383517
       BeltAnimation-Sheet_01_12: 223630680
-      BeltAnimation-Sheet_01_120: -1971673660
-      BeltAnimation-Sheet_01_121: 1601128892
-      BeltAnimation-Sheet_01_122: -2094776119
-      BeltAnimation-Sheet_01_123: 533366917
       BeltAnimation-Sheet_01_13: 389578354
       BeltAnimation-Sheet_01_14: 1521301567
       BeltAnimation-Sheet_01_15: 743068805

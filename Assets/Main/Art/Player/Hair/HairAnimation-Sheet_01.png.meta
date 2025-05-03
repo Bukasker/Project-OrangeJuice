@@ -1869,8 +1869,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_81
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 384
+        x: 0
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1890,8 +1890,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_82
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 384
+        x: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1911,8 +1911,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_83
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 384
+        x: 256
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1932,8 +1932,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_84
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 384
+        x: 384
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1953,8 +1953,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_85
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 384
+        x: 512
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1974,7 +1974,7 @@ TextureImporter:
       name: HairAnimation-Sheet_01_86
       rect:
         serializedVersion: 2
-        x: 0
+        x: 640
         y: 256
         width: 128
         height: 128
@@ -1995,7 +1995,7 @@ TextureImporter:
       name: HairAnimation-Sheet_01_87
       rect:
         serializedVersion: 2
-        x: 128
+        x: 768
         y: 256
         width: 128
         height: 128
@@ -2016,7 +2016,7 @@ TextureImporter:
       name: HairAnimation-Sheet_01_88
       rect:
         serializedVersion: 2
-        x: 256
+        x: 896
         y: 256
         width: 128
         height: 128
@@ -2037,7 +2037,7 @@ TextureImporter:
       name: HairAnimation-Sheet_01_89
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1024
         y: 256
         width: 128
         height: 128
@@ -2058,8 +2058,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_90
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
+        x: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2079,8 +2079,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_91
       rect:
         serializedVersion: 2
-        x: 640
-        y: 256
+        x: 128
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2100,8 +2100,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_92
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
+        x: 256
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2121,8 +2121,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_93
       rect:
         serializedVersion: 2
-        x: 896
-        y: 256
+        x: 384
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2142,8 +2142,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_94
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
+        x: 512
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2163,8 +2163,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_95
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 256
+        x: 640
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2184,8 +2184,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_96
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 256
+        x: 768
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2205,8 +2205,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_97
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 256
+        x: 896
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2226,8 +2226,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_98
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 256
+        x: 1024
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2247,8 +2247,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_99
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 256
+        x: 0
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2268,8 +2268,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_100
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 128
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2289,8 +2289,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_101
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 256
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2310,8 +2310,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_102
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 384
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2331,8 +2331,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_103
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
+        x: 512
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2352,8 +2352,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_104
       rect:
         serializedVersion: 2
-        x: 512
-        y: 128
+        x: 640
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2373,8 +2373,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_105
       rect:
         serializedVersion: 2
-        x: 640
-        y: 128
+        x: 768
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2394,8 +2394,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_106
       rect:
         serializedVersion: 2
-        x: 768
-        y: 128
+        x: 896
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2415,8 +2415,8 @@ TextureImporter:
       name: HairAnimation-Sheet_01_107
       rect:
         serializedVersion: 2
-        x: 896
-        y: 128
+        x: 1024
+        y: 0
         width: 128
         height: 128
       alignment: 0
@@ -2428,426 +2428,6 @@ TextureImporter:
       bones: []
       spriteID: a469fa0a8a678e44fb567d6ddb146bd6
       internalID: -1278713852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_108
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d528c16dc09c26b4fa4e6014542d7830
-      internalID: 1525144643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_109
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af4d07e28b31a914c852b74bb45efafd
-      internalID: 1054078717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_110
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdc35ecf418f8c24ca28dac8b400d72a
-      internalID: -1748666193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_111
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c6e18068994fae4e8223ca16c1d6822
-      internalID: 1477110274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_112
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26a0323e1a24b024bb7383acc4cd1cf5
-      internalID: -171998952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_113
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1eb32e07ef5755d44945fff0649c5bf5
-      internalID: -1738108351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_114
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ae38d0c1240221408e06e1aa6ae0962
-      internalID: -1743316676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_115
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fa690a8620327e40a75667e57f01a4d
-      internalID: 1891810247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_116
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75b1df0eace04b8459b3165053d36664
-      internalID: -921575571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_117
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b25afe6668e45d418238eea25f5741a
-      internalID: -1249846980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_118
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd82bb97fdab35542b4edbb67b8dbf12
-      internalID: 9133846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_119
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7284b6d5b1b195d4f94923e1db22c884
-      internalID: -2076599986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_120
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e6f6a4f05f44dd4cb3fbbbb5f7d4812
-      internalID: -1954713753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_121
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6002de1410ded834c9658574bc5c8880
-      internalID: -1164882472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_122
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91b140a19b18dbe4ea0963e002678757
-      internalID: 2057602138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_123
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3968e5a082ad7da4b91cce7bae16506b
-      internalID: 1854506306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_124
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9de956fef61992438a224ed401941a0
-      internalID: -103312302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_125
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba90260a40a4c054db0775fc2fa09440
-      internalID: -1966656744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_126
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5f445c41c957e849bdb9eb69d58168d
-      internalID: -893142290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HairAnimation-Sheet_01_127
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 155d45252cbde2b4c86f6f1c0ee79e69
-      internalID: 1325104435
       vertices: []
       indices: 
       edges: []
@@ -2874,28 +2454,8 @@ TextureImporter:
       HairAnimation-Sheet_01_105: 525352488
       HairAnimation-Sheet_01_106: -2080755529
       HairAnimation-Sheet_01_107: -1278713852
-      HairAnimation-Sheet_01_108: 1525144643
-      HairAnimation-Sheet_01_109: 1054078717
       HairAnimation-Sheet_01_11: 1039615357
-      HairAnimation-Sheet_01_110: -1748666193
-      HairAnimation-Sheet_01_111: 1477110274
-      HairAnimation-Sheet_01_112: -171998952
-      HairAnimation-Sheet_01_113: -1738108351
-      HairAnimation-Sheet_01_114: -1743316676
-      HairAnimation-Sheet_01_115: 1891810247
-      HairAnimation-Sheet_01_116: -921575571
-      HairAnimation-Sheet_01_117: -1249846980
-      HairAnimation-Sheet_01_118: 9133846
-      HairAnimation-Sheet_01_119: -2076599986
       HairAnimation-Sheet_01_12: 450910731
-      HairAnimation-Sheet_01_120: -1954713753
-      HairAnimation-Sheet_01_121: -1164882472
-      HairAnimation-Sheet_01_122: 2057602138
-      HairAnimation-Sheet_01_123: 1854506306
-      HairAnimation-Sheet_01_124: -103312302
-      HairAnimation-Sheet_01_125: -1966656744
-      HairAnimation-Sheet_01_126: -893142290
-      HairAnimation-Sheet_01_127: 1325104435
       HairAnimation-Sheet_01_13: 473212136
       HairAnimation-Sheet_01_14: -1394852948
       HairAnimation-Sheet_01_15: -2088468449
