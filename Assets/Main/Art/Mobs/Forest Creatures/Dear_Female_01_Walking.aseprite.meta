@@ -119,14 +119,14 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Dear_Female_01_Walking_Frame_0
     originalName: 
-    pivot: {x: 0.48387095, y: -0.030303031}
+    pivot: {x: 0.4666667, y: -0.030303031}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 31
+      width: 30
       height: 33
     spriteID: d0b1e7a6ec47ea14889b0d899a6e2a26
     spriteBone: []
@@ -145,7 +145,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 85
+      y: 45
       width: 30
       height: 33
     spriteID: e24fcd991e032064bae5e8d2197b2d0f
@@ -156,7 +156,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 85}
+    uvTransform: {x: 4, y: 45}
   - name: Dear_Female_01_Walking_Frame_2
     originalName: 
     pivot: {x: 0.4666667, y: -0.030303031}
@@ -165,7 +165,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 126
+      y: 86
       width: 30
       height: 33
     spriteID: 0cb72aae214f0774c969d9a081e40c0d
@@ -176,7 +176,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 126}
+    uvTransform: {x: 4, y: 86}
   - name: Dear_Female_01_Walking_Frame_3
     originalName: 
     pivot: {x: 0.4666667, y: -0.030303031}
@@ -185,7 +185,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 167
+      y: 127
       width: 30
       height: 33
     spriteID: a23aa37f0a91e1b4e92a149eef12227a
@@ -196,18 +196,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 167}
+    uvTransform: {x: 4, y: 127}
   - name: Dear_Female_01_Walking_Frame_4
     originalName: 
-    pivot: {x: 0.4666667, y: -0.030303031}
+    pivot: {x: 0.4666667, y: -0.03125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 208
+      y: 209
       width: 30
-      height: 33
+      height: 32
     spriteID: 560114c04b3076e4681471ceadcfb1ab
     spriteBone: []
     spriteOutline: []
@@ -216,7 +216,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 208}
+    uvTransform: {x: 4, y: 209}
   - name: Dear_Female_01_Walking_Frame_5
     originalName: 
     pivot: {x: 0.4666667, y: -0.03125}
@@ -224,7 +224,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
+      x: 42
       y: 4
       width: 30
       height: 32
@@ -236,17 +236,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 4}
+    uvTransform: {x: 42, y: 4}
   - name: Dear_Female_01_Walking_Frame_6
     originalName: 
-    pivot: {x: 0.45161292, y: -0.03125}
+    pivot: {x: 0.4666667, y: -0.03125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 45
-      width: 31
+      x: 42
+      y: 44
+      width: 30
       height: 32
     spriteID: 55880518567b6c24f84afb7f58d31288
     spriteBone: []
@@ -256,7 +256,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 45}
+    uvTransform: {x: 42, y: 44}
   - name: Dear_Female_01_Walking_Frame_7
     originalName: 
     pivot: {x: 0.4666667, y: -0.06451613}
@@ -264,8 +264,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 124
+      x: 42
+      y: 204
       width: 30
       height: 31
     spriteID: cf87696be30736a4fb503031e0827611
@@ -276,7 +276,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 124}
+    uvTransform: {x: 42, y: 204}
   - name: Dear_Female_01_Walking_Frame_8
     originalName: 
     pivot: {x: 0.4666667, y: -0.0625}
@@ -284,8 +284,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 44
+      x: 42
+      y: 84
       width: 30
       height: 32
     spriteID: 966560ee85a3ff34e8174518fe11352a
@@ -296,17 +296,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 44}
+    uvTransform: {x: 42, y: 84}
   - name: Dear_Female_01_Walking_Frame_9
     originalName: 
-    pivot: {x: 0.48275867, y: -0.0625}
+    pivot: {x: 0.4666667, y: -0.0625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 202
-      width: 29
+      x: 42
+      y: 124
+      width: 30
       height: 32
     spriteID: e9317e84dec66074c875c7a0eaad0019
     spriteBone: []
@@ -316,7 +316,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 202}
+    uvTransform: {x: 42, y: 124}
   - name: Dear_Female_01_Walking_Frame_10
     originalName: 
     pivot: {x: 0.4666667, y: -0.0625}
@@ -324,8 +324,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 84
+      x: 42
+      y: 164
       width: 30
       height: 32
     spriteID: 4ccc894d3c81b4e498104ea9ef01e666
@@ -336,7 +336,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 84}
+    uvTransform: {x: 42, y: 164}
   - name: Dear_Female_01_Walking_Frame_11
     originalName: 
     pivot: {x: 0.4666667, y: -0.1}
@@ -344,7 +344,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 81
+      x: 80
       y: 4
       width: 30
       height: 30
@@ -356,7 +356,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 81, y: 4}
+    uvTransform: {x: 80, y: 4}
   - name: Dear_Female_01_Walking_Frame_12
     originalName: 
     pivot: {x: 0.4666667, y: -0.1}
@@ -364,7 +364,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 81
+      x: 80
       y: 42
       width: 30
       height: 30
@@ -376,18 +376,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 81, y: 42}
+    uvTransform: {x: 80, y: 42}
   - name: Dear_Female_01_Walking_Frame_13
     originalName: 
-    pivot: {x: 0.4666667, y: -0.09677419}
+    pivot: {x: 0.4666667, y: -0.030303031}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 163
+      x: 4
+      y: 168
       width: 30
-      height: 31
+      height: 33
     spriteID: dffbfba5c275dff438b4cb7e892dd5bb
     spriteBone: []
     spriteOutline: []
@@ -396,7 +396,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 163}
+    uvTransform: {x: 4, y: 168}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -409,9 +409,9 @@ ScriptedImporter:
     - name: Dear_Female_01_Walking_Frame_0
       frameIndex: 0
       cellRect:
-        x: 9
+        x: 10
         y: 1
-        width: 31
+        width: 30
         height: 33
       spriteId: d0b1e7a6ec47ea14889b0d899a6e2a26
     - name: Dear_Female_01_Walking_Frame_1
@@ -444,7 +444,7 @@ ScriptedImporter:
         x: 10
         y: 1
         width: 30
-        height: 33
+        height: 32
       spriteId: 560114c04b3076e4681471ceadcfb1ab
     - name: Dear_Female_01_Walking_Frame_5
       frameIndex: 5
@@ -459,7 +459,7 @@ ScriptedImporter:
       cellRect:
         x: 10
         y: 1
-        width: 31
+        width: 30
         height: 32
       spriteId: 55880518567b6c24f84afb7f58d31288
     - name: Dear_Female_01_Walking_Frame_7
@@ -483,7 +483,7 @@ ScriptedImporter:
       cellRect:
         x: 10
         y: 2
-        width: 29
+        width: 30
         height: 32
       spriteId: e9317e84dec66074c875c7a0eaad0019
     - name: Dear_Female_01_Walking_Frame_10
@@ -514,9 +514,9 @@ ScriptedImporter:
       frameIndex: 13
       cellRect:
         x: 10
-        y: 3
+        y: 1
         width: 30
-        height: 31
+        height: 33
       spriteId: dffbfba5c275dff438b4cb7e892dd5bb
     linkedCells: []
     parentIndex: -1

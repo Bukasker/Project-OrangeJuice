@@ -5,15 +5,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 	[Header("Player Settings")]
-	[SerializeField] private Rigidbody2D playerRigidbody2D;
+    [SerializeField] private PlayerAnimationsController playerAnimationsController;
+    [SerializeField] private Rigidbody2D playerRigidbody2D;
 	[SerializeField] private float runSpeed = 5f;
 	private float moveInputX;
 	private float moveInputY;
 	private Vector2 movement;
 
-	[Header("Jump Settings")]
-	[SerializeField] private List<Collider2D> collidersToDisable;
-	[SerializeField] private float disableDuration = 0.5f;
 
 	[Header("Stairs Settings")]
 	[SerializeField] private float stairsSpeedMovement = 5;
@@ -21,17 +19,19 @@ public class PlayerController : MonoBehaviour
 	private float stairsDirectionMovement;
 
 
-	[Header("Keybinds")]
-	[SerializeField] private KeyCode jumpKey = KeyCode.Space;
-
-
 	private void Update()
 	{
 		moveInputX = Input.GetAxisRaw("Horizontal");
 		moveInputY = Input.GetAxisRaw("Vertical");
 
-		StairsMovement();
-		Jump();
+        if (playerAnimationsController != null && playerAnimationsController.IsAttacking)
+        {
+            playerRigidbody2D.velocity = Vector2.zero;
+            return;
+        }
+
+        StairsMovement();
+
 		if (Mathf.Abs(moveInputX) < 0.1f && Mathf.Abs(moveInputY) < 0.1f)
 		{
 			playerRigidbody2D.velocity = Vector2.zero;
@@ -91,37 +91,6 @@ public class PlayerController : MonoBehaviour
 		else
 		{
 			movement = new Vector2(moveInputX, moveInputY).normalized * runSpeed;
-		}
-	}
-
-	public void Jump()
-	{
-		if (Input.GetKeyDown(jumpKey))
-		{
-			StartCoroutine(DisableCollidersCoroutine());
-		}
-	}
-	private IEnumerator DisableCollidersCoroutine()
-	{
-		// Wy³¹cz wszystkie collidery w liœcie
-		foreach (var collider in collidersToDisable)
-		{
-			if (collider != null)
-			{
-				collider.enabled = false;
-			}
-		}
-
-		// Czekaj przez okreœlony czas
-		yield return new WaitForSeconds(disableDuration);
-
-		// W³¹cz ponownie wszystkie collidery w liœcie
-		foreach (var collider in collidersToDisable)
-		{
-			if (collider != null)
-			{
-				collider.enabled = true;
-			}
 		}
 	}
 

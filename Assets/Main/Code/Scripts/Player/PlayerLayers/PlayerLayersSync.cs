@@ -147,9 +147,17 @@ public class PlayerLayersSync : MonoBehaviour
             float x = bodyAnimator.GetFloat("X");
             float y = bodyAnimator.GetFloat("Y");
 
-            string dir = Mathf.Abs(x) > Mathf.Abs(y) ? (x > 0 ? "Right" : "Left") : (y > 0 ? "Up" : "Down");
+            string dir;
 
-            if(x == 0 && y == 0)
+            if (x != 0)
+            {
+                dir = x > 0 ? "Right" : "Left";
+            }
+            else if (y != 0)
+            {
+                dir = y > 0 ? "Up" : "Down";
+            }
+            else
             {
                 dir = "Right";
             }

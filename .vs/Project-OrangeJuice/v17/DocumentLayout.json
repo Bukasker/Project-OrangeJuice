@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Unity\\Project-OrangeJuice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\code\\scripts\\player\\playerlayers\\playerlayerssync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\code\\scripts\\player\\testplayeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\code\\scripts\\player\\testplayeranimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\main\\code\\scripts\\player\\playerlayers\\playerlayerssync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\code\\scripts\\player\\playerlayers\\playerlayerssync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\code\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\code\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|c:\\unity\\project-orangejuice\\assets\\main\\code\\scripts\\level\\levelgate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9EEBF46-C72D-3E64-1397-303118789D5D}|Assembly-CSharp.csproj|solutionrelative:assets\\main\\code\\scripts\\level\\levelgate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C6A1148-8F84-86AE-DDE8-A4AFA12E02D5}|Assembly-CSharp-Editor.csproj|C:\\Unity\\Project-OrangeJuice\\assets\\editor\\editorstarspawnereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +74,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1166,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestPlayerAnimations.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
+              "RelativeToolTip": "Assets\\Main\\Code\\Scripts\\Player\\TestPlayerAnimations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:52:33.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Main\\Code\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:42:26.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "StarTwinkle.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\StarTwinkle.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\StarTwinkle.cs",
@@ -78,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EditorStarSpawnerEditor.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Editor\\EditorStarSpawnerEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\EditorStarSpawnerEditor.cs",
@@ -90,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ButtonHoverImageChanger.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\ButtonHoverImageChanger.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\ButtonHoverImageChanger.cs",
@@ -102,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Inventory\\Inventory.cs",
@@ -114,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "TMP_Text.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Library\\PackageCache\\com.unity.textmeshpro@3.0.9\\Scripts\\Runtime\\TMP_Text.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.9\\Scripts\\Runtime\\TMP_Text.cs",
@@ -126,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ChangeTextureOnClick.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\ChangeTextureOnClick.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\ChangeTextureOnClick.cs",
@@ -138,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "SkinEffect.shader",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Level Design\\Shaders\\SkinEffect.shader",
               "RelativeDocumentMoniker": "Assets\\Main\\Level Design\\Shaders\\SkinEffect.shader",
@@ -150,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "CutOffMaskUI.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\CutOffMaskUI.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\CutOffMaskUI.cs",
@@ -162,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "LoopingScaler.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\LoopingScaler.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\LoopingScaler.cs",
@@ -174,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "LoopingRotator.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\LoopingRotator.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\LoopingRotator.cs",
@@ -186,7 +224,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "PlayerLayersSync.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\PlayerLayers\\PlayerLayersSync.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Player\\PlayerLayers\\PlayerLayersSync.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\PlayerLayers\\PlayerLayersSync.cs",
+              "RelativeToolTip": "Assets\\Main\\Code\\Scripts\\Player\\PlayerLayers\\PlayerLayersSync.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAiwJoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T18:59:52.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LevelGate.cs",
+              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Level\\LevelGate.cs",
+              "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Level\\LevelGate.cs",
+              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Level\\LevelGate.cs",
+              "RelativeToolTip": "Assets\\Main\\Code\\Scripts\\Level\\LevelGate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:44:52.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "LoopingScroller.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\LoopingScroller.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\LoopingScroller.cs",
@@ -198,20 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerLayersSync.cs",
-              "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\PlayerLayers\\PlayerLayersSync.cs",
-              "RelativeDocumentMoniker": "Assets\\Main\\Code\\Scripts\\Player\\PlayerLayers\\PlayerLayersSync.cs",
-              "ToolTip": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\Code\\Scripts\\Player\\PlayerLayers\\PlayerLayersSync.cs",
-              "RelativeToolTip": "Assets\\Main\\Code\\Scripts\\Player\\PlayerLayers\\PlayerLayersSync.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAUwGgAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T18:59:52.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ImageAnimator.cs",
               "DocumentMoniker": "C:\\Unity\\Project-OrangeJuice\\Assets\\Main\\UI\\Scripts\\Animation\\ImageAnimator.cs",
               "RelativeDocumentMoniker": "Assets\\Main\\UI\\Scripts\\Animation\\ImageAnimator.cs",
