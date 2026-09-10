@@ -7,38 +7,44 @@ public class Item : ScriptableObject
 	[Header("Item")]
 	[Space]
 	public string ItemName = "New Item";
-	public ItemTypes ItemType;
+	public ItemType ItemType;
 	public Sprite Icon = null;
 	public int Value = 0;
 	public float Weight = 0f;
-	public int maxStack = 999;
-	public int itemAmount = 1;
-	public bool isToThrowAway = true;
-	public GameObject itemPrefab;
+	public int MaxStack = 999;
+	public int ItemAmount = 1;
+	public bool IsToThrowAway = true;
+	public GameObject ItemPrefab;
 
 	[TextArea]
 	public string Description = "Description placeholder";
 
 	[Header("Equipment Item")]
 	[Space]
-	public ArmorType armorType;
-	public WeaponType weaponType;
-	public ToolType toolType;
-	public int toolLvl;
+	public ArmorType ArmorType;
+	public WeaponType WeaponType;
+	public ToolType ToolType;
+	public Sprite WeaponSpriteSheet;
+	public Texture2D WeaponHitSheet;
 
-	public int armorModifier;
+    public Texture2D ArrmorSpriteSheet;
 
-	public int attackDamageModifier;
-	public int arrowDamageModifier;
-	public int magicDamageModifier;
+	public int ToolLvl;
 
-	public void EquipItem(int index)
-	{
-		//EquipmentMenager.Instance.Equip(this, index);
-	}
+	public int AttackDamageModifier;
+	public int ArrowDamageModifier;
+	public int MagicDamageModifier;
+
+    public int MeleeArmorModifier;
+    public int RangeArmorModifier;
+    public int MagicResistModifier;
+    public virtual void Use()
+    {
+        Debug.Log("Used " + ItemName);
+    }
 }
 
-public enum ItemTypes
+public enum ItemType
 {
 	Gold,
 	Weapon,

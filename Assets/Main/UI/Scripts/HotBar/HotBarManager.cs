@@ -1,17 +1,22 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class HotBarManager : MonoBehaviour
 {
-	public List<SlotBackgroundChange> slots; // Lista slotów w hotbarze
-	private int selectedIndex = 0; // Indeks aktualnie wybranego slotu
+	public List<SlotBackgroundChange> slotsBackgrounds;
+	public List<InventorySlot> slots;
+	public InventorySlot choosedSlot;
+	private int selectedIndex = 0;
+
+	public UnityEvent<InventorySlot> ChangeChoosedInventorySlot;
 
 	void Start()
 	{
-		// Upewnij siê, ¿e pierwszy slot jest wybrany na pocz¹tku
-		if (slots.Count > 0)
+		if (slotsBackgrounds.Count > 0 && slots.Count > 0)
 		{
-			slots[selectedIndex].Select();
+			slotsBackgrounds[selectedIndex].Select();
+			choosedSlot = slots[selectedIndex];
 		}
 	}
 
@@ -48,29 +53,43 @@ public class HotBarManager : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.Alpha8)) SelectSlot(7);
 		if (Input.GetKeyDown(KeyCode.Alpha9)) SelectSlot(8);
 		if (Input.GetKeyDown(KeyCode.Alpha0)) SelectSlot(9);
-		if (Input.GetKeyDown(KeyCode.Minus)) SelectSlot(10); 
-		if (Input.GetKeyDown(KeyCode.Equals)) SelectSlot(11); 
+		if (Input.GetKeyDown(KeyCode.Minus)) SelectSlot(10);
+		if (Input.GetKeyDown(KeyCode.Equals)) SelectSlot(11);
 	}
 
 	private void SelectNextSlot()
 	{
-		int nextIndex = (selectedIndex + 1) % slots.Count;
+		int nextIndex = (selectedIndex + 1) % slotsBackgrounds.Count;
 		SelectSlot(nextIndex);
 	}
 
 	private void SelectPreviousSlot()
 	{
-		int prevIndex = (selectedIndex - 1 + slots.Count) % slots.Count;
+		int prevIndex = (selectedIndex - 1 + slotsBackgrounds.Count) % slotsBackgrounds.Count;
 		SelectSlot(prevIndex);
 	}
 
 	private void SelectSlot(int index)
 	{
-		if (index >= 0 && index < slots.Count && index != selectedIndex)
+		if (index >= 0 && index < slotsBackgrounds.Count && index != selectedIndex)
 		{
-			slots[selectedIndex].Deselect();
+			slotsBackgrounds[selectedIndex].Deselect();
 			selectedIndex = index;
-			slots[selectedIndex].Select();
+			slotsBackgrounds[selectedIndex].Select();
+			choosedSlot = slots[selectedIndex];
+
+			if (choosedSlot != null)
+			{
+				ChangeChoosedInventorySlot.Invoke(choosedSlot);
+			}
 		}
 	}
+
+	public void RefreshSlots(int slotIndex)
+    {
+		if(slotIndex == selectedIndex)
+		{
+            ChangeChoosedInventorySlot.Invoke(slots[slotIndex]);
+        }
+    }
 }

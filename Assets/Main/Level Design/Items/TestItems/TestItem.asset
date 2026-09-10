@@ -17,16 +17,21 @@ MonoBehaviour:
   Icon: {fileID: 21300000, guid: 2672dbae6b36f3a4b82e441ef529dd14, type: 3}
   Value: 0
   Weight: 0
-  maxStack: 999
-  itemAmount: 1
-  isToThrowAway: 1
-  itemPrefab: {fileID: 0}
+  MaxStack: 999
+  ItemAmount: 1
+  IsToThrowAway: 1
+  ItemPrefab: {fileID: 0}
   Description: Description placeholder
-  armorType: 0
-  weaponType: 1
-  toolType: 0
-  toolLvl: 0
-  armorModifier: 0
-  attackDamageModifier: 5
-  arrowDamageModifier: 0
-  magicDamageModifier: 0
+  ArmorType: 0
+  WeaponType: 0
+  ToolType: 0
+  WeaponSpriteSheet: {fileID: 0}
+  WeaponHitSheet: {fileID: 0}
+  ArrmorSpriteSheet: {fileID: 0}
+  ToolLvl: 0
+  AttackDamageModifier: 5
+  ArrowDamageModifier: 0
+  MagicDamageModifier: 0
+  MeleeArmorModifier: 0
+  RangeArmorModifier: 0
+  MagicResistModifier: 0

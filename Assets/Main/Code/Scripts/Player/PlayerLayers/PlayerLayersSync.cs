@@ -37,8 +37,10 @@ public class PlayerLayersSync : MonoBehaviour
 
     void Start()
     {
-        LoadAllSprites();
-
+        if (layerSheet != null)
+        {
+            LoadAllSprites();
+        }
         bodyDict = new Dictionary<string, DirectionalSprites>
         {
             { "Idle", BodyIdle },
@@ -56,8 +58,11 @@ public class PlayerLayersSync : MonoBehaviour
             { "Attack2", LayerAttack2 },
             { "Attack3", LayerAttack3 },
         };
-        SetInitialState();
-        StartCoroutine(SyncLayerWithBody());
+        if (layerSheet != null)
+        {
+            SetInitialState();
+            StartCoroutine(SyncLayerWithBody());
+        }
     }
 
     void LoadAllSprites()
@@ -203,7 +208,7 @@ public class PlayerLayersSync : MonoBehaviour
     }
     void SetInitialState()
     {
-        bodyAnimator.SetFloat("X", 1f); 
+        bodyAnimator.SetFloat("X", 1f);
         bodyAnimator.SetFloat("Y", 0f);
         bodyAnimator.Play("Idle", 0, 0f);
     }
@@ -229,4 +234,56 @@ public class PlayerLayersSync : MonoBehaviour
             _ => sprites.Down,
         };
     }
+
+    public void LoadNewLayerSheet(Texture2D newSheet)
+    {
+        layerSheet = newSheet;
+
+        LoadAllSprites();
+        SetInitialState();
+        StartCoroutine(SyncLayerWithBody());
+
+        ForceSync();
+    }
+
+    void ForceSync()
+    {
+        Sprite bodySprite = bodyRenderer.sprite;
+        if (bodySprite == null) return;
+
+        float x = bodyAnimator.GetFloat("X");
+        float y = bodyAnimator.GetFloat("Y");
+
+        string dir;
+        if (x != 0)
+        {
+            dir = x > 0 ? "Right" : "Left";
+        }
+        else if (y != 0)
+        {
+            dir = y > 0 ? "Up" : "Down";
+        }
+        else
+        {
+            dir = "Right";
+        }
+
+        foreach (var pair in bodyDict)
+        {
+            Sprite[] bodyFrames = GetDirectionalSprites(pair.Value, dir);
+            for (int i = 0; i < bodyFrames.Length; i++)
+            {
+                if (bodyFrames[i].texture == bodySprite.texture && bodyFrames[i].rect == bodySprite.rect)
+                {
+                    Sprite[] layerFrames = GetDirectionalSprites(layerDict[pair.Key], dir);
+                    if (i >= 0 && i < layerFrames.Length)
+                    {
+                        layerRenderer.sprite = layerFrames[i];
+                        return;
+                    }
+                }
+            }
+        }
+    }
+
 }

@@ -1701,7 +1701,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_73
       rect:
         serializedVersion: 2
-        x: 256
+        x: 128
         y: 384
         width: 128
         height: 128
@@ -1722,7 +1722,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_74
       rect:
         serializedVersion: 2
-        x: 512
+        x: 256
         y: 384
         width: 128
         height: 128
@@ -1743,7 +1743,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_75
       rect:
         serializedVersion: 2
-        x: 640
+        x: 384
         y: 384
         width: 128
         height: 128
@@ -1764,7 +1764,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_76
       rect:
         serializedVersion: 2
-        x: 896
+        x: 512
         y: 384
         width: 128
         height: 128
@@ -1785,7 +1785,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_77
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 640
         y: 384
         width: 128
         height: 128
@@ -1806,8 +1806,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_78
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 896
+        y: 384
         width: 128
         height: 128
       alignment: 0
@@ -1827,8 +1827,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_79
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
+        x: 1024
+        y: 384
         width: 128
         height: 128
       alignment: 0
@@ -1848,7 +1848,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_80
       rect:
         serializedVersion: 2
-        x: 256
+        x: 0
         y: 256
         width: 128
         height: 128
@@ -1869,7 +1869,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_81
       rect:
         serializedVersion: 2
-        x: 384
+        x: 128
         y: 256
         width: 128
         height: 128
@@ -1890,7 +1890,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_82
       rect:
         serializedVersion: 2
-        x: 512
+        x: 256
         y: 256
         width: 128
         height: 128
@@ -1911,7 +1911,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_83
       rect:
         serializedVersion: 2
-        x: 640
+        x: 384
         y: 256
         width: 128
         height: 128
@@ -1932,7 +1932,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_84
       rect:
         serializedVersion: 2
-        x: 896
+        x: 512
         y: 256
         width: 128
         height: 128
@@ -1953,7 +1953,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_85
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 640
         y: 256
         width: 128
         height: 128
@@ -1974,8 +1974,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_86
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 896
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -1995,8 +1995,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_87
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 1024
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -2016,7 +2016,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_88
       rect:
         serializedVersion: 2
-        x: 256
+        x: 0
         y: 128
         width: 128
         height: 128
@@ -2037,7 +2037,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_89
       rect:
         serializedVersion: 2
-        x: 384
+        x: 128
         y: 128
         width: 128
         height: 128
@@ -2058,7 +2058,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_90
       rect:
         serializedVersion: 2
-        x: 512
+        x: 256
         y: 128
         width: 128
         height: 128
@@ -2079,7 +2079,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_91
       rect:
         serializedVersion: 2
-        x: 640
+        x: 384
         y: 128
         width: 128
         height: 128
@@ -2100,7 +2100,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_92
       rect:
         serializedVersion: 2
-        x: 768
+        x: 512
         y: 128
         width: 128
         height: 128
@@ -2121,7 +2121,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_93
       rect:
         serializedVersion: 2
-        x: 896
+        x: 640
         y: 128
         width: 128
         height: 128
@@ -2142,7 +2142,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_94
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 768
         y: 128
         width: 128
         height: 128
@@ -2163,8 +2163,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_95
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 896
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2184,8 +2184,8 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_96
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 1024
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -2205,7 +2205,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_97
       rect:
         serializedVersion: 2
-        x: 256
+        x: 0
         y: 0
         width: 128
         height: 128
@@ -2226,7 +2226,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_98
       rect:
         serializedVersion: 2
-        x: 384
+        x: 128
         y: 0
         width: 128
         height: 128
@@ -2247,7 +2247,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_99
       rect:
         serializedVersion: 2
-        x: 512
+        x: 256
         y: 0
         width: 128
         height: 128
@@ -2268,7 +2268,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_100
       rect:
         serializedVersion: 2
-        x: 640
+        x: 384
         y: 0
         width: 128
         height: 128
@@ -2289,7 +2289,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_101
       rect:
         serializedVersion: 2
-        x: 768
+        x: 512
         y: 0
         width: 128
         height: 128
@@ -2310,7 +2310,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_102
       rect:
         serializedVersion: 2
-        x: 896
+        x: 640
         y: 0
         width: 128
         height: 128
@@ -2331,7 +2331,7 @@ TextureImporter:
       name: BeltAnimation-Sheet_01_103
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 768
         y: 0
         width: 128
         height: 128
@@ -2344,6 +2344,48 @@ TextureImporter:
       bones: []
       spriteID: d15a759fcb01a6d4e95762945514a832
       internalID: -737340730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeltAnimation-Sheet_01_104
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbfc1b060c31204f910861a0f00bdfa
+      internalID: -425005332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeltAnimation-Sheet_01_105
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fa0cb9c673a1e4f9615203b6a809e3
+      internalID: -1267353690
       vertices: []
       indices: 
       edges: []
@@ -2366,6 +2408,8 @@ TextureImporter:
       BeltAnimation-Sheet_01_101: -855260547
       BeltAnimation-Sheet_01_102: 102105765
       BeltAnimation-Sheet_01_103: -737340730
+      BeltAnimation-Sheet_01_104: -425005332
+      BeltAnimation-Sheet_01_105: -1267353690
       BeltAnimation-Sheet_01_11: -566696733
       BeltAnimation-Sheet_01_12: 223630680
       BeltAnimation-Sheet_01_13: 389578354

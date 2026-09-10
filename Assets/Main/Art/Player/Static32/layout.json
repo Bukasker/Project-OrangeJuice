@@ -1,0 +1,240 @@
+{
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "pixelsPerUnit": 16,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.03125
+  },
+  "directions": [
+    "Right",
+    "Left",
+    "Up",
+    "Down"
+  ],
+  "layers": [
+    {
+      "name": "Body",
+      "description": "Cialo",
+      "sortingOrder": 0
+    },
+    {
+      "name": "Arms",
+      "description": "Rece",
+      "sortingOrder": 1
+    },
+    {
+      "name": "Pants",
+      "description": "Spodnie",
+      "sortingOrder": 2
+    },
+    {
+      "name": "Boots",
+      "description": "Buty",
+      "sortingOrder": 3
+    },
+    {
+      "name": "Greaves",
+      "description": "Nagolenniki",
+      "sortingOrder": 4
+    },
+    {
+      "name": "Tunic",
+      "description": "Tunika",
+      "sortingOrder": 5
+    },
+    {
+      "name": "Shoulders",
+      "description": "Naramienniki",
+      "sortingOrder": 6
+    },
+    {
+      "name": "Belt",
+      "description": "Pas",
+      "sortingOrder": 7
+    },
+    {
+      "name": "Brackets",
+      "description": "Oslony przedramion",
+      "sortingOrder": 8
+    },
+    {
+      "name": "Hair",
+      "description": "Wlosy z kucykiem",
+      "sortingOrder": 9
+    },
+    {
+      "name": "Eyes",
+      "description": "Oczy",
+      "sortingOrder": 10
+    }
+  ],
+  "alpha": [
+    0,
+    255
+  ],
+  "palette": {
+    ".": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "O": [
+      36,
+      27,
+      32,
+      255
+    ],
+    "a": [
+      72,
+      38,
+      25,
+      255
+    ],
+    "b": [
+      101,
+      52,
+      30,
+      255
+    ],
+    "c": [
+      135,
+      70,
+      33,
+      255
+    ],
+    "d": [
+      167,
+      101,
+      50,
+      255
+    ],
+    "e": [
+      164,
+      94,
+      61,
+      255
+    ],
+    "f": [
+      216,
+      140,
+      85,
+      255
+    ],
+    "g": [
+      245,
+      179,
+      120,
+      255
+    ],
+    "h": [
+      255,
+      218,
+      160,
+      255
+    ],
+    "i": [
+      40,
+      78,
+      116,
+      255
+    ],
+    "j": [
+      54,
+      122,
+      170,
+      255
+    ],
+    "k": [
+      97,
+      166,
+      211,
+      255
+    ],
+    "l": [
+      147,
+      204,
+      238,
+      255
+    ],
+    "m": [
+      50,
+      41,
+      42,
+      255
+    ],
+    "n": [
+      81,
+      64,
+      50,
+      255
+    ],
+    "p": [
+      112,
+      83,
+      56,
+      255
+    ],
+    "q": [
+      85,
+      41,
+      31,
+      255
+    ],
+    "r": [
+      129,
+      62,
+      39,
+      255
+    ],
+    "s": [
+      174,
+      87,
+      50,
+      255
+    ],
+    "t": [
+      206,
+      119,
+      69,
+      255
+    ],
+    "u": [
+      149,
+      99,
+      25,
+      255
+    ],
+    "v": [
+      208,
+      157,
+      43,
+      255
+    ],
+    "w": [
+      242,
+      198,
+      92,
+      255
+    ],
+    "x": [
+      41,
+      77,
+      148,
+      255
+    ],
+    "y": [
+      76,
+      123,
+      199,
+      255
+    ],
+    "z": [
+      229,
+      243,
+      244,
+      255
+    ]
+  }
+}

@@ -21,6 +21,8 @@ public class InventoryUI : MonoBehaviour
 	public InventorySlot[] CurrentSlots;
 	public TextMeshProUGUI[] CurrentAmountTexts;
 
+	[SerializeField] HotBarManager hotBarManager;
+
 	[Header("Cursor Settings")]
 	public RectTransform CursorUI;
 	public GameObject CursorItem;
@@ -64,7 +66,7 @@ public class InventoryUI : MonoBehaviour
 				if (inventory.DictionaryOfItems.ContainsKey(slotIndex))
 				{
 					Slots[slotIndex].AddItem(inventory.DictionaryOfItems[slotIndex]);
-					ItemAmountTexts[slotIndex].enabled = inventory.DictionaryOfItems[slotIndex].itemAmount > 1;
+					ItemAmountTexts[slotIndex].enabled = inventory.DictionaryOfItems[slotIndex].ItemAmount > 1;
 				}
 				else
 				{
@@ -92,7 +94,7 @@ public class InventoryUI : MonoBehaviour
 				if (inventory.DictionaryOfHotBarItems.ContainsKey(slotIndex))
 				{
 					HotbarSlots[slotIndex].AddItem(inventory.DictionaryOfHotBarItems[slotIndex]);
-					HotbarAmountTexts[slotIndex].enabled = inventory.DictionaryOfHotBarItems[slotIndex].itemAmount > 1;
+					HotbarAmountTexts[slotIndex].enabled = inventory.DictionaryOfHotBarItems[slotIndex].ItemAmount > 1;
 				}
 				else
 				{
@@ -108,7 +110,8 @@ public class InventoryUI : MonoBehaviour
 					HotbarAmountTexts[slotIndex].enabled = false;
 				}
 			}
-		}
+            hotBarManager.RefreshSlots(slotIndex);
+        }
 	}
 
 	private void UpdateMouseIcon()
@@ -116,7 +119,7 @@ public class InventoryUI : MonoBehaviour
 		if (inventory.MouseItem != null)
 		{
 			CursorSlot.AddItem(inventory.MouseItem);
-			if (CursorSlot.item.itemAmount > 1)
+			if (CursorSlot.item.ItemAmount > 1)
 			{
 				CursorAmountTexts.enabled = true;
 			}

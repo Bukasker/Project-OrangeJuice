@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3540b165e8c9cff49b1c4fd1ac4a10b6, type: 3}
+  m_Name: Weapon_Stick
+  m_EditorClassIdentifier: 
+  ItemName: Stick
+  ItemType: 1
+  Icon: {fileID: 21300000, guid: 2672dbae6b36f3a4b82e441ef529dd14, type: 3}
+  Value: 1
+  Weight: 0.5
+  MaxStack: 999
+  ItemAmount: 1
+  IsToThrowAway: 1
+  ItemPrefab: {fileID: 0}
+  Description: A long stick can be used to make a fire or to hit someone ...
+  ArmorType: 0
+  WeaponType: 1
+  ToolType: 0
+  WeaponSpriteSheet: {fileID: 21300000, guid: 45709de7144c69e47889e1b2f168a9d5, type: 3}
+  WeaponHitSheet: {fileID: 0}
+  ArrmorSpriteSheet: {fileID: 0}
+  ToolLvl: 0
+  AttackDamageModifier: 5
+  ArrowDamageModifier: 0
+  MagicDamageModifier: 0
+  MeleeArmorModifier: 0
+  RangeArmorModifier: 0
+  MagicResistModifier: 0

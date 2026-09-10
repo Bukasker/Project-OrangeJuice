@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
 		moveInputX = Input.GetAxisRaw("Horizontal");
 		moveInputY = Input.GetAxisRaw("Vertical");
 
-        if (playerAnimationsController != null && playerAnimationsController.IsAttacking)
+        if (playerAnimationsController != null && playerAnimationsController.isAttacking)
         {
             playerRigidbody2D.velocity = Vector2.zero;
             return;

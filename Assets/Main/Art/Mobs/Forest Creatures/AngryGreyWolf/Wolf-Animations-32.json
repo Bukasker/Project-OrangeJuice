@@ -1,0 +1,1170 @@
+{
+  "image": "Wolf-Animations-32.png",
+  "size": {
+    "w": 256,
+    "h": 320
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "columns": 8,
+  "rows": 10,
+  "coordinateOrigin": "top-left",
+  "pixelsPerUnit": 32,
+  "animations": [
+    {
+      "name": "idle",
+      "fps": 4,
+      "loop": true
+    },
+    {
+      "name": "run",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "name": "sleep",
+      "fps": 2,
+      "loop": true
+    },
+    {
+      "name": "attack",
+      "fps": 10,
+      "loop": false
+    },
+    {
+      "name": "death",
+      "fps": 6,
+      "loop": false
+    }
+  ],
+  "directions": [
+    "down",
+    "up",
+    "left",
+    "right"
+  ],
+  "frames": [
+    {
+      "name": "Wolf_idle_down_00",
+      "animation": "idle",
+      "direction": "down",
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300000
+    },
+    {
+      "name": "Wolf_idle_down_01",
+      "animation": "idle",
+      "direction": "down",
+      "index": 1,
+      "rect": {
+        "x": 32,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300002
+    },
+    {
+      "name": "Wolf_idle_down_02",
+      "animation": "idle",
+      "direction": "down",
+      "index": 2,
+      "rect": {
+        "x": 64,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300004
+    },
+    {
+      "name": "Wolf_idle_down_03",
+      "animation": "idle",
+      "direction": "down",
+      "index": 3,
+      "rect": {
+        "x": 96,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300006
+    },
+    {
+      "name": "Wolf_idle_up_00",
+      "animation": "idle",
+      "direction": "up",
+      "index": 0,
+      "rect": {
+        "x": 128,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300008
+    },
+    {
+      "name": "Wolf_idle_up_01",
+      "animation": "idle",
+      "direction": "up",
+      "index": 1,
+      "rect": {
+        "x": 160,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300010
+    },
+    {
+      "name": "Wolf_idle_up_02",
+      "animation": "idle",
+      "direction": "up",
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300012
+    },
+    {
+      "name": "Wolf_idle_up_03",
+      "animation": "idle",
+      "direction": "up",
+      "index": 3,
+      "rect": {
+        "x": 224,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300014
+    },
+    {
+      "name": "Wolf_idle_left_00",
+      "animation": "idle",
+      "direction": "left",
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300016
+    },
+    {
+      "name": "Wolf_idle_left_01",
+      "animation": "idle",
+      "direction": "left",
+      "index": 1,
+      "rect": {
+        "x": 32,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300018
+    },
+    {
+      "name": "Wolf_idle_left_02",
+      "animation": "idle",
+      "direction": "left",
+      "index": 2,
+      "rect": {
+        "x": 64,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300020
+    },
+    {
+      "name": "Wolf_idle_left_03",
+      "animation": "idle",
+      "direction": "left",
+      "index": 3,
+      "rect": {
+        "x": 96,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300022
+    },
+    {
+      "name": "Wolf_idle_right_00",
+      "animation": "idle",
+      "direction": "right",
+      "index": 0,
+      "rect": {
+        "x": 128,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300024
+    },
+    {
+      "name": "Wolf_idle_right_01",
+      "animation": "idle",
+      "direction": "right",
+      "index": 1,
+      "rect": {
+        "x": 160,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300026
+    },
+    {
+      "name": "Wolf_idle_right_02",
+      "animation": "idle",
+      "direction": "right",
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300028
+    },
+    {
+      "name": "Wolf_idle_right_03",
+      "animation": "idle",
+      "direction": "right",
+      "index": 3,
+      "rect": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 250,
+      "fileID": 21300030
+    },
+    {
+      "name": "Wolf_run_down_00",
+      "animation": "run",
+      "direction": "down",
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300032
+    },
+    {
+      "name": "Wolf_run_down_01",
+      "animation": "run",
+      "direction": "down",
+      "index": 1,
+      "rect": {
+        "x": 32,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300034
+    },
+    {
+      "name": "Wolf_run_down_02",
+      "animation": "run",
+      "direction": "down",
+      "index": 2,
+      "rect": {
+        "x": 64,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300036
+    },
+    {
+      "name": "Wolf_run_down_03",
+      "animation": "run",
+      "direction": "down",
+      "index": 3,
+      "rect": {
+        "x": 96,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300038
+    },
+    {
+      "name": "Wolf_run_up_00",
+      "animation": "run",
+      "direction": "up",
+      "index": 0,
+      "rect": {
+        "x": 128,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300040
+    },
+    {
+      "name": "Wolf_run_up_01",
+      "animation": "run",
+      "direction": "up",
+      "index": 1,
+      "rect": {
+        "x": 160,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300042
+    },
+    {
+      "name": "Wolf_run_up_02",
+      "animation": "run",
+      "direction": "up",
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300044
+    },
+    {
+      "name": "Wolf_run_up_03",
+      "animation": "run",
+      "direction": "up",
+      "index": 3,
+      "rect": {
+        "x": 224,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300046
+    },
+    {
+      "name": "Wolf_run_left_00",
+      "animation": "run",
+      "direction": "left",
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300048
+    },
+    {
+      "name": "Wolf_run_left_01",
+      "animation": "run",
+      "direction": "left",
+      "index": 1,
+      "rect": {
+        "x": 32,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300050
+    },
+    {
+      "name": "Wolf_run_left_02",
+      "animation": "run",
+      "direction": "left",
+      "index": 2,
+      "rect": {
+        "x": 64,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300052
+    },
+    {
+      "name": "Wolf_run_left_03",
+      "animation": "run",
+      "direction": "left",
+      "index": 3,
+      "rect": {
+        "x": 96,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300054
+    },
+    {
+      "name": "Wolf_run_right_00",
+      "animation": "run",
+      "direction": "right",
+      "index": 0,
+      "rect": {
+        "x": 128,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300056
+    },
+    {
+      "name": "Wolf_run_right_01",
+      "animation": "run",
+      "direction": "right",
+      "index": 1,
+      "rect": {
+        "x": 160,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300058
+    },
+    {
+      "name": "Wolf_run_right_02",
+      "animation": "run",
+      "direction": "right",
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300060
+    },
+    {
+      "name": "Wolf_run_right_03",
+      "animation": "run",
+      "direction": "right",
+      "index": 3,
+      "rect": {
+        "x": 224,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300062
+    },
+    {
+      "name": "Wolf_sleep_down_00",
+      "animation": "sleep",
+      "direction": "down",
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300064
+    },
+    {
+      "name": "Wolf_sleep_down_01",
+      "animation": "sleep",
+      "direction": "down",
+      "index": 1,
+      "rect": {
+        "x": 32,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300066
+    },
+    {
+      "name": "Wolf_sleep_down_02",
+      "animation": "sleep",
+      "direction": "down",
+      "index": 2,
+      "rect": {
+        "x": 64,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300068
+    },
+    {
+      "name": "Wolf_sleep_down_03",
+      "animation": "sleep",
+      "direction": "down",
+      "index": 3,
+      "rect": {
+        "x": 96,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300070
+    },
+    {
+      "name": "Wolf_sleep_up_00",
+      "animation": "sleep",
+      "direction": "up",
+      "index": 0,
+      "rect": {
+        "x": 128,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300072
+    },
+    {
+      "name": "Wolf_sleep_up_01",
+      "animation": "sleep",
+      "direction": "up",
+      "index": 1,
+      "rect": {
+        "x": 160,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300074
+    },
+    {
+      "name": "Wolf_sleep_up_02",
+      "animation": "sleep",
+      "direction": "up",
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300076
+    },
+    {
+      "name": "Wolf_sleep_up_03",
+      "animation": "sleep",
+      "direction": "up",
+      "index": 3,
+      "rect": {
+        "x": 224,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300078
+    },
+    {
+      "name": "Wolf_sleep_left_00",
+      "animation": "sleep",
+      "direction": "left",
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300080
+    },
+    {
+      "name": "Wolf_sleep_left_01",
+      "animation": "sleep",
+      "direction": "left",
+      "index": 1,
+      "rect": {
+        "x": 32,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300082
+    },
+    {
+      "name": "Wolf_sleep_left_02",
+      "animation": "sleep",
+      "direction": "left",
+      "index": 2,
+      "rect": {
+        "x": 64,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300084
+    },
+    {
+      "name": "Wolf_sleep_left_03",
+      "animation": "sleep",
+      "direction": "left",
+      "index": 3,
+      "rect": {
+        "x": 96,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300086
+    },
+    {
+      "name": "Wolf_sleep_right_00",
+      "animation": "sleep",
+      "direction": "right",
+      "index": 0,
+      "rect": {
+        "x": 128,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300088
+    },
+    {
+      "name": "Wolf_sleep_right_01",
+      "animation": "sleep",
+      "direction": "right",
+      "index": 1,
+      "rect": {
+        "x": 160,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300090
+    },
+    {
+      "name": "Wolf_sleep_right_02",
+      "animation": "sleep",
+      "direction": "right",
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300092
+    },
+    {
+      "name": "Wolf_sleep_right_03",
+      "animation": "sleep",
+      "direction": "right",
+      "index": 3,
+      "rect": {
+        "x": 224,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 500,
+      "fileID": 21300094
+    },
+    {
+      "name": "Wolf_attack_down_00",
+      "animation": "attack",
+      "direction": "down",
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 192,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300096
+    },
+    {
+      "name": "Wolf_attack_down_01",
+      "animation": "attack",
+      "direction": "down",
+      "index": 1,
+      "rect": {
+        "x": 32,
+        "y": 192,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300098
+    },
+    {
+      "name": "Wolf_attack_down_02",
+      "animation": "attack",
+      "direction": "down",
+      "index": 2,
+      "rect": {
+        "x": 64,
+        "y": 192,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300100
+    },
+    {
+      "name": "Wolf_attack_down_03",
+      "animation": "attack",
+      "direction": "down",
+      "index": 3,
+      "rect": {
+        "x": 96,
+        "y": 192,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300102
+    },
+    {
+      "name": "Wolf_attack_up_00",
+      "animation": "attack",
+      "direction": "up",
+      "index": 0,
+      "rect": {
+        "x": 128,
+        "y": 192,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300104
+    },
+    {
+      "name": "Wolf_attack_up_01",
+      "animation": "attack",
+      "direction": "up",
+      "index": 1,
+      "rect": {
+        "x": 160,
+        "y": 192,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300106
+    },
+    {
+      "name": "Wolf_attack_up_02",
+      "animation": "attack",
+      "direction": "up",
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 192,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300108
+    },
+    {
+      "name": "Wolf_attack_up_03",
+      "animation": "attack",
+      "direction": "up",
+      "index": 3,
+      "rect": {
+        "x": 224,
+        "y": 192,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300110
+    },
+    {
+      "name": "Wolf_attack_left_00",
+      "animation": "attack",
+      "direction": "left",
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 224,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300112
+    },
+    {
+      "name": "Wolf_attack_left_01",
+      "animation": "attack",
+      "direction": "left",
+      "index": 1,
+      "rect": {
+        "x": 32,
+        "y": 224,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300114
+    },
+    {
+      "name": "Wolf_attack_left_02",
+      "animation": "attack",
+      "direction": "left",
+      "index": 2,
+      "rect": {
+        "x": 64,
+        "y": 224,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300116
+    },
+    {
+      "name": "Wolf_attack_left_03",
+      "animation": "attack",
+      "direction": "left",
+      "index": 3,
+      "rect": {
+        "x": 96,
+        "y": 224,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300118
+    },
+    {
+      "name": "Wolf_attack_right_00",
+      "animation": "attack",
+      "direction": "right",
+      "index": 0,
+      "rect": {
+        "x": 128,
+        "y": 224,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300120
+    },
+    {
+      "name": "Wolf_attack_right_01",
+      "animation": "attack",
+      "direction": "right",
+      "index": 1,
+      "rect": {
+        "x": 160,
+        "y": 224,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300122
+    },
+    {
+      "name": "Wolf_attack_right_02",
+      "animation": "attack",
+      "direction": "right",
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 224,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300124
+    },
+    {
+      "name": "Wolf_attack_right_03",
+      "animation": "attack",
+      "direction": "right",
+      "index": 3,
+      "rect": {
+        "x": 224,
+        "y": 224,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 100,
+      "fileID": 21300126
+    },
+    {
+      "name": "Wolf_death_down_00",
+      "animation": "death",
+      "direction": "down",
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300128
+    },
+    {
+      "name": "Wolf_death_down_01",
+      "animation": "death",
+      "direction": "down",
+      "index": 1,
+      "rect": {
+        "x": 32,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300130
+    },
+    {
+      "name": "Wolf_death_down_02",
+      "animation": "death",
+      "direction": "down",
+      "index": 2,
+      "rect": {
+        "x": 64,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300132
+    },
+    {
+      "name": "Wolf_death_down_03",
+      "animation": "death",
+      "direction": "down",
+      "index": 3,
+      "rect": {
+        "x": 96,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300134
+    },
+    {
+      "name": "Wolf_death_up_00",
+      "animation": "death",
+      "direction": "up",
+      "index": 0,
+      "rect": {
+        "x": 128,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300136
+    },
+    {
+      "name": "Wolf_death_up_01",
+      "animation": "death",
+      "direction": "up",
+      "index": 1,
+      "rect": {
+        "x": 160,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300138
+    },
+    {
+      "name": "Wolf_death_up_02",
+      "animation": "death",
+      "direction": "up",
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300140
+    },
+    {
+      "name": "Wolf_death_up_03",
+      "animation": "death",
+      "direction": "up",
+      "index": 3,
+      "rect": {
+        "x": 224,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300142
+    },
+    {
+      "name": "Wolf_death_left_00",
+      "animation": "death",
+      "direction": "left",
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300144
+    },
+    {
+      "name": "Wolf_death_left_01",
+      "animation": "death",
+      "direction": "left",
+      "index": 1,
+      "rect": {
+        "x": 32,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300146
+    },
+    {
+      "name": "Wolf_death_left_02",
+      "animation": "death",
+      "direction": "left",
+      "index": 2,
+      "rect": {
+        "x": 64,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300148
+    },
+    {
+      "name": "Wolf_death_left_03",
+      "animation": "death",
+      "direction": "left",
+      "index": 3,
+      "rect": {
+        "x": 96,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300150
+    },
+    {
+      "name": "Wolf_death_right_00",
+      "animation": "death",
+      "direction": "right",
+      "index": 0,
+      "rect": {
+        "x": 128,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300152
+    },
+    {
+      "name": "Wolf_death_right_01",
+      "animation": "death",
+      "direction": "right",
+      "index": 1,
+      "rect": {
+        "x": 160,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300154
+    },
+    {
+      "name": "Wolf_death_right_02",
+      "animation": "death",
+      "direction": "right",
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300156
+    },
+    {
+      "name": "Wolf_death_right_03",
+      "animation": "death",
+      "direction": "right",
+      "index": 3,
+      "rect": {
+        "x": 224,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      },
+      "durationMs": 166.66666666666666,
+      "fileID": 21300158
+    }
+  ]
+}
