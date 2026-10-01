@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerStats : CharacterStats
 {
@@ -8,27 +7,6 @@ public class PlayerStats : CharacterStats
     void Start()
     {
         EquipmentManager.Instance.onEquipmentChanged += OnEquipmentChanged;
-    }
-    private void Awake()
-    {
-        currentHealth = MaxHealth;
-        if (slider != null)
-        {
-            slider.maxValue = MaxHealth;
-            slider.minValue = MinHealth;
-            slider.value = MaxHealth;
-        }
-    }
-    public override void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-        slider.value = currentHealth;
-
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-        base.TakeDamage(damage);
     }
     void OnEquipmentChanged(Item newItem, Item oldItem)
     {
@@ -56,3 +34,4 @@ public class PlayerStats : CharacterStats
         }
     }
 }
+

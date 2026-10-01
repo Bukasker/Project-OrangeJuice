@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour
 	private float moveInputX;
 	private float moveInputY;
 	private Vector2 movement;
+    private CharacterStats characterStats;
+
+    private void Awake() { characterStats = GetComponent<CharacterStats>(); }
 
 
 	[Header("Stairs Settings")]
@@ -38,7 +41,7 @@ public class PlayerController : MonoBehaviour
 		}
 		else
 		{
-			playerRigidbody2D.velocity = movement;
+			playerRigidbody2D.velocity = movement * (characterStats != null ? characterStats.MovementSpeedMultiplier : 1f);
 		}
 	}
 
@@ -95,3 +98,4 @@ public class PlayerController : MonoBehaviour
 	}
 
 }
+

@@ -1,5 +1,4 @@
 using UnityEngine;
-using static Hero;
 
 public class EnemyStats : CharacterStats
 {
@@ -10,7 +9,7 @@ public class EnemyStats : CharacterStats
 
     public override void TakeDamage(int damage)
     {
-        var LvlDiff = Lvl - playerStats.Lvl;
+        var LvlDiff = playerStats != null ? Lvl - playerStats.Lvl : 0;
         if (LvlDiff > 0)
         {
             damage = damage - (2 * ((2 * LvlDiff) / 3));
@@ -21,12 +20,6 @@ public class EnemyStats : CharacterStats
             damage = 2;
         }
         
-        currentHealth -= damage;
-
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
         base.TakeDamage(damage);
     }
 
@@ -37,3 +30,5 @@ public class EnemyStats : CharacterStats
         Gizmos.DrawWireSphere(transform.position, gizmosScale);
     }
 }
+
+
