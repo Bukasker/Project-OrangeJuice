@@ -37,6 +37,22 @@ public class JuicyHealthBar : MonoBehaviour
     [Min(0.01f)] public float numberLifetime = 0.7f;
     public float numberRise = 55f;
 
+    [Header("Juicy number animation")]
+    public bool healingNumbers = true;
+    public Color damageNumberColor = Color.white;
+    public Color heavyHitNumberColor = new Color(1f, 0.78f, 0.15f);
+    [Tooltip("A large hit style, not a gameplay critical-hit detector. Fraction of maximum HP lost in one update.")]
+    [Range(0.01f, 1f)] public float heavyHitThreshold = 0.2f;
+    [Range(1f, 3f)] public float maxNumberScale = 1.8f;
+    [Min(0.01f)] public float numberPopDuration = 0.18f;
+    [Range(1f, 2.5f)] public float numberPopScale = 1.45f;
+    [Range(0f, 0.95f)] public float numberFadeStart = 0.55f;
+    [Min(0f)] public float numberSideSpeed = 65f;
+    [Min(0f)] public float numberGravity = 180f;
+    [Min(0f)] public float numberSpread = 12f;
+    [Min(0f)] public float numberStackWindow = 0.2f;
+    [Range(1, 32)] public int maxVisibleNumbers = 16;
+
     private Slider bar;
     private RectTransform barRect;
     private Image fill;
@@ -52,6 +68,7 @@ public class JuicyHealthBar : MonoBehaviour
     private float healTimer;
     private float sparkleTimer;
     private bool initialized;
+    private int numberSide = 1;
     private readonly List<FloatingGraphic> floating = new List<FloatingGraphic>();
 
     private class FloatingGraphic
@@ -62,6 +79,15 @@ public class JuicyHealthBar : MonoBehaviour
         public float age;
         public float lifetime;
         public Color color;
+        public Vector2 acceleration;
+        public bool isNumber;
+        public bool isHealing;
+        public float amount;
+        public float lastHitTime;
+        public float baseScale = 1f;
+        public float tilt;
+        public float popAge;
+        public bool heavyHit;
     }
 
     private void Awake()
@@ -105,6 +131,7 @@ public class JuicyHealthBar : MonoBehaviour
         }
         else if (health > lastHealth)
         {
+            if (healingNumbers) SpawnNumber(health - lastHealth, true);
             healTimer = hitDuration;
             hitTimer = 0f;
             trailTimer = 0f;
@@ -205,19 +232,80 @@ public class JuicyHealthBar : MonoBehaviour
         }
     }
 
-    private void SpawnNumber(float damage)
+    private void SpawnNumber(float damage, bool healing = false)
     {
+        // Merge only recent hits of the same type, before the label starts fading.
+        FloatingGraphic item = null;
+        for (int i = floating.Count - 1; i >= 0; i--)
+        {
+            FloatingGraphic candidate = floating[i];
+            if (!candidate.isNumber || candidate.isHealing != healing || candidate.graphic == null) continue;
+            if (numberStackWindow > 0f && Time.time - candidate.lastHitTime <= numberStackWindow &&
+                candidate.age < candidate.lifetime * numberFadeStart)
+                item = candidate;
+            break;
+        }
+
+        if (item != null)
+        {
+            // Restart the arc at its current position so a combo never teleports back to the bar.
+            item.origin += item.velocity * item.age + 0.5f * item.acceleration * item.age * item.age;
+            item.age = 0f;
+            item.popAge = 0f;
+            item.amount += damage;
+            item.lastHitTime = Time.time;
+            item.velocity.y = numberRise;
+            item.lifetime = Mathf.Max(0.01f, numberLifetime);
+            StyleNumber(item, damage);
+            return;
+        }
+
+        int visible = 0;
+        for (int i = floating.Count - 1; i >= 0; i--)
+            if (floating[i].isNumber) visible++;
+        // Retire oldest labels on sustained attacks instead of growing the UI indefinitely.
+        for (int i = 0; visible >= Mathf.Max(1, maxVisibleNumbers) && i < floating.Count;)
+        {
+            if (!floating[i].isNumber) { i++; continue; }
+            if (floating[i].graphic != null) Destroy(floating[i].graphic.gameObject);
+            floating.RemoveAt(i);
+            visible--;
+        }
+
         if (numberFont == null) numberFont = healthText != null ? healthText.font : TMP_Settings.defaultFontAsset;
         var go = new GameObject("Damage Number", typeof(RectTransform), typeof(CanvasRenderer), typeof(TextMeshProUGUI));
         TextMeshProUGUI label = go.GetComponent<TextMeshProUGUI>();
         label.font = numberFont;
         label.fontSize = numberFontSize;
         label.alignment = TextAlignmentOptions.Center;
-        label.text = "-" + Mathf.CeilToInt(damage);
+        label.fontStyle = FontStyles.Bold;
+        label.outlineColor = new Color32(25, 18, 35, 255);
+        label.outlineWidth = 0.18f;
         label.enableWordWrapping = false;
         label.overflowMode = TextOverflowModes.Overflow;
-        AddFloating(label, FillEdge() + Vector2.up * numberFontSize, new Vector2(0f, numberRise), numberLifetime, trailColor);
-        label.rectTransform.sizeDelta = new Vector2(120f, numberFontSize * 2f);
+        numberSide = -numberSide;
+        item = AddFloating(label, FillEdge() + new Vector2(numberSide * numberSpread, numberFontSize),
+            new Vector2(numberSide * numberSideSpeed, numberRise), numberLifetime, damageNumberColor);
+        item.isNumber = true;
+        item.isHealing = healing;
+        item.amount = damage;
+        item.lastHitTime = Time.time;
+        item.acceleration = Vector2.down * numberGravity;
+        item.tilt = numberSide * 9f;
+        StyleNumber(item, damage);
+        label.rectTransform.sizeDelta = new Vector2(numberFontSize * 8f, numberFontSize * 2f);
+        label.rectTransform.localScale = Vector3.one * item.baseScale * 0.35f;
+    }
+
+    private void StyleNumber(FloatingGraphic item, float latestDamage)
+    {
+        float threshold = Mathf.Max(1f, healthSource.MaxHealth * heavyHitThreshold);
+        item.heavyHit |= !item.isHealing && latestDamage >= threshold;
+        item.baseScale = Mathf.Lerp(1f, maxNumberScale, Mathf.Clamp01(item.amount / threshold));
+        item.color = item.isHealing ? healColor : (item.heavyHit ? heavyHitNumberColor : damageNumberColor);
+        TextMeshProUGUI label = (TextMeshProUGUI)item.graphic;
+        label.text = (item.isHealing ? "+" : "") + Mathf.CeilToInt(item.amount);
+        label.color = item.color;
     }
 
     private void SpawnSparkle()
@@ -229,14 +317,17 @@ public class JuicyHealthBar : MonoBehaviour
         sparkle.rectTransform.localRotation = Quaternion.Euler(0f, 0f, 45f);
     }
 
-    private void AddFloating(Graphic graphic, Vector2 origin, Vector2 velocity, float lifetime, Color color)
+    private FloatingGraphic AddFloating(Graphic graphic, Vector2 origin, Vector2 velocity, float lifetime, Color color)
     {
         graphic.transform.SetParent(transform, false);
         graphic.raycastTarget = false;
+        if (graphic is MaskableGraphic maskable) maskable.maskable = false;
         graphic.color = color;
         graphic.rectTransform.anchorMin = graphic.rectTransform.anchorMax = barRect.pivot;
         graphic.rectTransform.anchoredPosition = origin;
-        floating.Add(new FloatingGraphic { graphic = graphic, origin = origin, velocity = velocity, lifetime = Mathf.Max(0.01f, lifetime), color = color });
+        FloatingGraphic item = new FloatingGraphic { graphic = graphic, origin = origin, velocity = velocity, lifetime = Mathf.Max(0.01f, lifetime), color = color };
+        floating.Add(item);
+        return item;
     }
 
     private void UpdateFloating(float dt)
@@ -251,9 +342,23 @@ public class JuicyHealthBar : MonoBehaviour
                 floating.RemoveAt(i);
                 continue;
             }
-            item.graphic.rectTransform.anchoredPosition = item.origin + item.velocity * item.age;
+            item.graphic.rectTransform.anchoredPosition = item.origin + item.velocity * item.age +
+                0.5f * item.acceleration * item.age * item.age;
             Color color = item.color;
-            color.a *= 1f - item.age / item.lifetime;
+            if (item.isNumber)
+            {
+                item.popAge += dt;
+                float pop = Mathf.Clamp01(item.popAge / Mathf.Max(0.01f, numberPopDuration));
+                float scale = pop < 0.4f
+                    ? Mathf.Lerp(0.35f, numberPopScale, Mathf.Sin(pop / 0.4f * Mathf.PI * 0.5f))
+                    : Mathf.Lerp(numberPopScale, 1f, Mathf.SmoothStep(0f, 1f, (pop - 0.4f) / 0.6f));
+                float fade = Mathf.SmoothStep(0f, 1f, Mathf.InverseLerp(numberFadeStart, 1f, item.age / item.lifetime));
+                item.graphic.rectTransform.localScale = Vector3.one * item.baseScale * scale * Mathf.Lerp(1f, 0.7f, fade);
+                float wobble = item.heavyHit ? Mathf.Sin(item.popAge * 65f) * (1f - pop) * 7f : 0f;
+                item.graphic.rectTransform.localRotation = Quaternion.Euler(0f, 0f, item.tilt * (1f - pop) + wobble);
+                color.a *= 1f - fade;
+            }
+            else color.a *= 1f - item.age / item.lifetime;
             item.graphic.color = color;
         }
     }

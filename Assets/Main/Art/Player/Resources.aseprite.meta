@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -75,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -87,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -288,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: Resources_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 44
         y: 42
@@ -296,6 +301,7 @@ ScriptedImporter:
       spriteId: 075d4abda7fc65a4bba6fa34eaacf522
     - name: Resources_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 19
         y: 42
@@ -304,6 +310,7 @@ ScriptedImporter:
       spriteId: 242414b7849f4af4a87b9b8499078918
     - name: Resources_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 52
         y: 42
@@ -312,6 +319,7 @@ ScriptedImporter:
       spriteId: f77aa48fa4e2291408c02d59351909f4
     - name: Resources_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 50
         y: 42
@@ -320,6 +328,7 @@ ScriptedImporter:
       spriteId: 18ec6c473611c1043b55b74ef3f8c3ff
     - name: Resources_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -328,6 +337,7 @@ ScriptedImporter:
       spriteId: 055ea2b4dddd17347a85e3009feacb1d
     - name: Resources_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -336,6 +346,7 @@ ScriptedImporter:
       spriteId: 1238fdb364b2a564eb86262041c48e44
     - name: Resources_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 45
         y: 41
@@ -344,6 +355,7 @@ ScriptedImporter:
       spriteId: 5b6d38496fc71aa4896e9bb8f3ad7bfd
     - name: Resources_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 45
         y: 41
@@ -353,6 +365,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 512}

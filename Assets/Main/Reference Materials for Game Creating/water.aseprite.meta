@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -290,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: water_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -298,6 +301,7 @@ ScriptedImporter:
       spriteId: 7fa64ae49b266704fb7809b0882217b8
     - name: water_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -306,6 +310,7 @@ ScriptedImporter:
       spriteId: 789f59e192aa52e41a73da2367711e91
     - name: water_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -314,6 +319,7 @@ ScriptedImporter:
       spriteId: ab957145ef129e44fb2a4760ecd46d5f
     - name: water_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -322,6 +328,7 @@ ScriptedImporter:
       spriteId: e92f4553898a5724598345f70616b2b2
     - name: water_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -330,6 +337,7 @@ ScriptedImporter:
       spriteId: 255b56830ba38fb428ce1381a84c09bf
     - name: water_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -338,6 +346,7 @@ ScriptedImporter:
       spriteId: 4cc4f947424c82348bb915a09af3b8b9
     - name: water_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -346,6 +355,7 @@ ScriptedImporter:
       spriteId: 5c40756116650594b88abb100ffe0fde
     - name: water_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

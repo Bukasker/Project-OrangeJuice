@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -75,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -87,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -688,6 +692,7 @@ ScriptedImporter:
     cells:
     - name: Dear_Female_01_Eat_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -696,6 +701,7 @@ ScriptedImporter:
       spriteId: 4f22ec52937f6164c8a3e633f20d5b88
     - name: Dear_Female_01_Eat_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -704,6 +710,7 @@ ScriptedImporter:
       spriteId: 4c29f583de7e9454a8adc6a9962a0327
     - name: Dear_Female_01_Eat_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -712,6 +719,7 @@ ScriptedImporter:
       spriteId: 7795b1d6841043748bae8d3c17233d44
     - name: Dear_Female_01_Eat_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -720,6 +728,7 @@ ScriptedImporter:
       spriteId: a36a29de0765e1d4fa2ba75336391df8
     - name: Dear_Female_01_Eat_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -728,6 +737,7 @@ ScriptedImporter:
       spriteId: c4f2dc7103f1a30469e7a716f9fa3eb9
     - name: Dear_Female_01_Eat_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -736,6 +746,7 @@ ScriptedImporter:
       spriteId: 50a9e4ab22622e14ea402a3f54c2600d
     - name: Dear_Female_01_Eat_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -744,6 +755,7 @@ ScriptedImporter:
       spriteId: dd4e1f2b85a1c4c40bf8eeb4cb109bf8
     - name: Dear_Female_01_Eat_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -752,6 +764,7 @@ ScriptedImporter:
       spriteId: b6ff5c19d32021944a037e580efa1d80
     - name: Dear_Female_01_Eat_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -760,6 +773,7 @@ ScriptedImporter:
       spriteId: 608b15a525128f043a7dec3d273159c1
     - name: Dear_Female_01_Eat_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -768,6 +782,7 @@ ScriptedImporter:
       spriteId: e15ed3dcde0e1bc4da2d9e5f407836bf
     - name: Dear_Female_01_Eat_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -776,6 +791,7 @@ ScriptedImporter:
       spriteId: f92234e102793714d9b8711ec8bd0612
     - name: Dear_Female_01_Eat_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -784,6 +800,7 @@ ScriptedImporter:
       spriteId: 85965148ced6f9b4fbd638f6d67813fa
     - name: Dear_Female_01_Eat_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -792,6 +809,7 @@ ScriptedImporter:
       spriteId: 2ed24edb3f596474aa57a9f6b3498f4c
     - name: Dear_Female_01_Eat_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -800,6 +818,7 @@ ScriptedImporter:
       spriteId: 1fc0a0c15c688524daa5cfbcda5169de
     - name: Dear_Female_01_Eat_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -808,6 +827,7 @@ ScriptedImporter:
       spriteId: db48c5645a8359f4591d832df409eea1
     - name: Dear_Female_01_Eat_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -816,6 +836,7 @@ ScriptedImporter:
       spriteId: 78895b871e3ca1341b1d34415788a5ce
     - name: Dear_Female_01_Eat_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -824,6 +845,7 @@ ScriptedImporter:
       spriteId: a69fd3ed87993014bbbbd012665a1f67
     - name: Dear_Female_01_Eat_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -832,6 +854,7 @@ ScriptedImporter:
       spriteId: 02435b4ef0006b54db910a0e17480c9a
     - name: Dear_Female_01_Eat_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -840,6 +863,7 @@ ScriptedImporter:
       spriteId: 2980cf245083f3e4daef1a22bafe6b70
     - name: Dear_Female_01_Eat_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -848,6 +872,7 @@ ScriptedImporter:
       spriteId: 1506a4f81bfd85c4cb28cd9f9a350c81
     - name: Dear_Female_01_Eat_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -856,6 +881,7 @@ ScriptedImporter:
       spriteId: 37427ba093daf3f488a5b5a86bebe04a
     - name: Dear_Female_01_Eat_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -864,6 +890,7 @@ ScriptedImporter:
       spriteId: 654af6732062227478b8429b9e4f4ed7
     - name: Dear_Female_01_Eat_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -872,6 +899,7 @@ ScriptedImporter:
       spriteId: 6ab94980cdbfece42acc72d1e34dbd21
     - name: Dear_Female_01_Eat_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -880,6 +908,7 @@ ScriptedImporter:
       spriteId: cc9d84b7360e47a479fe88339c4190e6
     - name: Dear_Female_01_Eat_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -888,6 +917,7 @@ ScriptedImporter:
       spriteId: 2b061488ceddbb44da38b28cb03036ff
     - name: Dear_Female_01_Eat_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -896,6 +926,7 @@ ScriptedImporter:
       spriteId: 949b6415b04e4394ab2c8ae215c31221
     - name: Dear_Female_01_Eat_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -904,6 +935,7 @@ ScriptedImporter:
       spriteId: e224e93da312b294b9a023bb4cc9a9cd
     - name: Dear_Female_01_Eat_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -913,6 +945,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 48, y: 48}

@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd22d8185ac40c1a4480da92d163f95, type: 3}
+  m_Name: SkillTreeCatalog
+  m_EditorClassIdentifier: 
+  pointsPerLevel: 1
+  firstPointLevel: 2
+  perks:
+  - id: warrior.strength
+    displayName: "Si\u0142a wojownika"
+    constellation: 0
+    description: "Zwi\u0119ksza obra\u017Cenia broni bia\u0142ej."
+    starPosition: {x: 0, y: 0}
+    bonusStat: 1
+    unlockedAbility: 0
+    prerequisites: []
+    ranks:
+    - characterLevel: 2
+      pointCost: 1
+      statBonus: 3
+      description: "+3 AttackDamage \u0142\u0105cznie."
+    - characterLevel: 8
+      pointCost: 1
+      statBonus: 6
+      description: "+6 AttackDamage \u0142\u0105cznie."
+    - characterLevel: 16
+      pointCost: 1
+      statBonus: 10
+      description: "+10 AttackDamage \u0142\u0105cznie."
+  - id: warrior.power_strike
+    displayName: "Pot\u0119\u017Cne uderzenie"
+    constellation: 0
+    description: "Odblokowuje aktywny mocny cios: 150% obra\u017Ce\u0144 broni bia\u0142ej,
+      odnowienie 8 s."
+    starPosition: {x: -100, y: 100}
+    bonusStat: 0
+    unlockedAbility: 1
+    prerequisites:
+    - perkId: warrior.strength
+      rank: 1
+    ranks:
+    - characterLevel: 5
+      pointCost: 1
+      statBonus: 0
+      description: "Odblokowuje aktywny mocny cios: 150% obra\u017Ce\u0144 broni
+        bia\u0142ej, odnowienie 8 s."
+  - id: warrior.bleeding
+    displayName: Otwarta rana
+    constellation: 0
+    description: "Pot\u0119\u017Cne uderzenie nak\u0142ada krwawienie: 2 HP/s przez
+      4 s."
+    starPosition: {x: 100, y: 100}
+    bonusStat: 0
+    unlockedAbility: 2
+    prerequisites:
+    - perkId: warrior.power_strike
+      rank: 1
+    ranks:
+    - characterLevel: 10
+      pointCost: 1
+      statBonus: 0
+      description: "Pot\u0119\u017Cne uderzenie nak\u0142ada krwawienie: 2 HP/s przez
+        4 s."
+  - id: warrior.master
+    displayName: Mistrz ostrza
+    constellation: 0
+    description: "Dodatkowa premia do obra\u017Ce\u0144 broni bia\u0142ej."
+    starPosition: {x: 0, y: 230}
+    bonusStat: 1
+    unlockedAbility: 0
+    prerequisites:
+    - perkId: warrior.bleeding
+      rank: 1
+    ranks:
+    - characterLevel: 20
+      pointCost: 1
+      statBonus: 12
+      description: "+12 AttackDamage \u0142\u0105cznie."
+  - id: archer.training
+    displayName: "Pewna r\u0119ka"
+    constellation: 1
+    description: "Zwi\u0119ksza obra\u017Cenia \u0142uku."
+    starPosition: {x: 0, y: 0}
+    bonusStat: 2
+    unlockedAbility: 0
+    prerequisites: []
+    ranks:
+    - characterLevel: 2
+      pointCost: 1
+      statBonus: 3
+      description: "+3 ArrowDamage \u0142\u0105cznie."
+    - characterLevel: 8
+      pointCost: 1
+      statBonus: 6
+      description: "+6 ArrowDamage \u0142\u0105cznie."
+    - characterLevel: 16
+      pointCost: 1
+      statBonus: 10
+      description: "+10 ArrowDamage \u0142\u0105cznie."
+  - id: archer.piercing
+    displayName: "Przebijaj\u0105ca strza\u0142a"
+    constellation: 1
+    description: "Odblokowuje strza\u0142 ignoruj\u0105cy 30% pancerza dystansowego
+      celu, odnowienie 8 s."
+    starPosition: {x: -100, y: 100}
+    bonusStat: 0
+    unlockedAbility: 3
+    prerequisites:
+    - perkId: archer.training
+      rank: 1
+    ranks:
+    - characterLevel: 5
+      pointCost: 1
+      statBonus: 0
+      description: "Odblokowuje strza\u0142 ignoruj\u0105cy 30% pancerza dystansowego
+        celu, odnowienie 8 s."
+  - id: archer.slow
+    displayName: "Strza\u0142a unieruchomienia"
+    constellation: 1
+    description: "Odblokowuje strza\u0142 spowalniaj\u0105cy cel o 35% przez 3 s,
+      odnowienie 10 s."
+    starPosition: {x: 100, y: 100}
+    bonusStat: 0
+    unlockedAbility: 4
+    prerequisites:
+    - perkId: archer.training
+      rank: 2
+    ranks:
+    - characterLevel: 10
+      pointCost: 1
+      statBonus: 0
+      description: "Odblokowuje strza\u0142 spowalniaj\u0105cy cel o 35% przez 3
+        s, odnowienie 10 s."
+  - id: archer.master
+    displayName: "Mistrz \u0142uku"
+    constellation: 1
+    description: "Dodatkowa premia do obra\u017Ce\u0144 \u0142uku."
+    starPosition: {x: 0, y: 230}
+    bonusStat: 2
+    unlockedAbility: 0
+    prerequisites:
+    - perkId: archer.slow
+      rank: 1
+    - perkId: archer.piercing
+      rank: 1
+    ranks:
+    - characterLevel: 20
+      pointCost: 1
+      statBonus: 12
+      description: "+12 ArrowDamage \u0142\u0105cznie."
+  - id: mage.focus
+    displayName: Magiczne skupienie
+    constellation: 2
+    description: "Zwi\u0119ksza obra\u017Cenia magiczne."
+    starPosition: {x: 0, y: 0}
+    bonusStat: 3
+    unlockedAbility: 0
+    prerequisites: []
+    ranks:
+    - characterLevel: 2
+      pointCost: 1
+      statBonus: 3
+      description: "+3 MagicDamage \u0142\u0105cznie."
+    - characterLevel: 8
+      pointCost: 1
+      statBonus: 6
+      description: "+6 MagicDamage \u0142\u0105cznie."
+    - characterLevel: 16
+      pointCost: 1
+      statBonus: 10
+      description: "+10 MagicDamage \u0142\u0105cznie."
+  - id: mage.poison
+    displayName: Jadowita iskra
+    constellation: 2
+    description: "Odblokowuje zakl\u0119cie trucizny: 3 HP/s przez 5 s, odnowienie
+      10 s."
+    starPosition: {x: -100, y: 100}
+    bonusStat: 0
+    unlockedAbility: 5
+    prerequisites:
+    - perkId: mage.focus
+      rank: 1
+    ranks:
+    - characterLevel: 5
+      pointCost: 1
+      statBonus: 0
+      description: "Odblokowuje zakl\u0119cie trucizny: 3 HP/s przez 5 s, odnowienie
+        10 s."
+  - id: mage.regeneration
+    displayName: Odnowa
+    constellation: 2
+    description: "Odblokowuje zakl\u0119cie regeneracji: 4 HP/s przez 5 s, odnowienie
+      20 s."
+    starPosition: {x: 100, y: 100}
+    bonusStat: 0
+    unlockedAbility: 6
+    prerequisites:
+    - perkId: mage.focus
+      rank: 2
+    ranks:
+    - characterLevel: 10
+      pointCost: 1
+      statBonus: 0
+      description: "Odblokowuje zakl\u0119cie regeneracji: 4 HP/s przez 5 s, odnowienie
+        20 s."
+  - id: mage.master
+    displayName: Arcymag
+    constellation: 2
+    description: "Dodatkowa premia do obra\u017Ce\u0144 magicznych."
+    starPosition: {x: 0, y: 230}
+    bonusStat: 3
+    unlockedAbility: 0
+    prerequisites:
+    - perkId: mage.poison
+      rank: 1
+    - perkId: mage.regeneration
+      rank: 1
+    ranks:
+    - characterLevel: 20
+      pointCost: 1
+      statBonus: 12
+      description: "+12 MagicDamage \u0142\u0105cznie."
+  - id: guardian.armor
+    displayName: "\u017Belazna sk\xF3ra"
+    constellation: 3
+    description: "Zwi\u0119ksza pancerz przeciw obra\u017Ceniom w zwarciu."
+    starPosition: {x: 0, y: 0}
+    bonusStat: 4
+    unlockedAbility: 0
+    prerequisites: []
+    ranks:
+    - characterLevel: 2
+      pointCost: 1
+      statBonus: 2
+      description: "+2 ArmorMelee \u0142\u0105cznie."
+    - characterLevel: 8
+      pointCost: 1
+      statBonus: 4
+      description: "+4 ArmorMelee \u0142\u0105cznie."
+    - characterLevel: 16
+      pointCost: 1
+      statBonus: 7
+      description: "+7 ArmorMelee \u0142\u0105cznie."
+  - id: guardian.arrows
+    displayName: "Os\u0142ona przed strza\u0142ami"
+    constellation: 3
+    description: "Zwi\u0119ksza pancerz przeciw obra\u017Ceniom dystansowym."
+    starPosition: {x: -100, y: 100}
+    bonusStat: 5
+    unlockedAbility: 0
+    prerequisites:
+    - perkId: guardian.armor
+      rank: 1
+    ranks:
+    - characterLevel: 5
+      pointCost: 1
+      statBonus: 3
+      description: "+3 ArmorRange \u0142\u0105cznie."
+    - characterLevel: 12
+      pointCost: 1
+      statBonus: 6
+      description: "+6 ArmorRange \u0142\u0105cznie."
+  - id: guardian.guard
+    displayName: Niewzruszony
+    constellation: 3
+    description: "Odblokowuje gard\u0119: redukcja otrzymywanych obra\u017Ce\u0144
+      o 30% przez 4 s, odnowienie 15 s."
+    starPosition: {x: 100, y: 100}
+    bonusStat: 0
+    unlockedAbility: 7
+    prerequisites:
+    - perkId: guardian.armor
+      rank: 2
+    ranks:
+    - characterLevel: 10
+      pointCost: 1
+      statBonus: 0
+      description: "Odblokowuje gard\u0119: redukcja otrzymywanych obra\u017Ce\u0144
+        o 30% przez 4 s, odnowienie 15 s."
+  - id: guardian.last_stand
+    displayName: Ostatni bastion
+    constellation: 3
+    description: "Poni\u017Cej 25% HP otrzymywane obra\u017Cenia s\u0105 mniejsze
+      o 15%. Efekt pasywny."
+    starPosition: {x: 0, y: 230}
+    bonusStat: 0
+    unlockedAbility: 8
+    prerequisites:
+    - perkId: guardian.guard
+      rank: 1
+    ranks:
+    - characterLevel: 20
+      pointCost: 1
+      statBonus: 0
+      description: "Poni\u017Cej 25% HP otrzymywane obra\u017Cenia s\u0105 mniejsze
+        o 15%. Efekt pasywny."
+  - id: vitality.health
+    displayName: "Witalno\u015B\u0107"
+    constellation: 4
+    description: "Zwi\u0119ksza maksymalne zdrowie. Zakup nie leczy automatycznie."
+    starPosition: {x: 0, y: 0}
+    bonusStat: 7
+    unlockedAbility: 0
+    prerequisites: []
+    ranks:
+    - characterLevel: 2
+      pointCost: 1
+      statBonus: 10
+      description: "+10 MaxHealth \u0142\u0105cznie."
+    - characterLevel: 8
+      pointCost: 1
+      statBonus: 20
+      description: "+20 MaxHealth \u0142\u0105cznie."
+    - characterLevel: 16
+      pointCost: 1
+      statBonus: 35
+      description: "+35 MaxHealth \u0142\u0105cznie."
+  - id: vitality.heal
+    displayName: "Puls \u017Cycia"
+    constellation: 4
+    description: Odblokowuje natychmiastowe leczenie 20 HP, odnowienie 20 s.
+    starPosition: {x: -100, y: 100}
+    bonusStat: 0
+    unlockedAbility: 9
+    prerequisites:
+    - perkId: vitality.health
+      rank: 1
+    ranks:
+    - characterLevel: 5
+      pointCost: 1
+      statBonus: 0
+      description: Odblokowuje natychmiastowe leczenie 20 HP, odnowienie 20 s.
+  - id: vitality.resist
+    displayName: Duchowa tarcza
+    constellation: 4
+    description: "Zwi\u0119ksza odporno\u015B\u0107 na obra\u017Cenia magiczne."
+    starPosition: {x: 100, y: 100}
+    bonusStat: 6
+    unlockedAbility: 0
+    prerequisites:
+    - perkId: vitality.health
+      rank: 1
+    ranks:
+    - characterLevel: 10
+      pointCost: 1
+      statBonus: 3
+      description: "+3 MagicResist \u0142\u0105cznie."
+    - characterLevel: 18
+      pointCost: 1
+      statBonus: 7
+      description: "+7 MagicResist \u0142\u0105cznie."
+  - id: vitality.second_wind
+    displayName: Drugi oddech
+    constellation: 4
+    description: "Przy spadku poni\u017Cej 20% HP regeneruje 5 HP/s przez 4 s. Odnowienie
+      60 s; nie wskrzesza."
+    starPosition: {x: 0, y: 230}
+    bonusStat: 0
+    unlockedAbility: 10
+    prerequisites:
+    - perkId: vitality.heal
+      rank: 1
+    - perkId: vitality.resist
+      rank: 1
+    ranks:
+    - characterLevel: 25
+      pointCost: 1
+      statBonus: 0
+      description: "Przy spadku poni\u017Cej 20% HP regeneruje 5 HP/s przez 4 s.
+        Odnowienie 60 s; nie wskrzesza."
+  - id: alchemy.healing
+    displayName: Sztuka leczenia
+    constellation: 5
+    description: "Mikstury przywracaj\u0105ce HP lecz\u0105 o 20% wi\u0119cej. Efekt
+      pasywny."
+    starPosition: {x: 0, y: 0}
+    bonusStat: 0
+    unlockedAbility: 11
+    prerequisites: []
+    ranks:
+    - characterLevel: 2
+      pointCost: 1
+      statBonus: 0
+      description: "Mikstury przywracaj\u0105ce HP lecz\u0105 o 20% wi\u0119cej.
+        Efekt pasywny."
+  - id: alchemy.regeneration
+    displayName: "Trwa\u0142a odnowa"
+    constellation: 5
+    description: "Regeneracja z mikstur trwa o 30% d\u0142u\u017Cej. Efekt pasywny."
+    starPosition: {x: -100, y: 100}
+    bonusStat: 0
+    unlockedAbility: 12
+    prerequisites:
+    - perkId: alchemy.healing
+      rank: 1
+    ranks:
+    - characterLevel: 5
+      pointCost: 1
+      statBonus: 0
+      description: "Regeneracja z mikstur trwa o 30% d\u0142u\u017Cej. Efekt pasywny."
+  - id: alchemy.resistance
+    displayName: "Odporno\u015B\u0107 na jad"
+    constellation: 5
+    description: "Trucizna zadaje postaci o 30% mniej obra\u017Ce\u0144. Efekt pasywny."
+    starPosition: {x: 100, y: 100}
+    bonusStat: 0
+    unlockedAbility: 13
+    prerequisites:
+    - perkId: alchemy.healing
+      rank: 1
+    ranks:
+    - characterLevel: 10
+      pointCost: 1
+      statBonus: 0
+      description: "Trucizna zadaje postaci o 30% mniej obra\u017Ce\u0144. Efekt
+        pasywny."
+  - id: alchemy.detox
+    displayName: Oczyszczenie
+    constellation: 5
+    description: "Odblokowuje usuni\u0119cie wszystkich aktywnych efekt\xF3w trucizny
+      z postaci, odnowienie 30 s."
+    starPosition: {x: 0, y: 230}
+    bonusStat: 0
+    unlockedAbility: 14
+    prerequisites:
+    - perkId: alchemy.regeneration
+      rank: 1
+    - perkId: alchemy.resistance
+      rank: 1
+    ranks:
+    - characterLevel: 20
+      pointCost: 1
+      statBonus: 0
+      description: "Odblokowuje usuni\u0119cie wszystkich aktywnych efekt\xF3w trucizny
+        z postaci, odnowienie 30 s."

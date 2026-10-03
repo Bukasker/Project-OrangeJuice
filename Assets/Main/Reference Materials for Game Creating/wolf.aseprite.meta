@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -290,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: wolf_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 19
@@ -298,6 +301,7 @@ ScriptedImporter:
       spriteId: 09bcc266459fc1d499cd5d246dd85592
     - name: wolf_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 23
@@ -306,6 +310,7 @@ ScriptedImporter:
       spriteId: f085f4376d7678048a21e76f6fe1af49
     - name: wolf_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 19
@@ -314,6 +319,7 @@ ScriptedImporter:
       spriteId: b6f7cda071dfb2e4f9c6046079290b93
     - name: wolf_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 19
@@ -322,6 +328,7 @@ ScriptedImporter:
       spriteId: e9007416008935945a36205dd8833bc5
     - name: wolf_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 19
@@ -330,6 +337,7 @@ ScriptedImporter:
       spriteId: 1270de60b91eb074682b8ad640527da9
     - name: wolf_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 22
@@ -338,6 +346,7 @@ ScriptedImporter:
       spriteId: b70b4e06882642443812ff61b5ef7261
     - name: wolf_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 19
@@ -346,6 +355,7 @@ ScriptedImporter:
       spriteId: 03f79ece199ed184fa35811a5c57782f
     - name: wolf_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 19
@@ -357,6 +367,7 @@ ScriptedImporter:
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -368,6 +379,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Standalone
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -379,6 +391,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Android
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -390,6 +403,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: iPhone
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -401,6 +415,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: WebGL
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -412,6 +427,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Windows Store Apps
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -423,6 +439,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: tvOS
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1

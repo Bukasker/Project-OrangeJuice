@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -75,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -87,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -288,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: Boar_Boss_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 5
@@ -296,6 +301,7 @@ ScriptedImporter:
       spriteId: 25baae41b3d6a724383b7819adb754ef
     - name: Boar_Boss_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 4
@@ -304,6 +310,7 @@ ScriptedImporter:
       spriteId: 4cab6fbaaa715394085339374fea46eb
     - name: Boar_Boss_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 4
@@ -312,6 +319,7 @@ ScriptedImporter:
       spriteId: c637f5c9e03a889449a4c11bb1047c1c
     - name: Boar_Boss_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 3
@@ -320,6 +328,7 @@ ScriptedImporter:
       spriteId: 8e14678de79d18a4787e51632c3e35fd
     - name: Boar_Boss_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 5
@@ -328,6 +337,7 @@ ScriptedImporter:
       spriteId: 26edb55dcea699b4aadcf64bc55a63bf
     - name: Boar_Boss_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 3
@@ -336,6 +346,7 @@ ScriptedImporter:
       spriteId: 44be69fb1b47a9c4a9a1b3d9de489904
     - name: Boar_Boss_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 4
@@ -344,6 +355,7 @@ ScriptedImporter:
       spriteId: efb72ebb6765dd747a1dce4a6f265cf2
     - name: Boar_Boss_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 4
@@ -353,6 +365,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

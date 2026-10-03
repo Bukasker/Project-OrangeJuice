@@ -41380,6 +41380,19 @@ MonoBehaviour:
   numberFontSize: 36
   numberLifetime: 2
   numberRise: 250
+  healingNumbers: 1
+  damageNumberColor: {r: 1, g: 1, b: 1, a: 1}
+  heavyHitNumberColor: {r: 1, g: 0.78, b: 0.15, a: 1}
+  heavyHitThreshold: 0.2
+  maxNumberScale: 1.8
+  numberPopDuration: 0.18
+  numberPopScale: 1.45
+  numberFadeStart: 0.55
+  numberSideSpeed: 100
+  numberGravity: 400
+  numberSpread: 20
+  numberStackWindow: 0.2
+  maxVisibleNumbers: 16
 --- !u!1001 &1912371990
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -450,6 +452,7 @@ ScriptedImporter:
     cells:
     - name: dasd_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 36
         y: 32
@@ -458,6 +461,7 @@ ScriptedImporter:
       spriteId: bb451d4fb5a8e2c4bb0b6065c5134aca
     - name: dasd_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 32
@@ -466,6 +470,7 @@ ScriptedImporter:
       spriteId: bd0df92ba0ab84a448625f5a69edcff5
     - name: dasd_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 32
@@ -474,6 +479,7 @@ ScriptedImporter:
       spriteId: a07eb48a08644ce48a036cd6c079e297
     - name: dasd_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 32
@@ -482,6 +488,7 @@ ScriptedImporter:
       spriteId: 37829bb4dd95dc4478ed3b0c0c48adb1
     - name: dasd_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 32
@@ -490,6 +497,7 @@ ScriptedImporter:
       spriteId: d526db363de78b64ab2e97993e0fa8ed
     - name: dasd_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 32
@@ -498,6 +506,7 @@ ScriptedImporter:
       spriteId: 0a280c1c3eba95d41abf92e96c74072c
     - name: dasd_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 32
@@ -506,6 +515,7 @@ ScriptedImporter:
       spriteId: 4f9d95c4a57c53544a5e046d74938679
     - name: dasd_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 32
@@ -514,6 +524,7 @@ ScriptedImporter:
       spriteId: 9e35d3b28fd73dd4d892b7d883207e3c
     - name: dasd_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 32
@@ -522,6 +533,7 @@ ScriptedImporter:
       spriteId: c1cd21e350b37d14ba28d24ab303d917
     - name: dasd_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 32
@@ -530,6 +542,7 @@ ScriptedImporter:
       spriteId: 472e825e7ef64274cb114c06caf58b08
     - name: dasd_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 46
         y: 32
@@ -538,6 +551,7 @@ ScriptedImporter:
       spriteId: 48a322ca062e08e4997e830f3d10f141
     - name: dasd_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 32
@@ -546,6 +560,7 @@ ScriptedImporter:
       spriteId: 3f4c10725f4b03d48a984db79b7ccd98
     - name: dasd_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 32
@@ -554,6 +569,7 @@ ScriptedImporter:
       spriteId: eb462f2eccb5b674d93e222a8ca33e50
     - name: dasd_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 62
         y: 32
@@ -562,6 +578,7 @@ ScriptedImporter:
       spriteId: 4164362d030977f48826987096c3ac00
     - name: dasd_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 34
         y: 32
@@ -570,6 +587,7 @@ ScriptedImporter:
       spriteId: 200589cebeb58f646806e536c75f8c53
     - name: dasd_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 36
         y: 32
